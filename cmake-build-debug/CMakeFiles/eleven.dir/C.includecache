@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/配置文件项目/file.h
+
+/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/配置文件项目/接口测试.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+file.h
+/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/配置文件项目/file.h
+

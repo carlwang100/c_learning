@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/thread/mutex.cpp
+stdio.h
+-
+stdlib.h
+-
+pthread.h
+-
+unistd.h
+-
+

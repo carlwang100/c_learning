@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/四驱模型/static.c
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+
