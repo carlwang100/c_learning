@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo"
+CMAKE_SOURCE_DIR = /Users/wangchao/code/c/c_learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/wangchao/code/c/c_learning/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/c_demo.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/c_demo.dir/flags.make
 
 CMakeFiles/c_demo.dir/main.c.o: CMakeFiles/c_demo.dir/flags.make
 CMakeFiles/c_demo.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_demo.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_demo.dir/main.c.o   -c "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_demo.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_demo.dir/main.c.o   -c /Users/wangchao/code/c/c_learning/main.c
 
 CMakeFiles/c_demo.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_demo.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/main.c" > CMakeFiles/c_demo.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangchao/code/c/c_learning/main.c > CMakeFiles/c_demo.dir/main.c.i
 
 CMakeFiles/c_demo.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_demo.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/main.c" -o CMakeFiles/c_demo.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangchao/code/c/c_learning/main.c -o CMakeFiles/c_demo.dir/main.c.s
 
 CMakeFiles/c_demo.dir/自己实现string相关函数.c.o: CMakeFiles/c_demo.dir/flags.make
 CMakeFiles/c_demo.dir/自己实现string相关函数.c.o: ../自己实现string相关函数.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/c_demo.dir/自己实现string相关函数.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_demo.dir/自己实现string相关函数.c.o   -c "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/自己实现string相关函数.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/c_demo.dir/自己实现string相关函数.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_demo.dir/自己实现string相关函数.c.o   -c /Users/wangchao/code/c/c_learning/自己实现string相关函数.c
 
 CMakeFiles/c_demo.dir/自己实现string相关函数.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_demo.dir/自己实现string相关函数.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/自己实现string相关函数.c" > CMakeFiles/c_demo.dir/自己实现string相关函数.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangchao/code/c/c_learning/自己实现string相关函数.c > CMakeFiles/c_demo.dir/自己实现string相关函数.c.i
 
 CMakeFiles/c_demo.dir/自己实现string相关函数.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_demo.dir/自己实现string相关函数.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/自己实现string相关函数.c" -o CMakeFiles/c_demo.dir/自己实现string相关函数.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangchao/code/c/c_learning/自己实现string相关函数.c -o CMakeFiles/c_demo.dir/自己实现string相关函数.c.s
 
 # Object files for target c_demo
 c_demo_OBJECTS = \
@@ -95,7 +95,7 @@ c_demo: CMakeFiles/c_demo.dir/main.c.o
 c_demo: CMakeFiles/c_demo.dir/自己实现string相关函数.c.o
 c_demo: CMakeFiles/c_demo.dir/build.make
 c_demo: CMakeFiles/c_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable c_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable c_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/c_demo.dir/clean:
 .PHONY : CMakeFiles/c_demo.dir/clean
 
 CMakeFiles/c_demo.dir/depend:
-	cd "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles/c_demo.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/wangchao/code/c/c_learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wangchao/code/c/c_learning /Users/wangchao/code/c/c_learning /Users/wangchao/code/c/c_learning/cmake-build-debug /Users/wangchao/code/c/c_learning/cmake-build-debug /Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles/c_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/c_demo.dir/depend
 

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo"
+CMAKE_SOURCE_DIR = /Users/wangchao/code/c/c_learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/wangchao/code/c/c_learning/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/eleven.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/eleven.dir/flags.make
 
 CMakeFiles/eleven.dir/配置文件项目/接口测试.c.o: CMakeFiles/eleven.dir/flags.make
 CMakeFiles/eleven.dir/配置文件项目/接口测试.c.o: ../配置文件项目/接口测试.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/eleven.dir/配置文件项目/接口测试.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleven.dir/配置文件项目/接口测试.c.o   -c "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/配置文件项目/接口测试.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/eleven.dir/配置文件项目/接口测试.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleven.dir/配置文件项目/接口测试.c.o   -c /Users/wangchao/code/c/c_learning/配置文件项目/接口测试.c
 
 CMakeFiles/eleven.dir/配置文件项目/接口测试.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleven.dir/配置文件项目/接口测试.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/配置文件项目/接口测试.c" > CMakeFiles/eleven.dir/配置文件项目/接口测试.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangchao/code/c/c_learning/配置文件项目/接口测试.c > CMakeFiles/eleven.dir/配置文件项目/接口测试.c.i
 
 CMakeFiles/eleven.dir/配置文件项目/接口测试.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleven.dir/配置文件项目/接口测试.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/配置文件项目/接口测试.c" -o CMakeFiles/eleven.dir/配置文件项目/接口测试.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangchao/code/c/c_learning/配置文件项目/接口测试.c -o CMakeFiles/eleven.dir/配置文件项目/接口测试.c.s
 
 CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.o: CMakeFiles/eleven.dir/flags.make
 CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.o: ../配置文件项目/cfgfile.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.o   -c "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/配置文件项目/cfgfile.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.o   -c /Users/wangchao/code/c/c_learning/配置文件项目/cfgfile.c
 
 CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/配置文件项目/cfgfile.c" > CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangchao/code/c/c_learning/配置文件项目/cfgfile.c > CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.i
 
 CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/配置文件项目/cfgfile.c" -o CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangchao/code/c/c_learning/配置文件项目/cfgfile.c -o CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.s
 
 # Object files for target eleven
 eleven_OBJECTS = \
@@ -95,7 +95,7 @@ eleven: CMakeFiles/eleven.dir/配置文件项目/接口测试.c.o
 eleven: CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.o
 eleven: CMakeFiles/eleven.dir/build.make
 eleven: CMakeFiles/eleven.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable eleven"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable eleven"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eleven.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/eleven.dir/clean:
 .PHONY : CMakeFiles/eleven.dir/clean
 
 CMakeFiles/eleven.dir/depend:
-	cd "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles/eleven.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/wangchao/code/c/c_learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wangchao/code/c/c_learning /Users/wangchao/code/c/c_learning /Users/wangchao/code/c/c_learning/cmake-build-debug /Users/wangchao/code/c/c_learning/cmake-build-debug /Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles/eleven.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/eleven.dir/depend
 

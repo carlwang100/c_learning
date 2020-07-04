@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/内存泄漏/leakmem.c" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.o"
-  "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/内存泄漏/leakmem_test.c" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.o"
+  "/Users/wangchao/code/c/c_learning/内存泄漏/leakmem.c" "/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.o"
+  "/Users/wangchao/code/c/c_learning/内存泄漏/leakmem_test.c" "/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo"
+CMAKE_SOURCE_DIR = /Users/wangchao/code/c/c_learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/wangchao/code/c/c_learning/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/leakmem.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/leakmem.dir/flags.make
 
 CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.o: CMakeFiles/leakmem.dir/flags.make
 CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.o: ../内存泄漏/leakmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.o   -c "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/内存泄漏/leakmem.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.o   -c /Users/wangchao/code/c/c_learning/内存泄漏/leakmem.c
 
 CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/内存泄漏/leakmem.c" > CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangchao/code/c/c_learning/内存泄漏/leakmem.c > CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.i
 
 CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/内存泄漏/leakmem.c" -o CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangchao/code/c/c_learning/内存泄漏/leakmem.c -o CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.s
 
 CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.o: CMakeFiles/leakmem.dir/flags.make
 CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.o: ../内存泄漏/leakmem_test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.o   -c "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/内存泄漏/leakmem_test.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.o   -c /Users/wangchao/code/c/c_learning/内存泄漏/leakmem_test.c
 
 CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/内存泄漏/leakmem_test.c" > CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangchao/code/c/c_learning/内存泄漏/leakmem_test.c > CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.i
 
 CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/内存泄漏/leakmem_test.c" -o CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangchao/code/c/c_learning/内存泄漏/leakmem_test.c -o CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.s
 
 # Object files for target leakmem
 leakmem_OBJECTS = \
@@ -95,7 +95,7 @@ leakmem: CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.o
 leakmem: CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.o
 leakmem: CMakeFiles/leakmem.dir/build.make
 leakmem: CMakeFiles/leakmem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable leakmem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable leakmem"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/leakmem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/leakmem.dir/clean:
 .PHONY : CMakeFiles/leakmem.dir/clean
 
 CMakeFiles/leakmem.dir/depend:
-	cd "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles/leakmem.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/wangchao/code/c/c_learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wangchao/code/c/c_learning /Users/wangchao/code/c/c_learning /Users/wangchao/code/c/c_learning/cmake-build-debug /Users/wangchao/code/c/c_learning/cmake-build-debug /Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles/leakmem.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/leakmem.dir/depend
 

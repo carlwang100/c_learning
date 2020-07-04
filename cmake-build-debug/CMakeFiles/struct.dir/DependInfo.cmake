@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/structlearning.c" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles/struct.dir/structlearning.c.o"
+  "/Users/wangchao/code/c/c_learning/structlearning.c" "/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles/struct.dir/structlearning.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

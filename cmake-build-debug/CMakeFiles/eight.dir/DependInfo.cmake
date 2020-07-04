@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/二级指针函数输出.c" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles/eight.dir/二级指针函数输出.c.o"
+  "/Users/wangchao/code/c/c_learning/二级指针函数输出.c" "/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles/eight.dir/二级指针函数输出.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

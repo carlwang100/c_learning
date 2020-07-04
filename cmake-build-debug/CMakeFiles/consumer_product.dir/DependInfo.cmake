@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/thread/comsumer_productor.cpp" "/Users/wangchao/Documents/ndk课程资料/ndk VIP班_C语言课件/c_demo/cmake-build-debug/CMakeFiles/consumer_product.dir/thread/comsumer_productor.cpp.o"
+  "/Users/wangchao/code/c/c_learning/thread/comsumer_productor.cpp" "/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles/consumer_product.dir/thread/comsumer_productor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
