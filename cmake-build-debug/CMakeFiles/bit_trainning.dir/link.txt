@@ -1,0 +1,3 @@
+"D:\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\bit_trainning.dir/objects.a
+D:\BaiduNetdiskDownload\mingw64\bin\ar.exe cr CMakeFiles\bit_trainning.dir/objects.a @CMakeFiles\bit_trainning.dir\objects1.rsp
+D:\BaiduNetdiskDownload\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\bit_trainning.dir/objects.a -Wl,--no-whole-archive  -o bit_trainning.exe -Wl,--out-implib,libbit_trainning.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\bit_trainning.dir\linklibs.rsp

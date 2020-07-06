@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.o"
-  "CMakeFiles/eleven.dir/配置文件项目/接口测试.c.o"
-  "eleven"
+  "CMakeFiles/eleven.dir/配置文件项目/接口测试.c.obj"
+  "CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.obj"
   "eleven.pdb"
+  "eleven.exe"
+  "eleven.exe.manifest"
+  "libeleven.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/eight.dir/二级指针函数输出.c.o"
-  "eight"
+  "CMakeFiles/eight.dir/二级指针函数输出.c.obj"
   "eight.pdb"
+  "eight.exe"
+  "eight.exe.manifest"
+  "libeight.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

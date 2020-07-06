@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/function.dir/函数.c.o"
-  "function"
+  "CMakeFiles/function.dir/函数.c.obj"
   "function.pdb"
+  "function.exe"
+  "function.exe.manifest"
+  "libfunction.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

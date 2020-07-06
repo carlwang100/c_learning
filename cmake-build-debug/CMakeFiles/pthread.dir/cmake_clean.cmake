@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pthread.dir/thread/pthread.cpp.o"
-  "pthread"
+  "CMakeFiles/pthread.dir/thread/pthread.cpp.obj"
   "pthread.pdb"
+  "pthread.exe"
+  "pthread.exe.manifest"
+  "libpthread.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

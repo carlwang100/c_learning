@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mutex.dir/thread/mutex.cpp.o"
-  "mutex"
+  "CMakeFiles/mutex.dir/thread/mutex.cpp.obj"
   "mutex.pdb"
+  "mutex.exe"
+  "mutex.exe.manifest"
+  "libmutex.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/consumer_product.dir/thread/comsumer_productor.cpp.o"
-  "consumer_product"
+  "CMakeFiles/consumer_product.dir/thread/comsumer_productor.cpp.obj"
   "consumer_product.pdb"
+  "consumer_product.exe"
+  "consumer_product.exe.manifest"
+  "libconsumer_product.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

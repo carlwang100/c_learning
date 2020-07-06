@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/functionpointer.dir/函数指针/callback.c.o"
-  "functionpointer"
+  "CMakeFiles/functionpointer.dir/函数指针/callback.c.obj"
   "functionpointer.pdb"
+  "functionpointer.exe"
+  "functionpointer.exe.manifest"
+  "libfunctionpointer.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

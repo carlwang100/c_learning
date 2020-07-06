@@ -1,1 +1,3 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/six.dir/模拟字符串函数实现.c.o  -o six 
+"D:\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\six.dir/objects.a
+D:\BaiduNetdiskDownload\mingw64\bin\ar.exe cr CMakeFiles\six.dir/objects.a @CMakeFiles\six.dir\objects1.rsp
+D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\six.dir/objects.a -Wl,--no-whole-archive  -o six.exe -Wl,--out-implib,libsix.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\six.dir\linklibs.rsp

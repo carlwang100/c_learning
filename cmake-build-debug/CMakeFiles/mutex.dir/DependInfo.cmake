@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/wangchao/code/c/c_learning/thread/mutex.cpp" "/Users/wangchao/code/c/c_learning/cmake-build-debug/CMakeFiles/mutex.dir/thread/mutex.cpp.o"
+  "D:/code/c_learning/thread/mutex.cpp" "D:/code/c_learning/cmake-build-debug/CMakeFiles/mutex.dir/thread/mutex.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

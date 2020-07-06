@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pointer.dir/指针增强.c.o"
-  "pointer"
+  "CMakeFiles/pointer.dir/指针增强.c.obj"
   "pointer.pdb"
+  "pointer.exe"
+  "pointer.exe.manifest"
+  "libpointer.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

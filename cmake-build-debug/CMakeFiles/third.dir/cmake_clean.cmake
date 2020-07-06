@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/third.dir/指针数组和数组指针.c.o"
-  "third"
+  "CMakeFiles/third.dir/指针数组和数组指针.c.obj"
   "third.pdb"
+  "third.exe"
+  "third.exe.manifest"
+  "libthird.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
