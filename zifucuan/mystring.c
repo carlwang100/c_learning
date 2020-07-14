@@ -20,7 +20,7 @@ int cmp(char* str, char* str2){
 }
 
 
-void main(){
+void main1(){
 
     char str[] = {'s','s','s','\0'};
 ////    printf("%s\n",str);
@@ -58,3 +58,23 @@ void main(){
 //    printf("%d\t",a);
 //    printf("%d\t",*c);
 //}
+
+
+void main(){
+    char a[10] = "wangchao";
+    char* srt = "wangchao";
+
+    printf("%d\n", sizeof(a));
+    printf("%d\n", sizeof(srt));
+
+    a[2] = 'A';
+    printf("%s\n", a);
+
+//    a = "hello";
+
+    srt = "hello";
+    printf("%s\n", srt);
+
+//    srt[0] = 'a'; //invalid 因为字符串存放在code区，是只读的 only-read
+
+}
