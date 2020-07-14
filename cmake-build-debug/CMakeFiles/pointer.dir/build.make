@@ -56,27 +56,27 @@ include CMakeFiles/pointer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pointer.dir/flags.make
 
-CMakeFiles/pointer.dir/指针增强.c.obj: CMakeFiles/pointer.dir/flags.make
-CMakeFiles/pointer.dir/指针增强.c.obj: ../指针增强.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pointer.dir/指针增强.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\pointer.dir\指针增强.c.obj   -c D:\code\c_learning\指针增强.c
+CMakeFiles/pointer.dir/zhizhenzengqiang.c.obj: CMakeFiles/pointer.dir/flags.make
+CMakeFiles/pointer.dir/zhizhenzengqiang.c.obj: ../zhizhenzengqiang.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pointer.dir/zhizhenzengqiang.c.obj"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\pointer.dir\zhizhenzengqiang.c.obj   -c D:\code\c_learning\zhizhenzengqiang.c
 
-CMakeFiles/pointer.dir/指针增强.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pointer.dir/指针增强.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\指针增强.c > CMakeFiles\pointer.dir\指针增强.c.i
+CMakeFiles/pointer.dir/zhizhenzengqiang.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pointer.dir/zhizhenzengqiang.c.i"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\zhizhenzengqiang.c > CMakeFiles\pointer.dir\zhizhenzengqiang.c.i
 
-CMakeFiles/pointer.dir/指针增强.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pointer.dir/指针增强.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\指针增强.c -o CMakeFiles\pointer.dir\指针增强.c.s
+CMakeFiles/pointer.dir/zhizhenzengqiang.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pointer.dir/zhizhenzengqiang.c.s"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\zhizhenzengqiang.c -o CMakeFiles\pointer.dir\zhizhenzengqiang.c.s
 
 # Object files for target pointer
 pointer_OBJECTS = \
-"CMakeFiles/pointer.dir/指针增强.c.obj"
+"CMakeFiles/pointer.dir/zhizhenzengqiang.c.obj"
 
 # External object files for target pointer
 pointer_EXTERNAL_OBJECTS =
 
-pointer.exe: CMakeFiles/pointer.dir/指针增强.c.obj
+pointer.exe: CMakeFiles/pointer.dir/zhizhenzengqiang.c.obj
 pointer.exe: CMakeFiles/pointer.dir/build.make
 pointer.exe: CMakeFiles/pointer.dir/linklibs.rsp
 pointer.exe: CMakeFiles/pointer.dir/objects1.rsp

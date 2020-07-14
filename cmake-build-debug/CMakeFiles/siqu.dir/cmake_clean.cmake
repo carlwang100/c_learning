@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/siqu.dir/四驱模型/static.c.obj"
+  "CMakeFiles/siqu.dir/siqumoxing/static.c.obj"
   "siqu.pdb"
   "siqu.exe"
   "siqu.exe.manifest"

@@ -357,6 +357,19 @@ leakmem/fast:
 .PHONY : leakmem/fast
 
 #=============================================================================
+# Target rules for targets named zhizhenshuzu
+
+# Build rule for target.
+zhizhenshuzu: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 zhizhenshuzu
+.PHONY : zhizhenshuzu
+
+# fast build rule for target.
+zhizhenshuzu/fast:
+	$(MAKE) -f CMakeFiles\zhizhenshuzu.dir\build.make CMakeFiles/zhizhenshuzu.dir/build
+.PHONY : zhizhenshuzu/fast
+
+#=============================================================================
 # Target rules for targets named mystring
 
 # Build rule for target.
@@ -394,32 +407,6 @@ siqu: cmake_check_build_system
 siqu/fast:
 	$(MAKE) -f CMakeFiles\siqu.dir\build.make CMakeFiles/siqu.dir/build
 .PHONY : siqu/fast
-
-#=============================================================================
-# Target rules for targets named functionpointer
-
-# Build rule for target.
-functionpointer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 functionpointer
-.PHONY : functionpointer
-
-# fast build rule for target.
-functionpointer/fast:
-	$(MAKE) -f CMakeFiles\functionpointer.dir\build.make CMakeFiles/functionpointer.dir/build
-.PHONY : functionpointer/fast
-
-#=============================================================================
-# Target rules for targets named wangchao
-
-# Build rule for target.
-wangchao: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 wangchao
-.PHONY : wangchao
-
-# fast build rule for target.
-wangchao/fast:
-	$(MAKE) -f CMakeFiles\wangchao.dir\build.make CMakeFiles/wangchao.dir/build
-.PHONY : wangchao/fast
 
 #=============================================================================
 # Target rules for targets named pthread
@@ -461,6 +448,19 @@ alo_trainig/fast:
 .PHONY : alo_trainig/fast
 
 #=============================================================================
+# Target rules for targets named revserse_str
+
+# Build rule for target.
+revserse_str: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 revserse_str
+.PHONY : revserse_str
+
+# fast build rule for target.
+revserse_str/fast:
+	$(MAKE) -f CMakeFiles\revserse_str.dir\build.make CMakeFiles/revserse_str.dir/build
+.PHONY : revserse_str/fast
+
+#=============================================================================
 # Target rules for targets named matrix
 
 # Build rule for target.
@@ -485,6 +485,32 @@ bit_trainning: cmake_check_build_system
 bit_trainning/fast:
 	$(MAKE) -f CMakeFiles\bit_trainning.dir\build.make CMakeFiles/bit_trainning.dir/build
 .PHONY : bit_trainning/fast
+
+#=============================================================================
+# Target rules for targets named callback
+
+# Build rule for target.
+callback: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 callback
+.PHONY : callback
+
+# fast build rule for target.
+callback/fast:
+	$(MAKE) -f CMakeFiles\callback.dir\build.make CMakeFiles/callback.dir/build
+.PHONY : callback/fast
+
+#=============================================================================
+# Target rules for targets named hanshuzhizhentraining
+
+# Build rule for target.
+hanshuzhizhentraining: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 hanshuzhizhentraining
+.PHONY : hanshuzhizhentraining
+
+# fast build rule for target.
+hanshuzhizhentraining/fast:
+	$(MAKE) -f CMakeFiles\hanshuzhizhentraining.dir\build.make CMakeFiles/hanshuzhizhentraining.dir/build
+.PHONY : hanshuzhizhentraining/fast
 
 alo_trainig/BitTrainning.obj: alo_trainig/BitTrainning.cpp.obj
 
@@ -540,6 +566,33 @@ alo_trainig/LinkedList.cpp.s:
 	$(MAKE) -f CMakeFiles\alo_trainig.dir\build.make CMakeFiles/alo_trainig.dir/alo_trainig/LinkedList.cpp.s
 .PHONY : alo_trainig/LinkedList.cpp.s
 
+alo_trainig/hanshuzhizhen.obj: alo_trainig/hanshuzhizhen.c.obj
+
+.PHONY : alo_trainig/hanshuzhizhen.obj
+
+# target to build an object file
+alo_trainig/hanshuzhizhen.c.obj:
+	$(MAKE) -f CMakeFiles\hanshuzhizhentraining.dir\build.make CMakeFiles/hanshuzhizhentraining.dir/alo_trainig/hanshuzhizhen.c.obj
+.PHONY : alo_trainig/hanshuzhizhen.c.obj
+
+alo_trainig/hanshuzhizhen.i: alo_trainig/hanshuzhizhen.c.i
+
+.PHONY : alo_trainig/hanshuzhizhen.i
+
+# target to preprocess a source file
+alo_trainig/hanshuzhizhen.c.i:
+	$(MAKE) -f CMakeFiles\hanshuzhizhentraining.dir\build.make CMakeFiles/hanshuzhizhentraining.dir/alo_trainig/hanshuzhizhen.c.i
+.PHONY : alo_trainig/hanshuzhizhen.c.i
+
+alo_trainig/hanshuzhizhen.s: alo_trainig/hanshuzhizhen.c.s
+
+.PHONY : alo_trainig/hanshuzhizhen.s
+
+# target to generate assembly for a file
+alo_trainig/hanshuzhizhen.c.s:
+	$(MAKE) -f CMakeFiles\hanshuzhizhentraining.dir\build.make CMakeFiles/hanshuzhizhentraining.dir/alo_trainig/hanshuzhizhen.c.s
+.PHONY : alo_trainig/hanshuzhizhen.c.s
+
 alo_trainig/matrix.obj: alo_trainig/matrix.cpp.obj
 
 .PHONY : alo_trainig/matrix.obj
@@ -567,6 +620,60 @@ alo_trainig/matrix.cpp.s:
 	$(MAKE) -f CMakeFiles\matrix.dir\build.make CMakeFiles/matrix.dir/alo_trainig/matrix.cpp.s
 .PHONY : alo_trainig/matrix.cpp.s
 
+alo_trainig/reverse_str.obj: alo_trainig/reverse_str.c.obj
+
+.PHONY : alo_trainig/reverse_str.obj
+
+# target to build an object file
+alo_trainig/reverse_str.c.obj:
+	$(MAKE) -f CMakeFiles\revserse_str.dir\build.make CMakeFiles/revserse_str.dir/alo_trainig/reverse_str.c.obj
+.PHONY : alo_trainig/reverse_str.c.obj
+
+alo_trainig/reverse_str.i: alo_trainig/reverse_str.c.i
+
+.PHONY : alo_trainig/reverse_str.i
+
+# target to preprocess a source file
+alo_trainig/reverse_str.c.i:
+	$(MAKE) -f CMakeFiles\revserse_str.dir\build.make CMakeFiles/revserse_str.dir/alo_trainig/reverse_str.c.i
+.PHONY : alo_trainig/reverse_str.c.i
+
+alo_trainig/reverse_str.s: alo_trainig/reverse_str.c.s
+
+.PHONY : alo_trainig/reverse_str.s
+
+# target to generate assembly for a file
+alo_trainig/reverse_str.c.s:
+	$(MAKE) -f CMakeFiles\revserse_str.dir\build.make CMakeFiles/revserse_str.dir/alo_trainig/reverse_str.c.s
+.PHONY : alo_trainig/reverse_str.c.s
+
+dongtaifenpeineicun.obj: dongtaifenpeineicun.c.obj
+
+.PHONY : dongtaifenpeineicun.obj
+
+# target to build an object file
+dongtaifenpeineicun.c.obj:
+	$(MAKE) -f CMakeFiles\mem.dir\build.make CMakeFiles/mem.dir/dongtaifenpeineicun.c.obj
+.PHONY : dongtaifenpeineicun.c.obj
+
+dongtaifenpeineicun.i: dongtaifenpeineicun.c.i
+
+.PHONY : dongtaifenpeineicun.i
+
+# target to preprocess a source file
+dongtaifenpeineicun.c.i:
+	$(MAKE) -f CMakeFiles\mem.dir\build.make CMakeFiles/mem.dir/dongtaifenpeineicun.c.i
+.PHONY : dongtaifenpeineicun.c.i
+
+dongtaifenpeineicun.s: dongtaifenpeineicun.c.s
+
+.PHONY : dongtaifenpeineicun.s
+
+# target to generate assembly for a file
+dongtaifenpeineicun.c.s:
+	$(MAKE) -f CMakeFiles\mem.dir\build.make CMakeFiles/mem.dir/dongtaifenpeineicun.c.s
+.PHONY : dongtaifenpeineicun.c.s
+
 first.obj: first.c.obj
 
 .PHONY : first.obj
@@ -593,6 +700,33 @@ first.s: first.c.s
 first.c.s:
 	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/first.c.s
 .PHONY : first.c.s
+
+hanshuzhizhen/callback.obj: hanshuzhizhen/callback.c.obj
+
+.PHONY : hanshuzhizhen/callback.obj
+
+# target to build an object file
+hanshuzhizhen/callback.c.obj:
+	$(MAKE) -f CMakeFiles\callback.dir\build.make CMakeFiles/callback.dir/hanshuzhizhen/callback.c.obj
+.PHONY : hanshuzhizhen/callback.c.obj
+
+hanshuzhizhen/callback.i: hanshuzhizhen/callback.c.i
+
+.PHONY : hanshuzhizhen/callback.i
+
+# target to preprocess a source file
+hanshuzhizhen/callback.c.i:
+	$(MAKE) -f CMakeFiles\callback.dir\build.make CMakeFiles/callback.dir/hanshuzhizhen/callback.c.i
+.PHONY : hanshuzhizhen/callback.c.i
+
+hanshuzhizhen/callback.s: hanshuzhizhen/callback.c.s
+
+.PHONY : hanshuzhizhen/callback.s
+
+# target to generate assembly for a file
+hanshuzhizhen/callback.c.s:
+	$(MAKE) -f CMakeFiles\callback.dir\build.make CMakeFiles/callback.dir/hanshuzhizhen/callback.c.s
+.PHONY : hanshuzhizhen/callback.c.s
 
 main.obj: main.c.obj
 
@@ -647,6 +781,141 @@ maopao.s: maopao.cpp.s
 maopao.cpp.s:
 	$(MAKE) -f CMakeFiles\second.dir\build.make CMakeFiles/second.dir/maopao.cpp.s
 .PHONY : maopao.cpp.s
+
+neicunxielou/leakmem.obj: neicunxielou/leakmem.c.obj
+
+.PHONY : neicunxielou/leakmem.obj
+
+# target to build an object file
+neicunxielou/leakmem.c.obj:
+	$(MAKE) -f CMakeFiles\leakmem.dir\build.make CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.obj
+.PHONY : neicunxielou/leakmem.c.obj
+
+neicunxielou/leakmem.i: neicunxielou/leakmem.c.i
+
+.PHONY : neicunxielou/leakmem.i
+
+# target to preprocess a source file
+neicunxielou/leakmem.c.i:
+	$(MAKE) -f CMakeFiles\leakmem.dir\build.make CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.i
+.PHONY : neicunxielou/leakmem.c.i
+
+neicunxielou/leakmem.s: neicunxielou/leakmem.c.s
+
+.PHONY : neicunxielou/leakmem.s
+
+# target to generate assembly for a file
+neicunxielou/leakmem.c.s:
+	$(MAKE) -f CMakeFiles\leakmem.dir\build.make CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.s
+.PHONY : neicunxielou/leakmem.c.s
+
+neicunxielou/leakmem_test.obj: neicunxielou/leakmem_test.c.obj
+
+.PHONY : neicunxielou/leakmem_test.obj
+
+# target to build an object file
+neicunxielou/leakmem_test.c.obj:
+	$(MAKE) -f CMakeFiles\leakmem.dir\build.make CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.obj
+.PHONY : neicunxielou/leakmem_test.c.obj
+
+neicunxielou/leakmem_test.i: neicunxielou/leakmem_test.c.i
+
+.PHONY : neicunxielou/leakmem_test.i
+
+# target to preprocess a source file
+neicunxielou/leakmem_test.c.i:
+	$(MAKE) -f CMakeFiles\leakmem.dir\build.make CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.i
+.PHONY : neicunxielou/leakmem_test.c.i
+
+neicunxielou/leakmem_test.s: neicunxielou/leakmem_test.c.s
+
+.PHONY : neicunxielou/leakmem_test.s
+
+# target to generate assembly for a file
+neicunxielou/leakmem_test.c.s:
+	$(MAKE) -f CMakeFiles\leakmem.dir\build.make CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.s
+.PHONY : neicunxielou/leakmem_test.c.s
+
+peizhiwenjian/cfgfile.obj: peizhiwenjian/cfgfile.c.obj
+
+.PHONY : peizhiwenjian/cfgfile.obj
+
+# target to build an object file
+peizhiwenjian/cfgfile.c.obj:
+	$(MAKE) -f CMakeFiles\eleven.dir\build.make CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.obj
+.PHONY : peizhiwenjian/cfgfile.c.obj
+
+peizhiwenjian/cfgfile.i: peizhiwenjian/cfgfile.c.i
+
+.PHONY : peizhiwenjian/cfgfile.i
+
+# target to preprocess a source file
+peizhiwenjian/cfgfile.c.i:
+	$(MAKE) -f CMakeFiles\eleven.dir\build.make CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.i
+.PHONY : peizhiwenjian/cfgfile.c.i
+
+peizhiwenjian/cfgfile.s: peizhiwenjian/cfgfile.c.s
+
+.PHONY : peizhiwenjian/cfgfile.s
+
+# target to generate assembly for a file
+peizhiwenjian/cfgfile.c.s:
+	$(MAKE) -f CMakeFiles\eleven.dir\build.make CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.s
+.PHONY : peizhiwenjian/cfgfile.c.s
+
+peizhiwenjian/接口测试.obj: peizhiwenjian/接口测试.c.obj
+
+.PHONY : peizhiwenjian/接口测试.obj
+
+# target to build an object file
+peizhiwenjian/接口测试.c.obj:
+	$(MAKE) -f CMakeFiles\eleven.dir\build.make CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.obj
+.PHONY : peizhiwenjian/接口测试.c.obj
+
+peizhiwenjian/接口测试.i: peizhiwenjian/接口测试.c.i
+
+.PHONY : peizhiwenjian/接口测试.i
+
+# target to preprocess a source file
+peizhiwenjian/接口测试.c.i:
+	$(MAKE) -f CMakeFiles\eleven.dir\build.make CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.i
+.PHONY : peizhiwenjian/接口测试.c.i
+
+peizhiwenjian/接口测试.s: peizhiwenjian/接口测试.c.s
+
+.PHONY : peizhiwenjian/接口测试.s
+
+# target to generate assembly for a file
+peizhiwenjian/接口测试.c.s:
+	$(MAKE) -f CMakeFiles\eleven.dir\build.make CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.s
+.PHONY : peizhiwenjian/接口测试.c.s
+
+siqumoxing/static.obj: siqumoxing/static.c.obj
+
+.PHONY : siqumoxing/static.obj
+
+# target to build an object file
+siqumoxing/static.c.obj:
+	$(MAKE) -f CMakeFiles\siqu.dir\build.make CMakeFiles/siqu.dir/siqumoxing/static.c.obj
+.PHONY : siqumoxing/static.c.obj
+
+siqumoxing/static.i: siqumoxing/static.c.i
+
+.PHONY : siqumoxing/static.i
+
+# target to preprocess a source file
+siqumoxing/static.c.i:
+	$(MAKE) -f CMakeFiles\siqu.dir\build.make CMakeFiles/siqu.dir/siqumoxing/static.c.i
+.PHONY : siqumoxing/static.c.i
+
+siqumoxing/static.s: siqumoxing/static.c.s
+
+.PHONY : siqumoxing/static.s
+
+# target to generate assembly for a file
+siqumoxing/static.c.s:
+	$(MAKE) -f CMakeFiles\siqu.dir\build.make CMakeFiles/siqu.dir/siqumoxing/static.c.s
+.PHONY : siqumoxing/static.c.s
 
 structlearning.obj: structlearning.c.obj
 
@@ -783,32 +1052,143 @@ thread/pthread.cpp.s:
 	$(MAKE) -f CMakeFiles\pthread.dir\build.make CMakeFiles/pthread.dir/thread/pthread.cpp.s
 .PHONY : thread/pthread.cpp.s
 
-wangchao.obj: wangchao.c.obj
+wenjiancaozuo/file.obj: wenjiancaozuo/file.c.obj
 
-.PHONY : wangchao.obj
+.PHONY : wenjiancaozuo/file.obj
 
 # target to build an object file
-wangchao.c.obj:
-	$(MAKE) -f CMakeFiles\wangchao.dir\build.make CMakeFiles/wangchao.dir/wangchao.c.obj
-.PHONY : wangchao.c.obj
+wenjiancaozuo/file.c.obj:
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/wenjiancaozuo/file.c.obj
+.PHONY : wenjiancaozuo/file.c.obj
 
-wangchao.i: wangchao.c.i
+wenjiancaozuo/file.i: wenjiancaozuo/file.c.i
 
-.PHONY : wangchao.i
+.PHONY : wenjiancaozuo/file.i
 
 # target to preprocess a source file
-wangchao.c.i:
-	$(MAKE) -f CMakeFiles\wangchao.dir\build.make CMakeFiles/wangchao.dir/wangchao.c.i
-.PHONY : wangchao.c.i
+wenjiancaozuo/file.c.i:
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/wenjiancaozuo/file.c.i
+.PHONY : wenjiancaozuo/file.c.i
 
-wangchao.s: wangchao.c.s
+wenjiancaozuo/file.s: wenjiancaozuo/file.c.s
 
-.PHONY : wangchao.s
+.PHONY : wenjiancaozuo/file.s
 
 # target to generate assembly for a file
-wangchao.c.s:
-	$(MAKE) -f CMakeFiles\wangchao.dir\build.make CMakeFiles/wangchao.dir/wangchao.c.s
-.PHONY : wangchao.c.s
+wenjiancaozuo/file.c.s:
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/wenjiancaozuo/file.c.s
+.PHONY : wenjiancaozuo/file.c.s
+
+wenjianjiami/jiami.obj: wenjianjiami/jiami.c.obj
+
+.PHONY : wenjianjiami/jiami.obj
+
+# target to build an object file
+wenjianjiami/jiami.c.obj:
+	$(MAKE) -f CMakeFiles\ten.dir\build.make CMakeFiles/ten.dir/wenjianjiami/jiami.c.obj
+.PHONY : wenjianjiami/jiami.c.obj
+
+wenjianjiami/jiami.i: wenjianjiami/jiami.c.i
+
+.PHONY : wenjianjiami/jiami.i
+
+# target to preprocess a source file
+wenjianjiami/jiami.c.i:
+	$(MAKE) -f CMakeFiles\ten.dir\build.make CMakeFiles/ten.dir/wenjianjiami/jiami.c.i
+.PHONY : wenjianjiami/jiami.c.i
+
+wenjianjiami/jiami.s: wenjianjiami/jiami.c.s
+
+.PHONY : wenjianjiami/jiami.s
+
+# target to generate assembly for a file
+wenjianjiami/jiami.c.s:
+	$(MAKE) -f CMakeFiles\ten.dir\build.make CMakeFiles/ten.dir/wenjianjiami/jiami.c.s
+.PHONY : wenjianjiami/jiami.c.s
+
+zhizhenshuzu.obj: zhizhenshuzu.c.obj
+
+.PHONY : zhizhenshuzu.obj
+
+# target to build an object file
+zhizhenshuzu.c.obj:
+	$(MAKE) -f CMakeFiles\third.dir\build.make CMakeFiles/third.dir/zhizhenshuzu.c.obj
+	$(MAKE) -f CMakeFiles\zhizhenshuzu.dir\build.make CMakeFiles/zhizhenshuzu.dir/zhizhenshuzu.c.obj
+.PHONY : zhizhenshuzu.c.obj
+
+zhizhenshuzu.i: zhizhenshuzu.c.i
+
+.PHONY : zhizhenshuzu.i
+
+# target to preprocess a source file
+zhizhenshuzu.c.i:
+	$(MAKE) -f CMakeFiles\third.dir\build.make CMakeFiles/third.dir/zhizhenshuzu.c.i
+	$(MAKE) -f CMakeFiles\zhizhenshuzu.dir\build.make CMakeFiles/zhizhenshuzu.dir/zhizhenshuzu.c.i
+.PHONY : zhizhenshuzu.c.i
+
+zhizhenshuzu.s: zhizhenshuzu.c.s
+
+.PHONY : zhizhenshuzu.s
+
+# target to generate assembly for a file
+zhizhenshuzu.c.s:
+	$(MAKE) -f CMakeFiles\third.dir\build.make CMakeFiles/third.dir/zhizhenshuzu.c.s
+	$(MAKE) -f CMakeFiles\zhizhenshuzu.dir\build.make CMakeFiles/zhizhenshuzu.dir/zhizhenshuzu.c.s
+.PHONY : zhizhenshuzu.c.s
+
+zhizhenzengqiang.obj: zhizhenzengqiang.c.obj
+
+.PHONY : zhizhenzengqiang.obj
+
+# target to build an object file
+zhizhenzengqiang.c.obj:
+	$(MAKE) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/zhizhenzengqiang.c.obj
+.PHONY : zhizhenzengqiang.c.obj
+
+zhizhenzengqiang.i: zhizhenzengqiang.c.i
+
+.PHONY : zhizhenzengqiang.i
+
+# target to preprocess a source file
+zhizhenzengqiang.c.i:
+	$(MAKE) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/zhizhenzengqiang.c.i
+.PHONY : zhizhenzengqiang.c.i
+
+zhizhenzengqiang.s: zhizhenzengqiang.c.s
+
+.PHONY : zhizhenzengqiang.s
+
+# target to generate assembly for a file
+zhizhenzengqiang.c.s:
+	$(MAKE) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/zhizhenzengqiang.c.s
+.PHONY : zhizhenzengqiang.c.s
+
+zifucuan/mystring.obj: zifucuan/mystring.c.obj
+
+.PHONY : zifucuan/mystring.obj
+
+# target to build an object file
+zifucuan/mystring.c.obj:
+	$(MAKE) -f CMakeFiles\mystring.dir\build.make CMakeFiles/mystring.dir/zifucuan/mystring.c.obj
+.PHONY : zifucuan/mystring.c.obj
+
+zifucuan/mystring.i: zifucuan/mystring.c.i
+
+.PHONY : zifucuan/mystring.i
+
+# target to preprocess a source file
+zifucuan/mystring.c.i:
+	$(MAKE) -f CMakeFiles\mystring.dir\build.make CMakeFiles/mystring.dir/zifucuan/mystring.c.i
+.PHONY : zifucuan/mystring.c.i
+
+zifucuan/mystring.s: zifucuan/mystring.c.s
+
+.PHONY : zifucuan/mystring.s
+
+# target to generate assembly for a file
+zifucuan/mystring.c.s:
+	$(MAKE) -f CMakeFiles\mystring.dir\build.make CMakeFiles/mystring.dir/zifucuan/mystring.c.s
+.PHONY : zifucuan/mystring.c.s
 
 二级指针函数输出.obj: 二级指针函数输出.c.obj
 
@@ -864,60 +1244,6 @@ wangchao.c.s:
 	$(MAKE) -f CMakeFiles\seven.dir\build.make CMakeFiles/seven.dir/二级指针操作文件.c.s
 .PHONY : 二级指针操作文件.c.s
 
-内存泄漏/leakmem.obj: 内存泄漏/leakmem.c.obj
-
-.PHONY : 内存泄漏/leakmem.obj
-
-# target to build an object file
-内存泄漏/leakmem.c.obj:
-	$(MAKE) -f CMakeFiles\leakmem.dir\build.make CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.obj
-.PHONY : 内存泄漏/leakmem.c.obj
-
-内存泄漏/leakmem.i: 内存泄漏/leakmem.c.i
-
-.PHONY : 内存泄漏/leakmem.i
-
-# target to preprocess a source file
-内存泄漏/leakmem.c.i:
-	$(MAKE) -f CMakeFiles\leakmem.dir\build.make CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.i
-.PHONY : 内存泄漏/leakmem.c.i
-
-内存泄漏/leakmem.s: 内存泄漏/leakmem.c.s
-
-.PHONY : 内存泄漏/leakmem.s
-
-# target to generate assembly for a file
-内存泄漏/leakmem.c.s:
-	$(MAKE) -f CMakeFiles\leakmem.dir\build.make CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.s
-.PHONY : 内存泄漏/leakmem.c.s
-
-内存泄漏/leakmem_test.obj: 内存泄漏/leakmem_test.c.obj
-
-.PHONY : 内存泄漏/leakmem_test.obj
-
-# target to build an object file
-内存泄漏/leakmem_test.c.obj:
-	$(MAKE) -f CMakeFiles\leakmem.dir\build.make CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.obj
-.PHONY : 内存泄漏/leakmem_test.c.obj
-
-内存泄漏/leakmem_test.i: 内存泄漏/leakmem_test.c.i
-
-.PHONY : 内存泄漏/leakmem_test.i
-
-# target to preprocess a source file
-内存泄漏/leakmem_test.c.i:
-	$(MAKE) -f CMakeFiles\leakmem.dir\build.make CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.i
-.PHONY : 内存泄漏/leakmem_test.c.i
-
-内存泄漏/leakmem_test.s: 内存泄漏/leakmem_test.c.s
-
-.PHONY : 内存泄漏/leakmem_test.s
-
-# target to generate assembly for a file
-内存泄漏/leakmem_test.c.s:
-	$(MAKE) -f CMakeFiles\leakmem.dir\build.make CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.s
-.PHONY : 内存泄漏/leakmem_test.c.s
-
 函数.obj: 函数.c.obj
 
 .PHONY : 函数.obj
@@ -944,222 +1270,6 @@ wangchao.c.s:
 函数.c.s:
 	$(MAKE) -f CMakeFiles\function.dir\build.make CMakeFiles/function.dir/函数.c.s
 .PHONY : 函数.c.s
-
-函数指针/callback.obj: 函数指针/callback.c.obj
-
-.PHONY : 函数指针/callback.obj
-
-# target to build an object file
-函数指针/callback.c.obj:
-	$(MAKE) -f CMakeFiles\functionpointer.dir\build.make CMakeFiles/functionpointer.dir/函数指针/callback.c.obj
-.PHONY : 函数指针/callback.c.obj
-
-函数指针/callback.i: 函数指针/callback.c.i
-
-.PHONY : 函数指针/callback.i
-
-# target to preprocess a source file
-函数指针/callback.c.i:
-	$(MAKE) -f CMakeFiles\functionpointer.dir\build.make CMakeFiles/functionpointer.dir/函数指针/callback.c.i
-.PHONY : 函数指针/callback.c.i
-
-函数指针/callback.s: 函数指针/callback.c.s
-
-.PHONY : 函数指针/callback.s
-
-# target to generate assembly for a file
-函数指针/callback.c.s:
-	$(MAKE) -f CMakeFiles\functionpointer.dir\build.make CMakeFiles/functionpointer.dir/函数指针/callback.c.s
-.PHONY : 函数指针/callback.c.s
-
-动态内存分配.obj: 动态内存分配.c.obj
-
-.PHONY : 动态内存分配.obj
-
-# target to build an object file
-动态内存分配.c.obj:
-	$(MAKE) -f CMakeFiles\mem.dir\build.make CMakeFiles/mem.dir/动态内存分配.c.obj
-.PHONY : 动态内存分配.c.obj
-
-动态内存分配.i: 动态内存分配.c.i
-
-.PHONY : 动态内存分配.i
-
-# target to preprocess a source file
-动态内存分配.c.i:
-	$(MAKE) -f CMakeFiles\mem.dir\build.make CMakeFiles/mem.dir/动态内存分配.c.i
-.PHONY : 动态内存分配.c.i
-
-动态内存分配.s: 动态内存分配.c.s
-
-.PHONY : 动态内存分配.s
-
-# target to generate assembly for a file
-动态内存分配.c.s:
-	$(MAKE) -f CMakeFiles\mem.dir\build.make CMakeFiles/mem.dir/动态内存分配.c.s
-.PHONY : 动态内存分配.c.s
-
-四驱模型/static.obj: 四驱模型/static.c.obj
-
-.PHONY : 四驱模型/static.obj
-
-# target to build an object file
-四驱模型/static.c.obj:
-	$(MAKE) -f CMakeFiles\siqu.dir\build.make CMakeFiles/siqu.dir/四驱模型/static.c.obj
-.PHONY : 四驱模型/static.c.obj
-
-四驱模型/static.i: 四驱模型/static.c.i
-
-.PHONY : 四驱模型/static.i
-
-# target to preprocess a source file
-四驱模型/static.c.i:
-	$(MAKE) -f CMakeFiles\siqu.dir\build.make CMakeFiles/siqu.dir/四驱模型/static.c.i
-.PHONY : 四驱模型/static.c.i
-
-四驱模型/static.s: 四驱模型/static.c.s
-
-.PHONY : 四驱模型/static.s
-
-# target to generate assembly for a file
-四驱模型/static.c.s:
-	$(MAKE) -f CMakeFiles\siqu.dir\build.make CMakeFiles/siqu.dir/四驱模型/static.c.s
-.PHONY : 四驱模型/static.c.s
-
-字符串/mystring.obj: 字符串/mystring.c.obj
-
-.PHONY : 字符串/mystring.obj
-
-# target to build an object file
-字符串/mystring.c.obj:
-	$(MAKE) -f CMakeFiles\mystring.dir\build.make CMakeFiles/mystring.dir/字符串/mystring.c.obj
-.PHONY : 字符串/mystring.c.obj
-
-字符串/mystring.i: 字符串/mystring.c.i
-
-.PHONY : 字符串/mystring.i
-
-# target to preprocess a source file
-字符串/mystring.c.i:
-	$(MAKE) -f CMakeFiles\mystring.dir\build.make CMakeFiles/mystring.dir/字符串/mystring.c.i
-.PHONY : 字符串/mystring.c.i
-
-字符串/mystring.s: 字符串/mystring.c.s
-
-.PHONY : 字符串/mystring.s
-
-# target to generate assembly for a file
-字符串/mystring.c.s:
-	$(MAKE) -f CMakeFiles\mystring.dir\build.make CMakeFiles/mystring.dir/字符串/mystring.c.s
-.PHONY : 字符串/mystring.c.s
-
-指针增强.obj: 指针增强.c.obj
-
-.PHONY : 指针增强.obj
-
-# target to build an object file
-指针增强.c.obj:
-	$(MAKE) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/指针增强.c.obj
-.PHONY : 指针增强.c.obj
-
-指针增强.i: 指针增强.c.i
-
-.PHONY : 指针增强.i
-
-# target to preprocess a source file
-指针增强.c.i:
-	$(MAKE) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/指针增强.c.i
-.PHONY : 指针增强.c.i
-
-指针增强.s: 指针增强.c.s
-
-.PHONY : 指针增强.s
-
-# target to generate assembly for a file
-指针增强.c.s:
-	$(MAKE) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/指针增强.c.s
-.PHONY : 指针增强.c.s
-
-指针数组和数组指针.obj: 指针数组和数组指针.c.obj
-
-.PHONY : 指针数组和数组指针.obj
-
-# target to build an object file
-指针数组和数组指针.c.obj:
-	$(MAKE) -f CMakeFiles\third.dir\build.make CMakeFiles/third.dir/指针数组和数组指针.c.obj
-.PHONY : 指针数组和数组指针.c.obj
-
-指针数组和数组指针.i: 指针数组和数组指针.c.i
-
-.PHONY : 指针数组和数组指针.i
-
-# target to preprocess a source file
-指针数组和数组指针.c.i:
-	$(MAKE) -f CMakeFiles\third.dir\build.make CMakeFiles/third.dir/指针数组和数组指针.c.i
-.PHONY : 指针数组和数组指针.c.i
-
-指针数组和数组指针.s: 指针数组和数组指针.c.s
-
-.PHONY : 指针数组和数组指针.s
-
-# target to generate assembly for a file
-指针数组和数组指针.c.s:
-	$(MAKE) -f CMakeFiles\third.dir\build.make CMakeFiles/third.dir/指针数组和数组指针.c.s
-.PHONY : 指针数组和数组指针.c.s
-
-文件加密/jiami.obj: 文件加密/jiami.c.obj
-
-.PHONY : 文件加密/jiami.obj
-
-# target to build an object file
-文件加密/jiami.c.obj:
-	$(MAKE) -f CMakeFiles\ten.dir\build.make CMakeFiles/ten.dir/文件加密/jiami.c.obj
-.PHONY : 文件加密/jiami.c.obj
-
-文件加密/jiami.i: 文件加密/jiami.c.i
-
-.PHONY : 文件加密/jiami.i
-
-# target to preprocess a source file
-文件加密/jiami.c.i:
-	$(MAKE) -f CMakeFiles\ten.dir\build.make CMakeFiles/ten.dir/文件加密/jiami.c.i
-.PHONY : 文件加密/jiami.c.i
-
-文件加密/jiami.s: 文件加密/jiami.c.s
-
-.PHONY : 文件加密/jiami.s
-
-# target to generate assembly for a file
-文件加密/jiami.c.s:
-	$(MAKE) -f CMakeFiles\ten.dir\build.make CMakeFiles/ten.dir/文件加密/jiami.c.s
-.PHONY : 文件加密/jiami.c.s
-
-文件操作/file.obj: 文件操作/file.c.obj
-
-.PHONY : 文件操作/file.obj
-
-# target to build an object file
-文件操作/file.c.obj:
-	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/文件操作/file.c.obj
-.PHONY : 文件操作/file.c.obj
-
-文件操作/file.i: 文件操作/file.c.i
-
-.PHONY : 文件操作/file.i
-
-# target to preprocess a source file
-文件操作/file.c.i:
-	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/文件操作/file.c.i
-.PHONY : 文件操作/file.c.i
-
-文件操作/file.s: 文件操作/file.c.s
-
-.PHONY : 文件操作/file.s
-
-# target to generate assembly for a file
-文件操作/file.c.s:
-	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/文件操作/file.c.s
-.PHONY : 文件操作/file.c.s
 
 模拟字符串函数实现.obj: 模拟字符串函数实现.c.obj
 
@@ -1245,60 +1355,6 @@ wangchao.c.s:
 	$(MAKE) -f CMakeFiles\night.dir\build.make CMakeFiles/night.dir/自己实现string相关函数.c.s
 .PHONY : 自己实现string相关函数.c.s
 
-配置文件项目/cfgfile.obj: 配置文件项目/cfgfile.c.obj
-
-.PHONY : 配置文件项目/cfgfile.obj
-
-# target to build an object file
-配置文件项目/cfgfile.c.obj:
-	$(MAKE) -f CMakeFiles\eleven.dir\build.make CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.obj
-.PHONY : 配置文件项目/cfgfile.c.obj
-
-配置文件项目/cfgfile.i: 配置文件项目/cfgfile.c.i
-
-.PHONY : 配置文件项目/cfgfile.i
-
-# target to preprocess a source file
-配置文件项目/cfgfile.c.i:
-	$(MAKE) -f CMakeFiles\eleven.dir\build.make CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.i
-.PHONY : 配置文件项目/cfgfile.c.i
-
-配置文件项目/cfgfile.s: 配置文件项目/cfgfile.c.s
-
-.PHONY : 配置文件项目/cfgfile.s
-
-# target to generate assembly for a file
-配置文件项目/cfgfile.c.s:
-	$(MAKE) -f CMakeFiles\eleven.dir\build.make CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.s
-.PHONY : 配置文件项目/cfgfile.c.s
-
-配置文件项目/接口测试.obj: 配置文件项目/接口测试.c.obj
-
-.PHONY : 配置文件项目/接口测试.obj
-
-# target to build an object file
-配置文件项目/接口测试.c.obj:
-	$(MAKE) -f CMakeFiles\eleven.dir\build.make CMakeFiles/eleven.dir/配置文件项目/接口测试.c.obj
-.PHONY : 配置文件项目/接口测试.c.obj
-
-配置文件项目/接口测试.i: 配置文件项目/接口测试.c.i
-
-.PHONY : 配置文件项目/接口测试.i
-
-# target to preprocess a source file
-配置文件项目/接口测试.c.i:
-	$(MAKE) -f CMakeFiles\eleven.dir\build.make CMakeFiles/eleven.dir/配置文件项目/接口测试.c.i
-.PHONY : 配置文件项目/接口测试.c.i
-
-配置文件项目/接口测试.s: 配置文件项目/接口测试.c.s
-
-.PHONY : 配置文件项目/接口测试.s
-
-# target to generate assembly for a file
-配置文件项目/接口测试.c.s:
-	$(MAKE) -f CMakeFiles\eleven.dir\build.make CMakeFiles/eleven.dir/配置文件项目/接口测试.c.s
-.PHONY : 配置文件项目/接口测试.c.s
-
 间接赋值.obj: 间接赋值.c.obj
 
 .PHONY : 间接赋值.obj
@@ -1352,16 +1408,18 @@ help:
 	@echo ... function
 	@echo ... pointer
 	@echo ... leakmem
+	@echo ... zhizhenshuzu
 	@echo ... mystring
 	@echo ... file
 	@echo ... siqu
-	@echo ... functionpointer
-	@echo ... wangchao
 	@echo ... pthread
 	@echo ... mutex
 	@echo ... alo_trainig
+	@echo ... revserse_str
 	@echo ... matrix
 	@echo ... bit_trainning
+	@echo ... callback
+	@echo ... hanshuzhizhentraining
 	@echo ... edit_cache
 	@echo ... alo_trainig/BitTrainning.obj
 	@echo ... alo_trainig/BitTrainning.i
@@ -1369,18 +1427,45 @@ help:
 	@echo ... alo_trainig/LinkedList.obj
 	@echo ... alo_trainig/LinkedList.i
 	@echo ... alo_trainig/LinkedList.s
+	@echo ... alo_trainig/hanshuzhizhen.obj
+	@echo ... alo_trainig/hanshuzhizhen.i
+	@echo ... alo_trainig/hanshuzhizhen.s
 	@echo ... alo_trainig/matrix.obj
 	@echo ... alo_trainig/matrix.i
 	@echo ... alo_trainig/matrix.s
+	@echo ... alo_trainig/reverse_str.obj
+	@echo ... alo_trainig/reverse_str.i
+	@echo ... alo_trainig/reverse_str.s
+	@echo ... dongtaifenpeineicun.obj
+	@echo ... dongtaifenpeineicun.i
+	@echo ... dongtaifenpeineicun.s
 	@echo ... first.obj
 	@echo ... first.i
 	@echo ... first.s
+	@echo ... hanshuzhizhen/callback.obj
+	@echo ... hanshuzhizhen/callback.i
+	@echo ... hanshuzhizhen/callback.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... maopao.obj
 	@echo ... maopao.i
 	@echo ... maopao.s
+	@echo ... neicunxielou/leakmem.obj
+	@echo ... neicunxielou/leakmem.i
+	@echo ... neicunxielou/leakmem.s
+	@echo ... neicunxielou/leakmem_test.obj
+	@echo ... neicunxielou/leakmem_test.i
+	@echo ... neicunxielou/leakmem_test.s
+	@echo ... peizhiwenjian/cfgfile.obj
+	@echo ... peizhiwenjian/cfgfile.i
+	@echo ... peizhiwenjian/cfgfile.s
+	@echo ... peizhiwenjian/接口测试.obj
+	@echo ... peizhiwenjian/接口测试.i
+	@echo ... peizhiwenjian/接口测试.s
+	@echo ... siqumoxing/static.obj
+	@echo ... siqumoxing/static.i
+	@echo ... siqumoxing/static.s
 	@echo ... structlearning.obj
 	@echo ... structlearning.i
 	@echo ... structlearning.s
@@ -1396,48 +1481,30 @@ help:
 	@echo ... thread/pthread.obj
 	@echo ... thread/pthread.i
 	@echo ... thread/pthread.s
-	@echo ... wangchao.obj
-	@echo ... wangchao.i
-	@echo ... wangchao.s
+	@echo ... wenjiancaozuo/file.obj
+	@echo ... wenjiancaozuo/file.i
+	@echo ... wenjiancaozuo/file.s
+	@echo ... wenjianjiami/jiami.obj
+	@echo ... wenjianjiami/jiami.i
+	@echo ... wenjianjiami/jiami.s
+	@echo ... zhizhenshuzu.obj
+	@echo ... zhizhenshuzu.i
+	@echo ... zhizhenshuzu.s
+	@echo ... zhizhenzengqiang.obj
+	@echo ... zhizhenzengqiang.i
+	@echo ... zhizhenzengqiang.s
+	@echo ... zifucuan/mystring.obj
+	@echo ... zifucuan/mystring.i
+	@echo ... zifucuan/mystring.s
 	@echo ... 二级指针函数输出.obj
 	@echo ... 二级指针函数输出.i
 	@echo ... 二级指针函数输出.s
 	@echo ... 二级指针操作文件.obj
 	@echo ... 二级指针操作文件.i
 	@echo ... 二级指针操作文件.s
-	@echo ... 内存泄漏/leakmem.obj
-	@echo ... 内存泄漏/leakmem.i
-	@echo ... 内存泄漏/leakmem.s
-	@echo ... 内存泄漏/leakmem_test.obj
-	@echo ... 内存泄漏/leakmem_test.i
-	@echo ... 内存泄漏/leakmem_test.s
 	@echo ... 函数.obj
 	@echo ... 函数.i
 	@echo ... 函数.s
-	@echo ... 函数指针/callback.obj
-	@echo ... 函数指针/callback.i
-	@echo ... 函数指针/callback.s
-	@echo ... 动态内存分配.obj
-	@echo ... 动态内存分配.i
-	@echo ... 动态内存分配.s
-	@echo ... 四驱模型/static.obj
-	@echo ... 四驱模型/static.i
-	@echo ... 四驱模型/static.s
-	@echo ... 字符串/mystring.obj
-	@echo ... 字符串/mystring.i
-	@echo ... 字符串/mystring.s
-	@echo ... 指针增强.obj
-	@echo ... 指针增强.i
-	@echo ... 指针增强.s
-	@echo ... 指针数组和数组指针.obj
-	@echo ... 指针数组和数组指针.i
-	@echo ... 指针数组和数组指针.s
-	@echo ... 文件加密/jiami.obj
-	@echo ... 文件加密/jiami.i
-	@echo ... 文件加密/jiami.s
-	@echo ... 文件操作/file.obj
-	@echo ... 文件操作/file.i
-	@echo ... 文件操作/file.s
 	@echo ... 模拟字符串函数实现.obj
 	@echo ... 模拟字符串函数实现.i
 	@echo ... 模拟字符串函数实现.s
@@ -1447,12 +1514,6 @@ help:
 	@echo ... 自己实现string相关函数.obj
 	@echo ... 自己实现string相关函数.i
 	@echo ... 自己实现string相关函数.s
-	@echo ... 配置文件项目/cfgfile.obj
-	@echo ... 配置文件项目/cfgfile.i
-	@echo ... 配置文件项目/cfgfile.s
-	@echo ... 配置文件项目/接口测试.obj
-	@echo ... 配置文件项目/接口测试.i
-	@echo ... 配置文件项目/接口测试.s
 	@echo ... 间接赋值.obj
 	@echo ... 间接赋值.i
 	@echo ... 间接赋值.s

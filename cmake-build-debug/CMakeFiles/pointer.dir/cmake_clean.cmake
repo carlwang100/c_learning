@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pointer.dir/指针增强.c.obj"
+  "CMakeFiles/pointer.dir/zhizhenzengqiang.c.obj"
   "pointer.pdb"
   "pointer.exe"
   "pointer.exe.manifest"

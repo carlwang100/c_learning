@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mystring.dir/字符串/mystring.c.obj"
+  "CMakeFiles/mystring.dir/zifucuan/mystring.c.obj"
   "mystring.pdb"
   "mystring.exe"
   "mystring.exe.manifest"

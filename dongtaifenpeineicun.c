@@ -2,7 +2,7 @@
 //// Created by Jesson on 2019-02-12. edit mem
 ////
 //
-#include <printf.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 int main(){

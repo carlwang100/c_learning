@@ -56,27 +56,27 @@ include CMakeFiles/siqu.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/siqu.dir/flags.make
 
-CMakeFiles/siqu.dir/四驱模型/static.c.obj: CMakeFiles/siqu.dir/flags.make
-CMakeFiles/siqu.dir/四驱模型/static.c.obj: ../四驱模型/static.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/siqu.dir/四驱模型/static.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\siqu.dir\四驱模型\static.c.obj   -c D:\code\c_learning\四驱模型\static.c
+CMakeFiles/siqu.dir/siqumoxing/static.c.obj: CMakeFiles/siqu.dir/flags.make
+CMakeFiles/siqu.dir/siqumoxing/static.c.obj: ../siqumoxing/static.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/siqu.dir/siqumoxing/static.c.obj"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\siqu.dir\siqumoxing\static.c.obj   -c D:\code\c_learning\siqumoxing\static.c
 
-CMakeFiles/siqu.dir/四驱模型/static.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/siqu.dir/四驱模型/static.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\四驱模型\static.c > CMakeFiles\siqu.dir\四驱模型\static.c.i
+CMakeFiles/siqu.dir/siqumoxing/static.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/siqu.dir/siqumoxing/static.c.i"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\siqumoxing\static.c > CMakeFiles\siqu.dir\siqumoxing\static.c.i
 
-CMakeFiles/siqu.dir/四驱模型/static.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/siqu.dir/四驱模型/static.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\四驱模型\static.c -o CMakeFiles\siqu.dir\四驱模型\static.c.s
+CMakeFiles/siqu.dir/siqumoxing/static.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/siqu.dir/siqumoxing/static.c.s"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\siqumoxing\static.c -o CMakeFiles\siqu.dir\siqumoxing\static.c.s
 
 # Object files for target siqu
 siqu_OBJECTS = \
-"CMakeFiles/siqu.dir/四驱模型/static.c.obj"
+"CMakeFiles/siqu.dir/siqumoxing/static.c.obj"
 
 # External object files for target siqu
 siqu_EXTERNAL_OBJECTS =
 
-siqu.exe: CMakeFiles/siqu.dir/四驱模型/static.c.obj
+siqu.exe: CMakeFiles/siqu.dir/siqumoxing/static.c.obj
 siqu.exe: CMakeFiles/siqu.dir/build.make
 siqu.exe: CMakeFiles/siqu.dir/linklibs.rsp
 siqu.exe: CMakeFiles/siqu.dir/objects1.rsp

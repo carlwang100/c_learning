@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/code/c_learning/内存泄漏/leakmem.c" "D:/code/c_learning/cmake-build-debug/CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.obj"
-  "D:/code/c_learning/内存泄漏/leakmem_test.c" "D:/code/c_learning/cmake-build-debug/CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.obj"
+  "D:/code/c_learning/neicunxielou/leakmem.c" "D:/code/c_learning/cmake-build-debug/CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.obj"
+  "D:/code/c_learning/neicunxielou/leakmem_test.c" "D:/code/c_learning/cmake-build-debug/CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

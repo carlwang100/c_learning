@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/eleven.dir/配置文件项目/接口测试.c.obj"
-  "CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.obj"
+  "CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.obj"
+  "CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.obj"
   "eleven.pdb"
   "eleven.exe"
   "eleven.exe.manifest"

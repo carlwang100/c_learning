@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leakmem.dir/内存泄漏/leakmem.c.obj"
-  "CMakeFiles/leakmem.dir/内存泄漏/leakmem_test.c.obj"
+  "CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.obj"
+  "CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.obj"
   "leakmem.pdb"
   "leakmem.exe"
   "leakmem.exe.manifest"

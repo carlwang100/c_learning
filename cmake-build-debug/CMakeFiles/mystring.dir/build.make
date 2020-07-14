@@ -56,27 +56,27 @@ include CMakeFiles/mystring.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mystring.dir/flags.make
 
-CMakeFiles/mystring.dir/字符串/mystring.c.obj: CMakeFiles/mystring.dir/flags.make
-CMakeFiles/mystring.dir/字符串/mystring.c.obj: ../字符串/mystring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mystring.dir/字符串/mystring.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mystring.dir\字符串\mystring.c.obj   -c D:\code\c_learning\字符串\mystring.c
+CMakeFiles/mystring.dir/zifucuan/mystring.c.obj: CMakeFiles/mystring.dir/flags.make
+CMakeFiles/mystring.dir/zifucuan/mystring.c.obj: ../zifucuan/mystring.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mystring.dir/zifucuan/mystring.c.obj"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mystring.dir\zifucuan\mystring.c.obj   -c D:\code\c_learning\zifucuan\mystring.c
 
-CMakeFiles/mystring.dir/字符串/mystring.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mystring.dir/字符串/mystring.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\字符串\mystring.c > CMakeFiles\mystring.dir\字符串\mystring.c.i
+CMakeFiles/mystring.dir/zifucuan/mystring.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mystring.dir/zifucuan/mystring.c.i"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\zifucuan\mystring.c > CMakeFiles\mystring.dir\zifucuan\mystring.c.i
 
-CMakeFiles/mystring.dir/字符串/mystring.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mystring.dir/字符串/mystring.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\字符串\mystring.c -o CMakeFiles\mystring.dir\字符串\mystring.c.s
+CMakeFiles/mystring.dir/zifucuan/mystring.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mystring.dir/zifucuan/mystring.c.s"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\zifucuan\mystring.c -o CMakeFiles\mystring.dir\zifucuan\mystring.c.s
 
 # Object files for target mystring
 mystring_OBJECTS = \
-"CMakeFiles/mystring.dir/字符串/mystring.c.obj"
+"CMakeFiles/mystring.dir/zifucuan/mystring.c.obj"
 
 # External object files for target mystring
 mystring_EXTERNAL_OBJECTS =
 
-mystring.exe: CMakeFiles/mystring.dir/字符串/mystring.c.obj
+mystring.exe: CMakeFiles/mystring.dir/zifucuan/mystring.c.obj
 mystring.exe: CMakeFiles/mystring.dir/build.make
 mystring.exe: CMakeFiles/mystring.dir/linklibs.rsp
 mystring.exe: CMakeFiles/mystring.dir/objects1.rsp

@@ -56,27 +56,27 @@ include CMakeFiles/mem.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mem.dir/flags.make
 
-CMakeFiles/mem.dir/动态内存分配.c.obj: CMakeFiles/mem.dir/flags.make
-CMakeFiles/mem.dir/动态内存分配.c.obj: ../动态内存分配.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mem.dir/动态内存分配.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mem.dir\动态内存分配.c.obj   -c D:\code\c_learning\动态内存分配.c
+CMakeFiles/mem.dir/dongtaifenpeineicun.c.obj: CMakeFiles/mem.dir/flags.make
+CMakeFiles/mem.dir/dongtaifenpeineicun.c.obj: ../dongtaifenpeineicun.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mem.dir/dongtaifenpeineicun.c.obj"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mem.dir\dongtaifenpeineicun.c.obj   -c D:\code\c_learning\dongtaifenpeineicun.c
 
-CMakeFiles/mem.dir/动态内存分配.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mem.dir/动态内存分配.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\动态内存分配.c > CMakeFiles\mem.dir\动态内存分配.c.i
+CMakeFiles/mem.dir/dongtaifenpeineicun.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mem.dir/dongtaifenpeineicun.c.i"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\dongtaifenpeineicun.c > CMakeFiles\mem.dir\dongtaifenpeineicun.c.i
 
-CMakeFiles/mem.dir/动态内存分配.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mem.dir/动态内存分配.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\动态内存分配.c -o CMakeFiles\mem.dir\动态内存分配.c.s
+CMakeFiles/mem.dir/dongtaifenpeineicun.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mem.dir/dongtaifenpeineicun.c.s"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\dongtaifenpeineicun.c -o CMakeFiles\mem.dir\dongtaifenpeineicun.c.s
 
 # Object files for target mem
 mem_OBJECTS = \
-"CMakeFiles/mem.dir/动态内存分配.c.obj"
+"CMakeFiles/mem.dir/dongtaifenpeineicun.c.obj"
 
 # External object files for target mem
 mem_EXTERNAL_OBJECTS =
 
-mem.exe: CMakeFiles/mem.dir/动态内存分配.c.obj
+mem.exe: CMakeFiles/mem.dir/dongtaifenpeineicun.c.obj
 mem.exe: CMakeFiles/mem.dir/build.make
 mem.exe: CMakeFiles/mem.dir/linklibs.rsp
 mem.exe: CMakeFiles/mem.dir/objects1.rsp

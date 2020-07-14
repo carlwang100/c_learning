@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/code/c_learning/动态内存分配.c" "D:/code/c_learning/cmake-build-debug/CMakeFiles/mem.dir/动态内存分配.c.obj"
+  "D:/code/c_learning/dongtaifenpeineicun.c" "D:/code/c_learning/cmake-build-debug/CMakeFiles/mem.dir/dongtaifenpeineicun.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

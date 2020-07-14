@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mem.dir/动态内存分配.c.obj"
+  "CMakeFiles/mem.dir/dongtaifenpeineicun.c.obj"
   "mem.pdb"
   "mem.exe"
   "mem.exe.manifest"

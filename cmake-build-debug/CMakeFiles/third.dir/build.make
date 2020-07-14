@@ -56,27 +56,27 @@ include CMakeFiles/third.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/third.dir/flags.make
 
-CMakeFiles/third.dir/指针数组和数组指针.c.obj: CMakeFiles/third.dir/flags.make
-CMakeFiles/third.dir/指针数组和数组指针.c.obj: ../指针数组和数组指针.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/third.dir/指针数组和数组指针.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\third.dir\指针数组和数组指针.c.obj   -c D:\code\c_learning\指针数组和数组指针.c
+CMakeFiles/third.dir/zhizhenshuzu.c.obj: CMakeFiles/third.dir/flags.make
+CMakeFiles/third.dir/zhizhenshuzu.c.obj: ../zhizhenshuzu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/third.dir/zhizhenshuzu.c.obj"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\third.dir\zhizhenshuzu.c.obj   -c D:\code\c_learning\zhizhenshuzu.c
 
-CMakeFiles/third.dir/指针数组和数组指针.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/third.dir/指针数组和数组指针.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\指针数组和数组指针.c > CMakeFiles\third.dir\指针数组和数组指针.c.i
+CMakeFiles/third.dir/zhizhenshuzu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/third.dir/zhizhenshuzu.c.i"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\zhizhenshuzu.c > CMakeFiles\third.dir\zhizhenshuzu.c.i
 
-CMakeFiles/third.dir/指针数组和数组指针.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/third.dir/指针数组和数组指针.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\指针数组和数组指针.c -o CMakeFiles\third.dir\指针数组和数组指针.c.s
+CMakeFiles/third.dir/zhizhenshuzu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/third.dir/zhizhenshuzu.c.s"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\zhizhenshuzu.c -o CMakeFiles\third.dir\zhizhenshuzu.c.s
 
 # Object files for target third
 third_OBJECTS = \
-"CMakeFiles/third.dir/指针数组和数组指针.c.obj"
+"CMakeFiles/third.dir/zhizhenshuzu.c.obj"
 
 # External object files for target third
 third_EXTERNAL_OBJECTS =
 
-third.exe: CMakeFiles/third.dir/指针数组和数组指针.c.obj
+third.exe: CMakeFiles/third.dir/zhizhenshuzu.c.obj
 third.exe: CMakeFiles/third.dir/build.make
 third.exe: CMakeFiles/third.dir/linklibs.rsp
 third.exe: CMakeFiles/third.dir/objects1.rsp

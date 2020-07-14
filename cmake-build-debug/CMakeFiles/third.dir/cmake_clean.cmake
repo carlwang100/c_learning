@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/third.dir/指针数组和数组指针.c.obj"
+  "CMakeFiles/third.dir/zhizhenshuzu.c.obj"
   "third.pdb"
   "third.exe"
   "third.exe.manifest"

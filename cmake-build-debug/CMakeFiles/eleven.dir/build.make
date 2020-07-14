@@ -56,42 +56,42 @@ include CMakeFiles/eleven.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/eleven.dir/flags.make
 
-CMakeFiles/eleven.dir/配置文件项目/接口测试.c.obj: CMakeFiles/eleven.dir/flags.make
-CMakeFiles/eleven.dir/配置文件项目/接口测试.c.obj: ../配置文件项目/接口测试.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/eleven.dir/配置文件项目/接口测试.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\eleven.dir\配置文件项目\接口测试.c.obj   -c D:\code\c_learning\配置文件项目\接口测试.c
+CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.obj: CMakeFiles/eleven.dir/flags.make
+CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.obj: ../peizhiwenjian/接口测试.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.obj"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\eleven.dir\peizhiwenjian\接口测试.c.obj   -c D:\code\c_learning\peizhiwenjian\接口测试.c
 
-CMakeFiles/eleven.dir/配置文件项目/接口测试.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleven.dir/配置文件项目/接口测试.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\配置文件项目\接口测试.c > CMakeFiles\eleven.dir\配置文件项目\接口测试.c.i
+CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.i"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\peizhiwenjian\接口测试.c > CMakeFiles\eleven.dir\peizhiwenjian\接口测试.c.i
 
-CMakeFiles/eleven.dir/配置文件项目/接口测试.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleven.dir/配置文件项目/接口测试.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\配置文件项目\接口测试.c -o CMakeFiles\eleven.dir\配置文件项目\接口测试.c.s
+CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.s"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\peizhiwenjian\接口测试.c -o CMakeFiles\eleven.dir\peizhiwenjian\接口测试.c.s
 
-CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.obj: CMakeFiles/eleven.dir/flags.make
-CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.obj: ../配置文件项目/cfgfile.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\eleven.dir\配置文件项目\cfgfile.c.obj   -c D:\code\c_learning\配置文件项目\cfgfile.c
+CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.obj: CMakeFiles/eleven.dir/flags.make
+CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.obj: ../peizhiwenjian/cfgfile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.obj"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\eleven.dir\peizhiwenjian\cfgfile.c.obj   -c D:\code\c_learning\peizhiwenjian\cfgfile.c
 
-CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\配置文件项目\cfgfile.c > CMakeFiles\eleven.dir\配置文件项目\cfgfile.c.i
+CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.i"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\peizhiwenjian\cfgfile.c > CMakeFiles\eleven.dir\peizhiwenjian\cfgfile.c.i
 
-CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\配置文件项目\cfgfile.c -o CMakeFiles\eleven.dir\配置文件项目\cfgfile.c.s
+CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.s"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\peizhiwenjian\cfgfile.c -o CMakeFiles\eleven.dir\peizhiwenjian\cfgfile.c.s
 
 # Object files for target eleven
 eleven_OBJECTS = \
-"CMakeFiles/eleven.dir/配置文件项目/接口测试.c.obj" \
-"CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.obj"
+"CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.obj" \
+"CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.obj"
 
 # External object files for target eleven
 eleven_EXTERNAL_OBJECTS =
 
-eleven.exe: CMakeFiles/eleven.dir/配置文件项目/接口测试.c.obj
-eleven.exe: CMakeFiles/eleven.dir/配置文件项目/cfgfile.c.obj
+eleven.exe: CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.obj
+eleven.exe: CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.obj
 eleven.exe: CMakeFiles/eleven.dir/build.make
 eleven.exe: CMakeFiles/eleven.dir/linklibs.rsp
 eleven.exe: CMakeFiles/eleven.dir/objects1.rsp

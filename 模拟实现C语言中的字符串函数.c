@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <printf.h>
+#include <stdio.h>
 #include <assert.h>
 
 int mystrlen(char *s1);

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/file.dir/文件操作/file.c.obj"
+  "CMakeFiles/file.dir/wenjiancaozuo/file.c.obj"
   "file.pdb"
   "file.exe"
   "file.exe.manifest"

@@ -56,27 +56,27 @@ include CMakeFiles/ten.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ten.dir/flags.make
 
-CMakeFiles/ten.dir/文件加密/jiami.c.obj: CMakeFiles/ten.dir/flags.make
-CMakeFiles/ten.dir/文件加密/jiami.c.obj: ../文件加密/jiami.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ten.dir/文件加密/jiami.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ten.dir\文件加密\jiami.c.obj   -c D:\code\c_learning\文件加密\jiami.c
+CMakeFiles/ten.dir/wenjianjiami/jiami.c.obj: CMakeFiles/ten.dir/flags.make
+CMakeFiles/ten.dir/wenjianjiami/jiami.c.obj: ../wenjianjiami/jiami.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ten.dir/wenjianjiami/jiami.c.obj"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ten.dir\wenjianjiami\jiami.c.obj   -c D:\code\c_learning\wenjianjiami\jiami.c
 
-CMakeFiles/ten.dir/文件加密/jiami.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ten.dir/文件加密/jiami.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\文件加密\jiami.c > CMakeFiles\ten.dir\文件加密\jiami.c.i
+CMakeFiles/ten.dir/wenjianjiami/jiami.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ten.dir/wenjianjiami/jiami.c.i"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\wenjianjiami\jiami.c > CMakeFiles\ten.dir\wenjianjiami\jiami.c.i
 
-CMakeFiles/ten.dir/文件加密/jiami.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ten.dir/文件加密/jiami.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\文件加密\jiami.c -o CMakeFiles\ten.dir\文件加密\jiami.c.s
+CMakeFiles/ten.dir/wenjianjiami/jiami.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ten.dir/wenjianjiami/jiami.c.s"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\wenjianjiami\jiami.c -o CMakeFiles\ten.dir\wenjianjiami\jiami.c.s
 
 # Object files for target ten
 ten_OBJECTS = \
-"CMakeFiles/ten.dir/文件加密/jiami.c.obj"
+"CMakeFiles/ten.dir/wenjianjiami/jiami.c.obj"
 
 # External object files for target ten
 ten_EXTERNAL_OBJECTS =
 
-ten.exe: CMakeFiles/ten.dir/文件加密/jiami.c.obj
+ten.exe: CMakeFiles/ten.dir/wenjianjiami/jiami.c.obj
 ten.exe: CMakeFiles/ten.dir/build.make
 ten.exe: CMakeFiles/ten.dir/linklibs.rsp
 ten.exe: CMakeFiles/ten.dir/objects1.rsp

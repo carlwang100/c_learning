@@ -7,7 +7,7 @@
 
 //实现一个普通的函数
 
-#include <printf.h>
+#include <stdio.h>
 
 
 typedef void (*PtrFunA)();
@@ -51,7 +51,7 @@ void main(){
     printf("%d\n",ADD(add,10,2)); //12
 
 
-    printf("this is %s ,%d","sss",11);// this is sss 11
+    printf("this is %s ,%d\n","sss",11);// this is sss 11
     PtrFunA ptrFunA = FunA;
     usePtrFunA(ptrFunA); //printf("call FunA\n");
 }
