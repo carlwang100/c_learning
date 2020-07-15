@@ -22,6 +22,7 @@ D:/code/c_learning/cmake-build-debug/CMakeFiles/zhizhenshuzu.dir
 D:/code/c_learning/cmake-build-debug/CMakeFiles/mystring.dir
 D:/code/c_learning/cmake-build-debug/CMakeFiles/file.dir
 D:/code/c_learning/cmake-build-debug/CMakeFiles/siqu.dir
+D:/code/c_learning/cmake-build-debug/CMakeFiles/string_own.dir
 D:/code/c_learning/cmake-build-debug/CMakeFiles/pthread.dir
 D:/code/c_learning/cmake-build-debug/CMakeFiles/mutex.dir
 D:/code/c_learning/cmake-build-debug/CMakeFiles/alo_trainig.dir
@@ -30,4 +31,6 @@ D:/code/c_learning/cmake-build-debug/CMakeFiles/matrix.dir
 D:/code/c_learning/cmake-build-debug/CMakeFiles/bit_trainning.dir
 D:/code/c_learning/cmake-build-debug/CMakeFiles/callback.dir
 D:/code/c_learning/cmake-build-debug/CMakeFiles/hanshuzhizhentraining.dir
+D:/code/c_learning/cmake-build-debug/CMakeFiles/string_api.dir
+D:/code/c_learning/cmake-build-debug/CMakeFiles/bst.dir
 D:/code/c_learning/cmake-build-debug/CMakeFiles/edit_cache.dir

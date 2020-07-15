@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/night.dir/自己实现string相关函数.c.obj"
+  "CMakeFiles/night.dir/string_api.c.obj"
   "night.pdb"
   "night.exe"
   "night.exe.manifest"

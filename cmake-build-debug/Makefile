@@ -409,6 +409,19 @@ siqu/fast:
 .PHONY : siqu/fast
 
 #=============================================================================
+# Target rules for targets named string_own
+
+# Build rule for target.
+string_own: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 string_own
+.PHONY : string_own
+
+# fast build rule for target.
+string_own/fast:
+	$(MAKE) -f CMakeFiles\string_own.dir\build.make CMakeFiles/string_own.dir/build
+.PHONY : string_own/fast
+
+#=============================================================================
 # Target rules for targets named pthread
 
 # Build rule for target.
@@ -511,6 +524,59 @@ hanshuzhizhentraining: cmake_check_build_system
 hanshuzhizhentraining/fast:
 	$(MAKE) -f CMakeFiles\hanshuzhizhentraining.dir\build.make CMakeFiles/hanshuzhizhentraining.dir/build
 .PHONY : hanshuzhizhentraining/fast
+
+#=============================================================================
+# Target rules for targets named string_api
+
+# Build rule for target.
+string_api: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 string_api
+.PHONY : string_api
+
+# fast build rule for target.
+string_api/fast:
+	$(MAKE) -f CMakeFiles\string_api.dir\build.make CMakeFiles/string_api.dir/build
+.PHONY : string_api/fast
+
+#=============================================================================
+# Target rules for targets named bst
+
+# Build rule for target.
+bst: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 bst
+.PHONY : bst
+
+# fast build rule for target.
+bst/fast:
+	$(MAKE) -f CMakeFiles\bst.dir\build.make CMakeFiles/bst.dir/build
+.PHONY : bst/fast
+
+alo_trainig/BST.obj: alo_trainig/BST.cpp.obj
+
+.PHONY : alo_trainig/BST.obj
+
+# target to build an object file
+alo_trainig/BST.cpp.obj:
+	$(MAKE) -f CMakeFiles\bst.dir\build.make CMakeFiles/bst.dir/alo_trainig/BST.cpp.obj
+.PHONY : alo_trainig/BST.cpp.obj
+
+alo_trainig/BST.i: alo_trainig/BST.cpp.i
+
+.PHONY : alo_trainig/BST.i
+
+# target to preprocess a source file
+alo_trainig/BST.cpp.i:
+	$(MAKE) -f CMakeFiles\bst.dir\build.make CMakeFiles/bst.dir/alo_trainig/BST.cpp.i
+.PHONY : alo_trainig/BST.cpp.i
+
+alo_trainig/BST.s: alo_trainig/BST.cpp.s
+
+.PHONY : alo_trainig/BST.s
+
+# target to generate assembly for a file
+alo_trainig/BST.cpp.s:
+	$(MAKE) -f CMakeFiles\bst.dir\build.make CMakeFiles/bst.dir/alo_trainig/BST.cpp.s
+.PHONY : alo_trainig/BST.cpp.s
 
 alo_trainig/BitTrainning.obj: alo_trainig/BitTrainning.cpp.obj
 
@@ -646,6 +712,33 @@ alo_trainig/reverse_str.s: alo_trainig/reverse_str.c.s
 alo_trainig/reverse_str.c.s:
 	$(MAKE) -f CMakeFiles\revserse_str.dir\build.make CMakeFiles/revserse_str.dir/alo_trainig/reverse_str.c.s
 .PHONY : alo_trainig/reverse_str.c.s
+
+alo_trainig/string_owner.obj: alo_trainig/string_owner.cpp.obj
+
+.PHONY : alo_trainig/string_owner.obj
+
+# target to build an object file
+alo_trainig/string_owner.cpp.obj:
+	$(MAKE) -f CMakeFiles\string_own.dir\build.make CMakeFiles/string_own.dir/alo_trainig/string_owner.cpp.obj
+.PHONY : alo_trainig/string_owner.cpp.obj
+
+alo_trainig/string_owner.i: alo_trainig/string_owner.cpp.i
+
+.PHONY : alo_trainig/string_owner.i
+
+# target to preprocess a source file
+alo_trainig/string_owner.cpp.i:
+	$(MAKE) -f CMakeFiles\string_own.dir\build.make CMakeFiles/string_own.dir/alo_trainig/string_owner.cpp.i
+.PHONY : alo_trainig/string_owner.cpp.i
+
+alo_trainig/string_owner.s: alo_trainig/string_owner.cpp.s
+
+.PHONY : alo_trainig/string_owner.s
+
+# target to generate assembly for a file
+alo_trainig/string_owner.cpp.s:
+	$(MAKE) -f CMakeFiles\string_own.dir\build.make CMakeFiles/string_own.dir/alo_trainig/string_owner.cpp.s
+.PHONY : alo_trainig/string_owner.cpp.s
 
 dongtaifenpeineicun.obj: dongtaifenpeineicun.c.obj
 
@@ -916,6 +1009,39 @@ siqumoxing/static.s: siqumoxing/static.c.s
 siqumoxing/static.c.s:
 	$(MAKE) -f CMakeFiles\siqu.dir\build.make CMakeFiles/siqu.dir/siqumoxing/static.c.s
 .PHONY : siqumoxing/static.c.s
+
+string_api.obj: string_api.c.obj
+
+.PHONY : string_api.obj
+
+# target to build an object file
+string_api.c.obj:
+	$(MAKE) -f CMakeFiles\c_demo.dir\build.make CMakeFiles/c_demo.dir/string_api.c.obj
+	$(MAKE) -f CMakeFiles\night.dir\build.make CMakeFiles/night.dir/string_api.c.obj
+	$(MAKE) -f CMakeFiles\string_api.dir\build.make CMakeFiles/string_api.dir/string_api.c.obj
+.PHONY : string_api.c.obj
+
+string_api.i: string_api.c.i
+
+.PHONY : string_api.i
+
+# target to preprocess a source file
+string_api.c.i:
+	$(MAKE) -f CMakeFiles\c_demo.dir\build.make CMakeFiles/c_demo.dir/string_api.c.i
+	$(MAKE) -f CMakeFiles\night.dir\build.make CMakeFiles/night.dir/string_api.c.i
+	$(MAKE) -f CMakeFiles\string_api.dir\build.make CMakeFiles/string_api.dir/string_api.c.i
+.PHONY : string_api.c.i
+
+string_api.s: string_api.c.s
+
+.PHONY : string_api.s
+
+# target to generate assembly for a file
+string_api.c.s:
+	$(MAKE) -f CMakeFiles\c_demo.dir\build.make CMakeFiles/c_demo.dir/string_api.c.s
+	$(MAKE) -f CMakeFiles\night.dir\build.make CMakeFiles/night.dir/string_api.c.s
+	$(MAKE) -f CMakeFiles\string_api.dir\build.make CMakeFiles/string_api.dir/string_api.c.s
+.PHONY : string_api.c.s
 
 structlearning.obj: structlearning.c.obj
 
@@ -1325,36 +1451,6 @@ zifucuan/mystring.c.s:
 	$(MAKE) -f CMakeFiles\five.dir\build.make CMakeFiles/five.dir/模拟实现C语言中的字符串函数.c.s
 .PHONY : 模拟实现C语言中的字符串函数.c.s
 
-自己实现string相关函数.obj: 自己实现string相关函数.c.obj
-
-.PHONY : 自己实现string相关函数.obj
-
-# target to build an object file
-自己实现string相关函数.c.obj:
-	$(MAKE) -f CMakeFiles\c_demo.dir\build.make CMakeFiles/c_demo.dir/自己实现string相关函数.c.obj
-	$(MAKE) -f CMakeFiles\night.dir\build.make CMakeFiles/night.dir/自己实现string相关函数.c.obj
-.PHONY : 自己实现string相关函数.c.obj
-
-自己实现string相关函数.i: 自己实现string相关函数.c.i
-
-.PHONY : 自己实现string相关函数.i
-
-# target to preprocess a source file
-自己实现string相关函数.c.i:
-	$(MAKE) -f CMakeFiles\c_demo.dir\build.make CMakeFiles/c_demo.dir/自己实现string相关函数.c.i
-	$(MAKE) -f CMakeFiles\night.dir\build.make CMakeFiles/night.dir/自己实现string相关函数.c.i
-.PHONY : 自己实现string相关函数.c.i
-
-自己实现string相关函数.s: 自己实现string相关函数.c.s
-
-.PHONY : 自己实现string相关函数.s
-
-# target to generate assembly for a file
-自己实现string相关函数.c.s:
-	$(MAKE) -f CMakeFiles\c_demo.dir\build.make CMakeFiles/c_demo.dir/自己实现string相关函数.c.s
-	$(MAKE) -f CMakeFiles\night.dir\build.make CMakeFiles/night.dir/自己实现string相关函数.c.s
-.PHONY : 自己实现string相关函数.c.s
-
 间接赋值.obj: 间接赋值.c.obj
 
 .PHONY : 间接赋值.obj
@@ -1412,6 +1508,7 @@ help:
 	@echo ... mystring
 	@echo ... file
 	@echo ... siqu
+	@echo ... string_own
 	@echo ... pthread
 	@echo ... mutex
 	@echo ... alo_trainig
@@ -1420,7 +1517,12 @@ help:
 	@echo ... bit_trainning
 	@echo ... callback
 	@echo ... hanshuzhizhentraining
+	@echo ... string_api
+	@echo ... bst
 	@echo ... edit_cache
+	@echo ... alo_trainig/BST.obj
+	@echo ... alo_trainig/BST.i
+	@echo ... alo_trainig/BST.s
 	@echo ... alo_trainig/BitTrainning.obj
 	@echo ... alo_trainig/BitTrainning.i
 	@echo ... alo_trainig/BitTrainning.s
@@ -1436,6 +1538,9 @@ help:
 	@echo ... alo_trainig/reverse_str.obj
 	@echo ... alo_trainig/reverse_str.i
 	@echo ... alo_trainig/reverse_str.s
+	@echo ... alo_trainig/string_owner.obj
+	@echo ... alo_trainig/string_owner.i
+	@echo ... alo_trainig/string_owner.s
 	@echo ... dongtaifenpeineicun.obj
 	@echo ... dongtaifenpeineicun.i
 	@echo ... dongtaifenpeineicun.s
@@ -1466,6 +1571,9 @@ help:
 	@echo ... siqumoxing/static.obj
 	@echo ... siqumoxing/static.i
 	@echo ... siqumoxing/static.s
+	@echo ... string_api.obj
+	@echo ... string_api.i
+	@echo ... string_api.s
 	@echo ... structlearning.obj
 	@echo ... structlearning.i
 	@echo ... structlearning.s
@@ -1511,9 +1619,6 @@ help:
 	@echo ... 模拟实现C语言中的字符串函数.obj
 	@echo ... 模拟实现C语言中的字符串函数.i
 	@echo ... 模拟实现C语言中的字符串函数.s
-	@echo ... 自己实现string相关函数.obj
-	@echo ... 自己实现string相关函数.i
-	@echo ... 自己实现string相关函数.s
 	@echo ... 间接赋值.obj
 	@echo ... 间接赋值.i
 	@echo ... 间接赋值.s

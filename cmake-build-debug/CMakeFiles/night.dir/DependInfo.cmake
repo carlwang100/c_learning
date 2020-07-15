@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/code/c_learning/自己实现string相关函数.c" "D:/code/c_learning/cmake-build-debug/CMakeFiles/night.dir/自己实现string相关函数.c.obj"
+  "D:/code/c_learning/string_api.c" "D:/code/c_learning/cmake-build-debug/CMakeFiles/night.dir/string_api.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

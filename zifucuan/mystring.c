@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-//è·å–å­—ç¬¦ä¸²çš„ä¿¡æ¯
+//»ñÈ¡×Ö·û´®µÄĞÅÏ¢
 int mystrlen(char* str){
     int count = 0;
     while (*str!='\0'){
@@ -20,13 +20,13 @@ int cmp(char* str, char* str2){
 }
 
 
-void main1(){
+void main(){
 
     char str[] = {'s','s','s','\0'};
 ////    printf("%s\n",str);
 ////    str[1] = 'a';
 ////    printf("%s\n",str);
-    char* str1 = "sss"; //å¸¸é‡ ä¸èƒ½ä¿®æ”¹
+    char* str1 = "sss"; //³£Á¿ ²»ÄÜĞŞ¸Ä
 //    //printf("%s\n",str);
     str1 = "aaa";
 //    printf("%s\n",str1);
@@ -34,19 +34,19 @@ void main1(){
     const int num = 100;
     int* p = &num;
     *p = 300;
-    printf("num=%d",num);
+    printf("num=%d",num); //300
 
 
-//    printf("name çš„ é•¿åº¦æ˜¯ %d",strlen(str1));
-    printf("name çš„ é•¿åº¦æ˜¯ %d",strlen(str));
+//    printf("name µÄ ³¤¶ÈÊÇ %d",strlen(str1));
+    printf("name µÄ ³¤¶ÈÊÇ %d",strlen(str)); //3
 
-    //char str[] æ•°æ®å­˜æ”¾åœ¨æ ˆä¸Šé¢
-    //char* str å­—ç¬¦ä¸²å­˜åœ¨å…¨å±€é™æ€åªè¯»åŒºåŸŸ
+    //char str[] Êı¾İ´æ·ÅÔÚÕ»ÉÏÃæ
+    //char* str ×Ö·û´®´æÔÚÈ«¾Ö¾²Ì¬Ö»¶ÁÇøÓò
 
-    //å¦‚ä½•å®ç°è®¡ç®—å­—ç¬¦ä¸²çš„è®¡æ•°ï¼Ÿ
+    //ÈçºÎÊµÏÖ¼ÆËã×Ö·û´®µÄ¼ÆÊı£¿
 
 
-    printf("å­—ç¬¦ä¸²æ¯”è¾ƒ%d",cmp(str,str1));
+    printf("×Ö·û´®±È½Ï%d",cmp(str,str1));
 
 }
 //
@@ -60,7 +60,7 @@ void main1(){
 //}
 
 
-void main(){
+void main1(){
     char a[10] = "wangchao";
     char* srt = "wangchao";
 
@@ -70,11 +70,10 @@ void main(){
     a[2] = 'A';
     printf("%s\n", a);
 
-//    a = "hello";
 
     srt = "hello";
     printf("%s\n", srt);
 
-//    srt[0] = 'a'; //invalid å› ä¸ºå­—ç¬¦ä¸²å­˜æ”¾åœ¨codeåŒºï¼Œæ˜¯åªè¯»çš„ only-read
+//    srt[0] = 'a'; //invalid ÒòÎª×Ö·û´®´æ·ÅÔÚcodeÇø£¬ÊÇÖ»¶ÁµÄ only-read
 
 }

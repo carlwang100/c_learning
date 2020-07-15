@@ -56,27 +56,27 @@ include CMakeFiles/night.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/night.dir/flags.make
 
-CMakeFiles/night.dir/自己实现string相关函数.c.obj: CMakeFiles/night.dir/flags.make
-CMakeFiles/night.dir/自己实现string相关函数.c.obj: ../自己实现string相关函数.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/night.dir/自己实现string相关函数.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\night.dir\自己实现string相关函数.c.obj   -c D:\code\c_learning\自己实现string相关函数.c
+CMakeFiles/night.dir/string_api.c.obj: CMakeFiles/night.dir/flags.make
+CMakeFiles/night.dir/string_api.c.obj: ../string_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/night.dir/string_api.c.obj"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\night.dir\string_api.c.obj   -c D:\code\c_learning\string_api.c
 
-CMakeFiles/night.dir/自己实现string相关函数.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/night.dir/自己实现string相关函数.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\自己实现string相关函数.c > CMakeFiles\night.dir\自己实现string相关函数.c.i
+CMakeFiles/night.dir/string_api.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/night.dir/string_api.c.i"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\string_api.c > CMakeFiles\night.dir\string_api.c.i
 
-CMakeFiles/night.dir/自己实现string相关函数.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/night.dir/自己实现string相关函数.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\自己实现string相关函数.c -o CMakeFiles\night.dir\自己实现string相关函数.c.s
+CMakeFiles/night.dir/string_api.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/night.dir/string_api.c.s"
+	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\string_api.c -o CMakeFiles\night.dir\string_api.c.s
 
 # Object files for target night
 night_OBJECTS = \
-"CMakeFiles/night.dir/自己实现string相关函数.c.obj"
+"CMakeFiles/night.dir/string_api.c.obj"
 
 # External object files for target night
 night_EXTERNAL_OBJECTS =
 
-night.exe: CMakeFiles/night.dir/自己实现string相关函数.c.obj
+night.exe: CMakeFiles/night.dir/string_api.c.obj
 night.exe: CMakeFiles/night.dir/build.make
 night.exe: CMakeFiles/night.dir/linklibs.rsp
 night.exe: CMakeFiles/night.dir/objects1.rsp

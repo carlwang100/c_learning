@@ -23,7 +23,7 @@ int main()
 {
     char* s1 = "jesson";
     int ret = mystrlen(s1);
-    printf("瀛楃涓查暱搴︿负%d", ret);
+    printf("字符串长度为%d\n", ret);
     teststrcat();
     testfindStr();
     getchar();
@@ -32,7 +32,7 @@ int main()
 
 void testfindStr() {
     const char* s1 = "acdefgh";
-    const char* s2 = "ab";
+    const char* s2 = "cd";
     char* ch = mystrstr(s1, s2);
     if (ch != NULL)
     {
@@ -45,7 +45,7 @@ void testfindStr() {
 }
 
 void teststrcat() {
-    char s1[20] = "abcde";
+    char s1[8] = "abcde";
     const char* s2 = "fghil";
     printf("%s\n", mystrcat(s1, s2));
 }
@@ -67,12 +67,12 @@ char* mystrcat(char* dest, const char* str)
     assert(dest);
     assert(str);
     char *ret = dest;
-    //鏌ユ壘瀛楃涓茬殑鏈熬
+    //查找字符串的末尾
     while (*dest)
     {
         dest++;
     }
-    //杩炴帴涓婂幓
+    //连接上去
     while (*dest++ = *str++)
     {
         printf("");
