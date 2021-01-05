@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/tmp/tmp.7qJAXxAQ25/模拟实现C语言中的字符串函数.c" "/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles/five.dir/模拟实现C语言中的字符串函数.c.o"
+  "/home/code/模拟实现C语言中的字符串函数.c" "/home/code/cmake-build-debug-/CMakeFiles/five.dir/模拟实现C语言中的字符串函数.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

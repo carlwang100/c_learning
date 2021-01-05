@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/tmp/tmp.7qJAXxAQ25/peizhiwenjian/cfgfile.c" "/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.o"
-  "/tmp/tmp.7qJAXxAQ25/peizhiwenjian/接口测试.c" "/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.o"
+  "/home/code/peizhiwenjian/cfgfile.c" "/home/code/cmake-build-debug-/CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.o"
+  "/home/code/peizhiwenjian/接口测试.c" "/home/code/cmake-build-debug-/CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

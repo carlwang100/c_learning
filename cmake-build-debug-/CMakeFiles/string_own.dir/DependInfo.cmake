@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/tmp.7qJAXxAQ25/alo_trainig/string_owner.cpp" "/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles/string_own.dir/alo_trainig/string_owner.cpp.o"
+  "/home/code/alo_trainig/string_owner.cpp" "/home/code/cmake-build-debug-/CMakeFiles/string_own.dir/alo_trainig/string_owner.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

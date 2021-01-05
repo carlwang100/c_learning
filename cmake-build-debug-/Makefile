@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.7qJAXxAQ25
+CMAKE_SOURCE_DIR = /home/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.7qJAXxAQ25/cmake-build-debug-
+CMAKE_BINARY_DIR = /home/code/cmake-build-debug-
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles /tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/code/cmake-build-debug-/CMakeFiles /home/code/cmake-build-debug-/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/code/cmake-build-debug-/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named filetest
+
+# Build rule for target.
+filetest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filetest
+.PHONY : filetest
+
+# fast build rule for target.
+filetest/fast:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/build
+.PHONY : filetest/fast
 
 #=============================================================================
 # Target rules for targets named remotehost
@@ -174,6 +187,19 @@ zhizhenshuzu: cmake_check_build_system
 zhizhenshuzu/fast:
 	$(MAKE) -f CMakeFiles/zhizhenshuzu.dir/build.make CMakeFiles/zhizhenshuzu.dir/build
 .PHONY : zhizhenshuzu/fast
+
+#=============================================================================
+# Target rules for targets named elf
+
+# Build rule for target.
+elf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 elf
+.PHONY : elf
+
+# fast build rule for target.
+elf/fast:
+	$(MAKE) -f CMakeFiles/elf.dir/build.make CMakeFiles/elf.dir/build
+.PHONY : elf/fast
 
 #=============================================================================
 # Target rules for targets named bit_trainning
@@ -473,6 +499,19 @@ test: cmake_check_build_system
 test/fast:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named mmap
+
+# Build rule for target.
+mmap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mmap
+.PHONY : mmap
+
+# fast build rule for target.
+mmap/fast:
+	$(MAKE) -f CMakeFiles/mmap.dir/build.make CMakeFiles/mmap.dir/build
+.PHONY : mmap/fast
 
 #=============================================================================
 # Target rules for targets named four
@@ -781,6 +820,33 @@ dongtaifenpeineicun.c.s:
 	$(MAKE) -f CMakeFiles/mem.dir/build.make CMakeFiles/mem.dir/dongtaifenpeineicun.c.s
 .PHONY : dongtaifenpeineicun.c.s
 
+elf/ELF.o: elf/ELF.cpp.o
+
+.PHONY : elf/ELF.o
+
+# target to build an object file
+elf/ELF.cpp.o:
+	$(MAKE) -f CMakeFiles/elf.dir/build.make CMakeFiles/elf.dir/elf/ELF.cpp.o
+.PHONY : elf/ELF.cpp.o
+
+elf/ELF.i: elf/ELF.cpp.i
+
+.PHONY : elf/ELF.i
+
+# target to preprocess a source file
+elf/ELF.cpp.i:
+	$(MAKE) -f CMakeFiles/elf.dir/build.make CMakeFiles/elf.dir/elf/ELF.cpp.i
+.PHONY : elf/ELF.cpp.i
+
+elf/ELF.s: elf/ELF.cpp.s
+
+.PHONY : elf/ELF.s
+
+# target to generate assembly for a file
+elf/ELF.cpp.s:
+	$(MAKE) -f CMakeFiles/elf.dir/build.make CMakeFiles/elf.dir/elf/ELF.cpp.s
+.PHONY : elf/ELF.cpp.s
+
 first.o: first.c.o
 
 .PHONY : first.o
@@ -888,6 +954,60 @@ maopao.s: maopao.cpp.s
 maopao.cpp.s:
 	$(MAKE) -f CMakeFiles/second.dir/build.make CMakeFiles/second.dir/maopao.cpp.s
 .PHONY : maopao.cpp.s
+
+mmap/filetest.o: mmap/filetest.c.o
+
+.PHONY : mmap/filetest.o
+
+# target to build an object file
+mmap/filetest.c.o:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/mmap/filetest.c.o
+.PHONY : mmap/filetest.c.o
+
+mmap/filetest.i: mmap/filetest.c.i
+
+.PHONY : mmap/filetest.i
+
+# target to preprocess a source file
+mmap/filetest.c.i:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/mmap/filetest.c.i
+.PHONY : mmap/filetest.c.i
+
+mmap/filetest.s: mmap/filetest.c.s
+
+.PHONY : mmap/filetest.s
+
+# target to generate assembly for a file
+mmap/filetest.c.s:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/mmap/filetest.c.s
+.PHONY : mmap/filetest.c.s
+
+mmap/mmaptest.o: mmap/mmaptest.c.o
+
+.PHONY : mmap/mmaptest.o
+
+# target to build an object file
+mmap/mmaptest.c.o:
+	$(MAKE) -f CMakeFiles/mmap.dir/build.make CMakeFiles/mmap.dir/mmap/mmaptest.c.o
+.PHONY : mmap/mmaptest.c.o
+
+mmap/mmaptest.i: mmap/mmaptest.c.i
+
+.PHONY : mmap/mmaptest.i
+
+# target to preprocess a source file
+mmap/mmaptest.c.i:
+	$(MAKE) -f CMakeFiles/mmap.dir/build.make CMakeFiles/mmap.dir/mmap/mmaptest.c.i
+.PHONY : mmap/mmaptest.c.i
+
+mmap/mmaptest.s: mmap/mmaptest.c.s
+
+.PHONY : mmap/mmaptest.s
+
+# target to generate assembly for a file
+mmap/mmaptest.c.s:
+	$(MAKE) -f CMakeFiles/mmap.dir/build.make CMakeFiles/mmap.dir/mmap/mmaptest.c.s
+.PHONY : mmap/mmaptest.c.s
 
 neicunxielou/leakmem.o: neicunxielou/leakmem.c.o
 
@@ -1526,11 +1646,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... filetest"
 	@echo "... remotehost"
 	@echo "... bst"
 	@echo "... string_own"
 	@echo "... string_api"
 	@echo "... zhizhenshuzu"
+	@echo "... elf"
 	@echo "... bit_trainning"
 	@echo "... matrix"
 	@echo "... mystring"
@@ -1555,6 +1677,7 @@ help:
 	@echo "... mutex"
 	@echo "... pointer"
 	@echo "... test"
+	@echo "... mmap"
 	@echo "... four"
 	@echo "... struct"
 	@echo "... mem"
@@ -1586,6 +1709,9 @@ help:
 	@echo "... dongtaifenpeineicun.o"
 	@echo "... dongtaifenpeineicun.i"
 	@echo "... dongtaifenpeineicun.s"
+	@echo "... elf/ELF.o"
+	@echo "... elf/ELF.i"
+	@echo "... elf/ELF.s"
 	@echo "... first.o"
 	@echo "... first.i"
 	@echo "... first.s"
@@ -1598,6 +1724,12 @@ help:
 	@echo "... maopao.o"
 	@echo "... maopao.i"
 	@echo "... maopao.s"
+	@echo "... mmap/filetest.o"
+	@echo "... mmap/filetest.i"
+	@echo "... mmap/filetest.s"
+	@echo "... mmap/mmaptest.o"
+	@echo "... mmap/mmaptest.i"
+	@echo "... mmap/mmaptest.s"
 	@echo "... neicunxielou/leakmem.o"
 	@echo "... neicunxielou/leakmem.i"
 	@echo "... neicunxielou/leakmem.s"

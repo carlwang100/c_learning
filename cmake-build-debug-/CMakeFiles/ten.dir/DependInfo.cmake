@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/tmp/tmp.7qJAXxAQ25/wenjianjiami/jiami.c" "/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles/ten.dir/wenjianjiami/jiami.c.o"
+  "/home/code/wenjianjiami/jiami.c" "/home/code/cmake-build-debug-/CMakeFiles/ten.dir/wenjianjiami/jiami.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

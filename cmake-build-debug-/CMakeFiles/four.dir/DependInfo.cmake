@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/tmp/tmp.7qJAXxAQ25/间接赋值.c" "/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles/four.dir/间接赋值.c.o"
+  "/home/code/间接赋值.c" "/home/code/cmake-build-debug-/CMakeFiles/four.dir/间接赋值.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

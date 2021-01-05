@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/tmp/tmp.7qJAXxAQ25/二级指针操作文件.c" "/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles/seven.dir/二级指针操作文件.c.o"
+  "/home/code/二级指针操作文件.c" "/home/code/cmake-build-debug-/CMakeFiles/seven.dir/二级指针操作文件.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/tmp/tmp.7qJAXxAQ25/alo_trainig/reverse_str.c" "/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles/revserse_str.dir/alo_trainig/reverse_str.c.o"
+  "/home/code/alo_trainig/reverse_str.c" "/home/code/cmake-build-debug-/CMakeFiles/revserse_str.dir/alo_trainig/reverse_str.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

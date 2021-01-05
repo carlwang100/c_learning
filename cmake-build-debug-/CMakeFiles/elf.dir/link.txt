@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/elf.dir/elf/ELF.cpp.o  -o elf 

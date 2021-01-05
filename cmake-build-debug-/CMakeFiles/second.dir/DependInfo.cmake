@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/tmp.7qJAXxAQ25/maopao.cpp" "/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles/second.dir/maopao.cpp.o"
+  "/home/code/maopao.cpp" "/home/code/cmake-build-debug-/CMakeFiles/second.dir/maopao.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

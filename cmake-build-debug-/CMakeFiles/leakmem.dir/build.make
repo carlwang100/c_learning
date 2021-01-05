@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.7qJAXxAQ25
+CMAKE_SOURCE_DIR = /home/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.7qJAXxAQ25/cmake-build-debug-
+CMAKE_BINARY_DIR = /home/code/cmake-build-debug-
 
 # Include any dependencies generated for this target.
 include CMakeFiles/leakmem.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/leakmem.dir/flags.make
 
 CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.o: CMakeFiles/leakmem.dir/flags.make
 CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.o: ../neicunxielou/leakmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.o   -c /tmp/tmp.7qJAXxAQ25/neicunxielou/leakmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.o   -c /home/code/neicunxielou/leakmem.c
 
 CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.7qJAXxAQ25/neicunxielou/leakmem.c > CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/code/neicunxielou/leakmem.c > CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.i
 
 CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.7qJAXxAQ25/neicunxielou/leakmem.c -o CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/code/neicunxielou/leakmem.c -o CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.s
 
 CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.o: CMakeFiles/leakmem.dir/flags.make
 CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.o: ../neicunxielou/leakmem_test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.o   -c /tmp/tmp.7qJAXxAQ25/neicunxielou/leakmem_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.o   -c /home/code/neicunxielou/leakmem_test.c
 
 CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.7qJAXxAQ25/neicunxielou/leakmem_test.c > CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/code/neicunxielou/leakmem_test.c > CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.i
 
 CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.7qJAXxAQ25/neicunxielou/leakmem_test.c -o CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/code/neicunxielou/leakmem_test.c -o CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.s
 
 # Object files for target leakmem
 leakmem_OBJECTS = \
@@ -95,7 +95,7 @@ leakmem: CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.o
 leakmem: CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.o
 leakmem: CMakeFiles/leakmem.dir/build.make
 leakmem: CMakeFiles/leakmem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable leakmem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable leakmem"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/leakmem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/leakmem.dir/clean:
 .PHONY : CMakeFiles/leakmem.dir/clean
 
 CMakeFiles/leakmem.dir/depend:
-	cd /tmp/tmp.7qJAXxAQ25/cmake-build-debug- && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.7qJAXxAQ25 /tmp/tmp.7qJAXxAQ25 /tmp/tmp.7qJAXxAQ25/cmake-build-debug- /tmp/tmp.7qJAXxAQ25/cmake-build-debug- /tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles/leakmem.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/code/cmake-build-debug- && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/code /home/code /home/code/cmake-build-debug- /home/code/cmake-build-debug- /home/code/cmake-build-debug-/CMakeFiles/leakmem.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/leakmem.dir/depend
 

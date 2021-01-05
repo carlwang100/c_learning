@@ -5,7 +5,7 @@
       <paths name="腾讯云 (4e340467-a446-4c8e-9585-88f3002d3615)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/tmp.7qJAXxAQ25" local="$PROJECT_DIR$" />
+            <mapping deploy="/home/code" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-" />

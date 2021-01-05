@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.7qJAXxAQ25
+CMAKE_SOURCE_DIR = /home/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.7qJAXxAQ25/cmake-build-debug-
+CMAKE_BINARY_DIR = /home/code/cmake-build-debug-
 
 # Include any dependencies generated for this target.
 include CMakeFiles/eleven.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/eleven.dir/flags.make
 
 CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.o: CMakeFiles/eleven.dir/flags.make
 CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.o: ../peizhiwenjian/接口测试.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.o   -c /tmp/tmp.7qJAXxAQ25/peizhiwenjian/接口测试.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.o   -c /home/code/peizhiwenjian/接口测试.c
 
 CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.7qJAXxAQ25/peizhiwenjian/接口测试.c > CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/code/peizhiwenjian/接口测试.c > CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.i
 
 CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.7qJAXxAQ25/peizhiwenjian/接口测试.c -o CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/code/peizhiwenjian/接口测试.c -o CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.s
 
 CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.o: CMakeFiles/eleven.dir/flags.make
 CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.o: ../peizhiwenjian/cfgfile.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.o   -c /tmp/tmp.7qJAXxAQ25/peizhiwenjian/cfgfile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.o   -c /home/code/peizhiwenjian/cfgfile.c
 
 CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.7qJAXxAQ25/peizhiwenjian/cfgfile.c > CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/code/peizhiwenjian/cfgfile.c > CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.i
 
 CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.7qJAXxAQ25/peizhiwenjian/cfgfile.c -o CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/code/peizhiwenjian/cfgfile.c -o CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.s
 
 # Object files for target eleven
 eleven_OBJECTS = \
@@ -95,7 +95,7 @@ eleven: CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.o
 eleven: CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.o
 eleven: CMakeFiles/eleven.dir/build.make
 eleven: CMakeFiles/eleven.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable eleven"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable eleven"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eleven.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/eleven.dir/clean:
 .PHONY : CMakeFiles/eleven.dir/clean
 
 CMakeFiles/eleven.dir/depend:
-	cd /tmp/tmp.7qJAXxAQ25/cmake-build-debug- && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.7qJAXxAQ25 /tmp/tmp.7qJAXxAQ25 /tmp/tmp.7qJAXxAQ25/cmake-build-debug- /tmp/tmp.7qJAXxAQ25/cmake-build-debug- /tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles/eleven.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/code/cmake-build-debug- && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/code /home/code /home/code/cmake-build-debug- /home/code/cmake-build-debug- /home/code/cmake-build-debug-/CMakeFiles/eleven.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/eleven.dir/depend
 

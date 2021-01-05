@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/tmp.7qJAXxAQ25/alo_trainig/BitTrainning.cpp" "/tmp/tmp.7qJAXxAQ25/cmake-build-debug-/CMakeFiles/bit_trainning.dir/alo_trainig/BitTrainning.cpp.o"
+  "/home/code/alo_trainig/BitTrainning.cpp" "/home/code/cmake-build-debug-/CMakeFiles/bit_trainning.dir/alo_trainig/BitTrainning.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

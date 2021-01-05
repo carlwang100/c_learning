@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/mmap.dir/mmap/mmaptest.c.o  -o mmap 
