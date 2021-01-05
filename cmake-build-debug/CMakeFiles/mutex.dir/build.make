@@ -59,15 +59,15 @@ include CMakeFiles/mutex.dir/flags.make
 CMakeFiles/mutex.dir/thread/mutex.cpp.obj: CMakeFiles/mutex.dir/flags.make
 CMakeFiles/mutex.dir/thread/mutex.cpp.obj: ../thread/mutex.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mutex.dir/thread/mutex.cpp.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mutex.dir\thread\mutex.cpp.obj -c D:\code\c_learning\thread\mutex.cpp
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mutex.dir\thread\mutex.cpp.obj -c D:\code\c_learning\thread\mutex.cpp
 
 CMakeFiles/mutex.dir/thread/mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mutex.dir/thread/mutex.cpp.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\c_learning\thread\mutex.cpp > CMakeFiles\mutex.dir\thread\mutex.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\c_learning\thread\mutex.cpp > CMakeFiles\mutex.dir\thread\mutex.cpp.i
 
 CMakeFiles/mutex.dir/thread/mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mutex.dir/thread/mutex.cpp.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\c_learning\thread\mutex.cpp -o CMakeFiles\mutex.dir\thread\mutex.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\c_learning\thread\mutex.cpp -o CMakeFiles\mutex.dir\thread\mutex.cpp.s
 
 # Object files for target mutex
 mutex_OBJECTS = \

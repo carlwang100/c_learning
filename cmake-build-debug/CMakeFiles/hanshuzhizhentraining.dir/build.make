@@ -59,15 +59,15 @@ include CMakeFiles/hanshuzhizhentraining.dir/flags.make
 CMakeFiles/hanshuzhizhentraining.dir/alo_trainig/hanshuzhizhen.c.obj: CMakeFiles/hanshuzhizhentraining.dir/flags.make
 CMakeFiles/hanshuzhizhentraining.dir/alo_trainig/hanshuzhizhen.c.obj: ../alo_trainig/hanshuzhizhen.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hanshuzhizhentraining.dir/alo_trainig/hanshuzhizhen.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\hanshuzhizhentraining.dir\alo_trainig\hanshuzhizhen.c.obj   -c D:\code\c_learning\alo_trainig\hanshuzhizhen.c
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\hanshuzhizhentraining.dir\alo_trainig\hanshuzhizhen.c.obj   -c D:\code\c_learning\alo_trainig\hanshuzhizhen.c
 
 CMakeFiles/hanshuzhizhentraining.dir/alo_trainig/hanshuzhizhen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hanshuzhizhentraining.dir/alo_trainig/hanshuzhizhen.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\alo_trainig\hanshuzhizhen.c > CMakeFiles\hanshuzhizhentraining.dir\alo_trainig\hanshuzhizhen.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\alo_trainig\hanshuzhizhen.c > CMakeFiles\hanshuzhizhentraining.dir\alo_trainig\hanshuzhizhen.c.i
 
 CMakeFiles/hanshuzhizhentraining.dir/alo_trainig/hanshuzhizhen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hanshuzhizhentraining.dir/alo_trainig/hanshuzhizhen.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\alo_trainig\hanshuzhizhen.c -o CMakeFiles\hanshuzhizhentraining.dir\alo_trainig\hanshuzhizhen.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\alo_trainig\hanshuzhizhen.c -o CMakeFiles\hanshuzhizhentraining.dir\alo_trainig\hanshuzhizhen.c.s
 
 # Object files for target hanshuzhizhentraining
 hanshuzhizhentraining_OBJECTS = \

@@ -59,15 +59,15 @@ include CMakeFiles/alo_trainig.dir/flags.make
 CMakeFiles/alo_trainig.dir/alo_trainig/LinkedList.cpp.obj: CMakeFiles/alo_trainig.dir/flags.make
 CMakeFiles/alo_trainig.dir/alo_trainig/LinkedList.cpp.obj: ../alo_trainig/LinkedList.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/alo_trainig.dir/alo_trainig/LinkedList.cpp.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\alo_trainig.dir\alo_trainig\LinkedList.cpp.obj -c D:\code\c_learning\alo_trainig\LinkedList.cpp
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\alo_trainig.dir\alo_trainig\LinkedList.cpp.obj -c D:\code\c_learning\alo_trainig\LinkedList.cpp
 
 CMakeFiles/alo_trainig.dir/alo_trainig/LinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/alo_trainig.dir/alo_trainig/LinkedList.cpp.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\c_learning\alo_trainig\LinkedList.cpp > CMakeFiles\alo_trainig.dir\alo_trainig\LinkedList.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\c_learning\alo_trainig\LinkedList.cpp > CMakeFiles\alo_trainig.dir\alo_trainig\LinkedList.cpp.i
 
 CMakeFiles/alo_trainig.dir/alo_trainig/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/alo_trainig.dir/alo_trainig/LinkedList.cpp.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\c_learning\alo_trainig\LinkedList.cpp -o CMakeFiles\alo_trainig.dir\alo_trainig\LinkedList.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\c_learning\alo_trainig\LinkedList.cpp -o CMakeFiles\alo_trainig.dir\alo_trainig\LinkedList.cpp.s
 
 # Object files for target alo_trainig
 alo_trainig_OBJECTS = \

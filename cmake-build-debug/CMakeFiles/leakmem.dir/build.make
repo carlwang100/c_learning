@@ -59,28 +59,28 @@ include CMakeFiles/leakmem.dir/flags.make
 CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.obj: CMakeFiles/leakmem.dir/flags.make
 CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.obj: ../neicunxielou/leakmem.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leakmem.dir\neicunxielou\leakmem.c.obj   -c D:\code\c_learning\neicunxielou\leakmem.c
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leakmem.dir\neicunxielou\leakmem.c.obj   -c D:\code\c_learning\neicunxielou\leakmem.c
 
 CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\neicunxielou\leakmem.c > CMakeFiles\leakmem.dir\neicunxielou\leakmem.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\neicunxielou\leakmem.c > CMakeFiles\leakmem.dir\neicunxielou\leakmem.c.i
 
 CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\neicunxielou\leakmem.c -o CMakeFiles\leakmem.dir\neicunxielou\leakmem.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\neicunxielou\leakmem.c -o CMakeFiles\leakmem.dir\neicunxielou\leakmem.c.s
 
 CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.obj: CMakeFiles/leakmem.dir/flags.make
 CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.obj: ../neicunxielou/leakmem_test.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leakmem.dir\neicunxielou\leakmem_test.c.obj   -c D:\code\c_learning\neicunxielou\leakmem_test.c
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leakmem.dir\neicunxielou\leakmem_test.c.obj   -c D:\code\c_learning\neicunxielou\leakmem_test.c
 
 CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\neicunxielou\leakmem_test.c > CMakeFiles\leakmem.dir\neicunxielou\leakmem_test.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\neicunxielou\leakmem_test.c > CMakeFiles\leakmem.dir\neicunxielou\leakmem_test.c.i
 
 CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\neicunxielou\leakmem_test.c -o CMakeFiles\leakmem.dir\neicunxielou\leakmem_test.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\neicunxielou\leakmem_test.c -o CMakeFiles\leakmem.dir\neicunxielou\leakmem_test.c.s
 
 # Object files for target leakmem
 leakmem_OBJECTS = \

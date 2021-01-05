@@ -1,3 +1,0 @@
-"D:\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\wangchao.dir/objects.a
-D:\BaiduNetdiskDownload\mingw64\bin\ar.exe cr CMakeFiles\wangchao.dir/objects.a @CMakeFiles\wangchao.dir\objects1.rsp
-D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\wangchao.dir/objects.a -Wl,--no-whole-archive  -o wangchao.exe -Wl,--out-implib,libwangchao.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\wangchao.dir\linklibs.rsp

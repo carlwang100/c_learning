@@ -59,15 +59,15 @@ include CMakeFiles/matrix.dir/flags.make
 CMakeFiles/matrix.dir/alo_trainig/matrix.cpp.obj: CMakeFiles/matrix.dir/flags.make
 CMakeFiles/matrix.dir/alo_trainig/matrix.cpp.obj: ../alo_trainig/matrix.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/matrix.dir/alo_trainig/matrix.cpp.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\matrix.dir\alo_trainig\matrix.cpp.obj -c D:\code\c_learning\alo_trainig\matrix.cpp
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\matrix.dir\alo_trainig\matrix.cpp.obj -c D:\code\c_learning\alo_trainig\matrix.cpp
 
 CMakeFiles/matrix.dir/alo_trainig/matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/matrix.dir/alo_trainig/matrix.cpp.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\c_learning\alo_trainig\matrix.cpp > CMakeFiles\matrix.dir\alo_trainig\matrix.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\c_learning\alo_trainig\matrix.cpp > CMakeFiles\matrix.dir\alo_trainig\matrix.cpp.i
 
 CMakeFiles/matrix.dir/alo_trainig/matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/matrix.dir/alo_trainig/matrix.cpp.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\c_learning\alo_trainig\matrix.cpp -o CMakeFiles\matrix.dir\alo_trainig\matrix.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\c_learning\alo_trainig\matrix.cpp -o CMakeFiles\matrix.dir\alo_trainig\matrix.cpp.s
 
 # Object files for target matrix
 matrix_OBJECTS = \

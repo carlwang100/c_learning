@@ -30,7 +30,7 @@
 #        自己实现string相关函数.c
 #        间接赋值.c)
 cmake_minimum_required(VERSION 3.13)
-project(c_demo C CXX)
+project(c_learning)
 
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_CXX_STANDARD 11)
@@ -69,3 +69,4 @@ add_executable(zhizhenshuzu zhizhenshuzu.c)
 add_executable(string_api string_api.c)
 add_executable(string_own alo_trainig/string_owner.cpp)
 add_executable(bst alo_trainig/BST.cpp)
+add_executable(remotehost remotehost.cpp)

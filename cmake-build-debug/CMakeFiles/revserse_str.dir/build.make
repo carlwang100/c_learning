@@ -59,15 +59,15 @@ include CMakeFiles/revserse_str.dir/flags.make
 CMakeFiles/revserse_str.dir/alo_trainig/reverse_str.c.obj: CMakeFiles/revserse_str.dir/flags.make
 CMakeFiles/revserse_str.dir/alo_trainig/reverse_str.c.obj: ../alo_trainig/reverse_str.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/revserse_str.dir/alo_trainig/reverse_str.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\revserse_str.dir\alo_trainig\reverse_str.c.obj   -c D:\code\c_learning\alo_trainig\reverse_str.c
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\revserse_str.dir\alo_trainig\reverse_str.c.obj   -c D:\code\c_learning\alo_trainig\reverse_str.c
 
 CMakeFiles/revserse_str.dir/alo_trainig/reverse_str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/revserse_str.dir/alo_trainig/reverse_str.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\alo_trainig\reverse_str.c > CMakeFiles\revserse_str.dir\alo_trainig\reverse_str.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\alo_trainig\reverse_str.c > CMakeFiles\revserse_str.dir\alo_trainig\reverse_str.c.i
 
 CMakeFiles/revserse_str.dir/alo_trainig/reverse_str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/revserse_str.dir/alo_trainig/reverse_str.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\alo_trainig\reverse_str.c -o CMakeFiles\revserse_str.dir\alo_trainig\reverse_str.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\alo_trainig\reverse_str.c -o CMakeFiles\revserse_str.dir\alo_trainig\reverse_str.c.s
 
 # Object files for target revserse_str
 revserse_str_OBJECTS = \

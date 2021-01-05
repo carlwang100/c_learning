@@ -59,15 +59,15 @@ include CMakeFiles/eight.dir/flags.make
 CMakeFiles/eight.dir/二级指针函数输出.c.obj: CMakeFiles/eight.dir/flags.make
 CMakeFiles/eight.dir/二级指针函数输出.c.obj: ../二级指针函数输出.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/eight.dir/二级指针函数输出.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\eight.dir\二级指针函数输出.c.obj   -c D:\code\c_learning\二级指针函数输出.c
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\eight.dir\二级指针函数输出.c.obj   -c D:\code\c_learning\二级指针函数输出.c
 
 CMakeFiles/eight.dir/二级指针函数输出.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eight.dir/二级指针函数输出.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\二级指针函数输出.c > CMakeFiles\eight.dir\二级指针函数输出.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\二级指针函数输出.c > CMakeFiles\eight.dir\二级指针函数输出.c.i
 
 CMakeFiles/eight.dir/二级指针函数输出.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eight.dir/二级指针函数输出.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\二级指针函数输出.c -o CMakeFiles\eight.dir\二级指针函数输出.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\二级指针函数输出.c -o CMakeFiles\eight.dir\二级指针函数输出.c.s
 
 # Object files for target eight
 eight_OBJECTS = \

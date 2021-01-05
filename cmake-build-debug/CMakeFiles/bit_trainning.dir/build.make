@@ -59,15 +59,15 @@ include CMakeFiles/bit_trainning.dir/flags.make
 CMakeFiles/bit_trainning.dir/alo_trainig/BitTrainning.cpp.obj: CMakeFiles/bit_trainning.dir/flags.make
 CMakeFiles/bit_trainning.dir/alo_trainig/BitTrainning.cpp.obj: ../alo_trainig/BitTrainning.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bit_trainning.dir/alo_trainig/BitTrainning.cpp.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\bit_trainning.dir\alo_trainig\BitTrainning.cpp.obj -c D:\code\c_learning\alo_trainig\BitTrainning.cpp
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\bit_trainning.dir\alo_trainig\BitTrainning.cpp.obj -c D:\code\c_learning\alo_trainig\BitTrainning.cpp
 
 CMakeFiles/bit_trainning.dir/alo_trainig/BitTrainning.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bit_trainning.dir/alo_trainig/BitTrainning.cpp.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\c_learning\alo_trainig\BitTrainning.cpp > CMakeFiles\bit_trainning.dir\alo_trainig\BitTrainning.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\c_learning\alo_trainig\BitTrainning.cpp > CMakeFiles\bit_trainning.dir\alo_trainig\BitTrainning.cpp.i
 
 CMakeFiles/bit_trainning.dir/alo_trainig/BitTrainning.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bit_trainning.dir/alo_trainig/BitTrainning.cpp.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\c_learning\alo_trainig\BitTrainning.cpp -o CMakeFiles\bit_trainning.dir\alo_trainig\BitTrainning.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\c_learning\alo_trainig\BitTrainning.cpp -o CMakeFiles\bit_trainning.dir\alo_trainig\BitTrainning.cpp.s
 
 # Object files for target bit_trainning
 bit_trainning_OBJECTS = \

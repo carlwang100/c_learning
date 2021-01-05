@@ -59,15 +59,15 @@ include CMakeFiles/consumer_product.dir/flags.make
 CMakeFiles/consumer_product.dir/thread/comsumer_productor.cpp.obj: CMakeFiles/consumer_product.dir/flags.make
 CMakeFiles/consumer_product.dir/thread/comsumer_productor.cpp.obj: ../thread/comsumer_productor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/consumer_product.dir/thread/comsumer_productor.cpp.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\consumer_product.dir\thread\comsumer_productor.cpp.obj -c D:\code\c_learning\thread\comsumer_productor.cpp
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\consumer_product.dir\thread\comsumer_productor.cpp.obj -c D:\code\c_learning\thread\comsumer_productor.cpp
 
 CMakeFiles/consumer_product.dir/thread/comsumer_productor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consumer_product.dir/thread/comsumer_productor.cpp.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\c_learning\thread\comsumer_productor.cpp > CMakeFiles\consumer_product.dir\thread\comsumer_productor.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\c_learning\thread\comsumer_productor.cpp > CMakeFiles\consumer_product.dir\thread\comsumer_productor.cpp.i
 
 CMakeFiles/consumer_product.dir/thread/comsumer_productor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consumer_product.dir/thread/comsumer_productor.cpp.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\c_learning\thread\comsumer_productor.cpp -o CMakeFiles\consumer_product.dir\thread\comsumer_productor.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\c_learning\thread\comsumer_productor.cpp -o CMakeFiles\consumer_product.dir\thread\comsumer_productor.cpp.s
 
 # Object files for target consumer_product
 consumer_product_OBJECTS = \

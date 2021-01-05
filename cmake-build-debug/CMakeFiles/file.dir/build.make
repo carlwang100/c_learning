@@ -59,15 +59,15 @@ include CMakeFiles/file.dir/flags.make
 CMakeFiles/file.dir/wenjiancaozuo/file.c.obj: CMakeFiles/file.dir/flags.make
 CMakeFiles/file.dir/wenjiancaozuo/file.c.obj: ../wenjiancaozuo/file.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/file.dir/wenjiancaozuo/file.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\file.dir\wenjiancaozuo\file.c.obj   -c D:\code\c_learning\wenjiancaozuo\file.c
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\file.dir\wenjiancaozuo\file.c.obj   -c D:\code\c_learning\wenjiancaozuo\file.c
 
 CMakeFiles/file.dir/wenjiancaozuo/file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file.dir/wenjiancaozuo/file.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\wenjiancaozuo\file.c > CMakeFiles\file.dir\wenjiancaozuo\file.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\wenjiancaozuo\file.c > CMakeFiles\file.dir\wenjiancaozuo\file.c.i
 
 CMakeFiles/file.dir/wenjiancaozuo/file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file.dir/wenjiancaozuo/file.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\wenjiancaozuo\file.c -o CMakeFiles\file.dir\wenjiancaozuo\file.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\wenjiancaozuo\file.c -o CMakeFiles\file.dir\wenjiancaozuo\file.c.s
 
 # Object files for target file
 file_OBJECTS = \

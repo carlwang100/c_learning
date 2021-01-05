@@ -1,3 +1,0 @@
-"D:\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\functionpointer.dir/objects.a
-D:\BaiduNetdiskDownload\mingw64\bin\ar.exe cr CMakeFiles\functionpointer.dir/objects.a @CMakeFiles\functionpointer.dir\objects1.rsp
-D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\functionpointer.dir/objects.a -Wl,--no-whole-archive  -o functionpointer.exe -Wl,--out-implib,libfunctionpointer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\functionpointer.dir\linklibs.rsp

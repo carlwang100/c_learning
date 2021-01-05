@@ -59,15 +59,15 @@ include CMakeFiles/pointer.dir/flags.make
 CMakeFiles/pointer.dir/zhizhenzengqiang.c.obj: CMakeFiles/pointer.dir/flags.make
 CMakeFiles/pointer.dir/zhizhenzengqiang.c.obj: ../zhizhenzengqiang.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pointer.dir/zhizhenzengqiang.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\pointer.dir\zhizhenzengqiang.c.obj   -c D:\code\c_learning\zhizhenzengqiang.c
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\pointer.dir\zhizhenzengqiang.c.obj   -c D:\code\c_learning\zhizhenzengqiang.c
 
 CMakeFiles/pointer.dir/zhizhenzengqiang.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pointer.dir/zhizhenzengqiang.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\zhizhenzengqiang.c > CMakeFiles\pointer.dir\zhizhenzengqiang.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\zhizhenzengqiang.c > CMakeFiles\pointer.dir\zhizhenzengqiang.c.i
 
 CMakeFiles/pointer.dir/zhizhenzengqiang.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pointer.dir/zhizhenzengqiang.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\zhizhenzengqiang.c -o CMakeFiles\pointer.dir\zhizhenzengqiang.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\zhizhenzengqiang.c -o CMakeFiles\pointer.dir\zhizhenzengqiang.c.s
 
 # Object files for target pointer
 pointer_OBJECTS = \

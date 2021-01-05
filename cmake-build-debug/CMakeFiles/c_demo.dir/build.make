@@ -59,28 +59,28 @@ include CMakeFiles/c_demo.dir/flags.make
 CMakeFiles/c_demo.dir/main.c.obj: CMakeFiles/c_demo.dir/flags.make
 CMakeFiles/c_demo.dir/main.c.obj: ../main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_demo.dir/main.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_demo.dir\main.c.obj   -c D:\code\c_learning\main.c
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_demo.dir\main.c.obj   -c D:\code\c_learning\main.c
 
 CMakeFiles/c_demo.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_demo.dir/main.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\main.c > CMakeFiles\c_demo.dir\main.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\main.c > CMakeFiles\c_demo.dir\main.c.i
 
 CMakeFiles/c_demo.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_demo.dir/main.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\main.c -o CMakeFiles\c_demo.dir\main.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\main.c -o CMakeFiles\c_demo.dir\main.c.s
 
 CMakeFiles/c_demo.dir/string_api.c.obj: CMakeFiles/c_demo.dir/flags.make
 CMakeFiles/c_demo.dir/string_api.c.obj: ../string_api.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/c_demo.dir/string_api.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_demo.dir\string_api.c.obj   -c D:\code\c_learning\string_api.c
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_demo.dir\string_api.c.obj   -c D:\code\c_learning\string_api.c
 
 CMakeFiles/c_demo.dir/string_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_demo.dir/string_api.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\string_api.c > CMakeFiles\c_demo.dir\string_api.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\string_api.c > CMakeFiles\c_demo.dir\string_api.c.i
 
 CMakeFiles/c_demo.dir/string_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_demo.dir/string_api.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\string_api.c -o CMakeFiles\c_demo.dir\string_api.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\string_api.c -o CMakeFiles\c_demo.dir\string_api.c.s
 
 # Object files for target c_demo
 c_demo_OBJECTS = \

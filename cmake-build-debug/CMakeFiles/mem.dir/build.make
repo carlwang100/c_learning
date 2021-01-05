@@ -59,15 +59,15 @@ include CMakeFiles/mem.dir/flags.make
 CMakeFiles/mem.dir/dongtaifenpeineicun.c.obj: CMakeFiles/mem.dir/flags.make
 CMakeFiles/mem.dir/dongtaifenpeineicun.c.obj: ../dongtaifenpeineicun.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mem.dir/dongtaifenpeineicun.c.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mem.dir\dongtaifenpeineicun.c.obj   -c D:\code\c_learning\dongtaifenpeineicun.c
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mem.dir\dongtaifenpeineicun.c.obj   -c D:\code\c_learning\dongtaifenpeineicun.c
 
 CMakeFiles/mem.dir/dongtaifenpeineicun.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mem.dir/dongtaifenpeineicun.c.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\dongtaifenpeineicun.c > CMakeFiles\mem.dir\dongtaifenpeineicun.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\c_learning\dongtaifenpeineicun.c > CMakeFiles\mem.dir\dongtaifenpeineicun.c.i
 
 CMakeFiles/mem.dir/dongtaifenpeineicun.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mem.dir/dongtaifenpeineicun.c.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\dongtaifenpeineicun.c -o CMakeFiles\mem.dir\dongtaifenpeineicun.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\c_learning\dongtaifenpeineicun.c -o CMakeFiles\mem.dir\dongtaifenpeineicun.c.s
 
 # Object files for target mem
 mem_OBJECTS = \

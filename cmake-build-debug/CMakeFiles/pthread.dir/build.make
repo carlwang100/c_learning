@@ -59,15 +59,15 @@ include CMakeFiles/pthread.dir/flags.make
 CMakeFiles/pthread.dir/thread/pthread.cpp.obj: CMakeFiles/pthread.dir/flags.make
 CMakeFiles/pthread.dir/thread/pthread.cpp.obj: ../thread/pthread.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\c_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pthread.dir/thread/pthread.cpp.obj"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pthread.dir\thread\pthread.cpp.obj -c D:\code\c_learning\thread\pthread.cpp
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pthread.dir\thread\pthread.cpp.obj -c D:\code\c_learning\thread\pthread.cpp
 
 CMakeFiles/pthread.dir/thread/pthread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pthread.dir/thread/pthread.cpp.i"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\c_learning\thread\pthread.cpp > CMakeFiles\pthread.dir\thread\pthread.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\c_learning\thread\pthread.cpp > CMakeFiles\pthread.dir\thread\pthread.cpp.i
 
 CMakeFiles/pthread.dir/thread/pthread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pthread.dir/thread/pthread.cpp.s"
-	D:\BaiduNetdiskDownload\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\c_learning\thread\pthread.cpp -o CMakeFiles\pthread.dir\thread\pthread.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\c_learning\thread\pthread.cpp -o CMakeFiles\pthread.dir\thread\pthread.cpp.s
 
 # Object files for target pthread
 pthread_OBJECTS = \
