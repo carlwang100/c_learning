@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/mem.dir/dongtaifenpeineicun.c.o  -o mem 

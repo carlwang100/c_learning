@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/eleven.dir/peizhiwenjian/接口测试.c.o CMakeFiles/eleven.dir/peizhiwenjian/cfgfile.c.o  -o eleven 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/alo_trainig.dir/alo_trainig/LinkedList.cpp.o  -o alo_trainig 

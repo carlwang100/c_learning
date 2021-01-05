@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/string_api.dir/string_api.c.o  -o string_api 

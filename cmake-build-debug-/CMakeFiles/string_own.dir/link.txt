@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/string_own.dir/alo_trainig/string_owner.cpp.o  -o string_own 

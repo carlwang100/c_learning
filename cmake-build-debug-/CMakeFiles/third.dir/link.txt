@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/third.dir/zhizhenshuzu.c.o  -o third 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/callback.dir/hanshuzhizhen/callback.c.o  -o callback 

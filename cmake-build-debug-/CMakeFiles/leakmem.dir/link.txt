@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/leakmem.dir/neicunxielou/leakmem.c.o CMakeFiles/leakmem.dir/neicunxielou/leakmem_test.c.o  -o leakmem 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/hanshuzhizhentraining.dir/alo_trainig/hanshuzhizhen.c.o  -o hanshuzhizhentraining 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/four.dir/间接赋值.c.o  -o four 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/consumer_product.dir/thread/comsumer_productor.cpp.o  -o consumer_product 

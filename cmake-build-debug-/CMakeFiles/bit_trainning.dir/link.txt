@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/bit_trainning.dir/alo_trainig/BitTrainning.cpp.o  -o bit_trainning 

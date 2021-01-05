@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/remotehost.dir/remotehost.cpp.o  -o remotehost 

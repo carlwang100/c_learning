@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/eight.dir/二级指针函数输出.c.o  -o eight 

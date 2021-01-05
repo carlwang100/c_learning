@@ -1,0 +1,3 @@
+"D:\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\hanshuzhizhentraining.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\hanshuzhizhentraining.dir/objects.a @CMakeFiles\hanshuzhizhentraining.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\hanshuzhizhentraining.dir/objects.a -Wl,--no-whole-archive  -o hanshuzhizhentraining.exe -Wl,--out-implib,libhanshuzhizhentraining.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\hanshuzhizhentraining.dir\linklibs.rsp

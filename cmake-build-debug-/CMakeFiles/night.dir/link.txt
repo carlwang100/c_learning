@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/night.dir/string_api.c.o  -o night 

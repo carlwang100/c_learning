@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/seven.dir/二级指针操作文件.c.o  -o seven 

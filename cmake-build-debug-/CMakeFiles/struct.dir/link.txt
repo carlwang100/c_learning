@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/struct.dir/structlearning.c.o  -o struct 

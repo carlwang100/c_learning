@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/bst.dir/alo_trainig/BST.cpp.o  -o bst 

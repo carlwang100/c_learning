@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/c_demo.dir/main.c.o CMakeFiles/c_demo.dir/string_api.c.o  -o c_demo 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/six.dir/模拟字符串函数实现.c.o  -o six 
