@@ -31,7 +31,7 @@ int main(int argc, char* argv[]){
     }
 
     //使用mmap映射一段vm空间， 也就是开辟一块内存空间 只是该空间和文件是直接映射关系
-    //buf 是开辟的内存地址区域
+    //buf 是开辟的内存地址区域 操作buf就是操作文件
     buf = mmap(0, sb.st_size, PROT_READ|PROT_WRITE, MAP_SHARED, fd, 0);
     if (buf == MAP_FAILED){
         perror("mmap");
