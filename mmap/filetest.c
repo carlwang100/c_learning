@@ -18,7 +18,7 @@ int main(){
     int fd;
     struct stat sb;
     char *buf;
-    ssize_t ret;
+    ssize_t ret; //有符号数 因为read出错的时候返回-1
 
     fd = open(fname, O_CREAT|O_RDWR, S_IRUSR|S_IWUSR);
     if (fd == -1){

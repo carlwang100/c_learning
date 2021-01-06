@@ -1,4 +1,5 @@
 /home/code/cmake-build-debug-/CMakeFiles/rebuild_cache.dir
+/home/code/cmake-build-debug-/CMakeFiles/main.dir
 /home/code/cmake-build-debug-/CMakeFiles/filetest.dir
 /home/code/cmake-build-debug-/CMakeFiles/remotehost.dir
 /home/code/cmake-build-debug-/CMakeFiles/bst.dir
@@ -29,6 +30,7 @@
 /home/code/cmake-build-debug-/CMakeFiles/alo_trainig.dir
 /home/code/cmake-build-debug-/CMakeFiles/mutex.dir
 /home/code/cmake-build-debug-/CMakeFiles/pointer.dir
+/home/code/cmake-build-debug-/CMakeFiles/fork.dir
 /home/code/cmake-build-debug-/CMakeFiles/test.dir
 /home/code/cmake-build-debug-/CMakeFiles/mmap.dir
 /home/code/cmake-build-debug-/CMakeFiles/four.dir

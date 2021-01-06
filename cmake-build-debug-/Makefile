@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
 # Target rules for targets named filetest
 
 # Build rule for target.
@@ -486,6 +499,19 @@ pointer: cmake_check_build_system
 pointer/fast:
 	$(MAKE) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/build
 .PHONY : pointer/fast
+
+#=============================================================================
+# Target rules for targets named fork
+
+# Build rule for target.
+fork: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fork
+.PHONY : fork
+
+# fast build rule for target.
+fork/fast:
+	$(MAKE) -f CMakeFiles/fork.dir/build.make CMakeFiles/fork.dir/build
+.PHONY : fork/fast
 
 #=============================================================================
 # Target rules for targets named test
@@ -874,6 +900,33 @@ first.c.s:
 	$(MAKE) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/first.c.s
 .PHONY : first.c.s
 
+fork/fork.o: fork/fork.c.o
+
+.PHONY : fork/fork.o
+
+# target to build an object file
+fork/fork.c.o:
+	$(MAKE) -f CMakeFiles/fork.dir/build.make CMakeFiles/fork.dir/fork/fork.c.o
+.PHONY : fork/fork.c.o
+
+fork/fork.i: fork/fork.c.i
+
+.PHONY : fork/fork.i
+
+# target to preprocess a source file
+fork/fork.c.i:
+	$(MAKE) -f CMakeFiles/fork.dir/build.make CMakeFiles/fork.dir/fork/fork.c.i
+.PHONY : fork/fork.c.i
+
+fork/fork.s: fork/fork.c.s
+
+.PHONY : fork/fork.s
+
+# target to generate assembly for a file
+fork/fork.c.s:
+	$(MAKE) -f CMakeFiles/fork.dir/build.make CMakeFiles/fork.dir/fork/fork.c.s
+.PHONY : fork/fork.c.s
+
 hanshuzhizhen/callback.o: hanshuzhizhen/callback.c.o
 
 .PHONY : hanshuzhizhen/callback.o
@@ -907,6 +960,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.o
 	$(MAKE) -f CMakeFiles/c_demo.dir/build.make CMakeFiles/c_demo.dir/main.c.o
 .PHONY : main.c.o
 
@@ -916,6 +970,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.i
 	$(MAKE) -f CMakeFiles/c_demo.dir/build.make CMakeFiles/c_demo.dir/main.c.i
 .PHONY : main.c.i
 
@@ -925,6 +980,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
 	$(MAKE) -f CMakeFiles/c_demo.dir/build.make CMakeFiles/c_demo.dir/main.c.s
 .PHONY : main.c.s
 
@@ -1646,6 +1702,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... main"
 	@echo "... filetest"
 	@echo "... remotehost"
 	@echo "... bst"
@@ -1676,6 +1733,7 @@ help:
 	@echo "... alo_trainig"
 	@echo "... mutex"
 	@echo "... pointer"
+	@echo "... fork"
 	@echo "... test"
 	@echo "... mmap"
 	@echo "... four"
@@ -1715,6 +1773,9 @@ help:
 	@echo "... first.o"
 	@echo "... first.i"
 	@echo "... first.s"
+	@echo "... fork/fork.o"
+	@echo "... fork/fork.i"
+	@echo "... fork/fork.s"
 	@echo "... hanshuzhizhen/callback.o"
 	@echo "... hanshuzhizhen/callback.i"
 	@echo "... hanshuzhizhen/callback.s"
