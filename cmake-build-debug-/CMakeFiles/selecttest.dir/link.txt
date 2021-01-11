@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/selecttest.dir/select/selecttest.cpp.o  -o selecttest 

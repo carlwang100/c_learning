@@ -111,472 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named eleven
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+eleven: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eleven
+.PHONY : eleven
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+eleven/fast:
+	$(MAKE) -f CMakeFiles/eleven.dir/build.make CMakeFiles/eleven.dir/build
+.PHONY : eleven/fast
 
 #=============================================================================
-# Target rules for targets named filetest
+# Target rules for targets named select_server
 
 # Build rule for target.
-filetest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 filetest
-.PHONY : filetest
+select_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 select_server
+.PHONY : select_server
 
 # fast build rule for target.
-filetest/fast:
-	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/build
-.PHONY : filetest/fast
-
-#=============================================================================
-# Target rules for targets named remotehost
-
-# Build rule for target.
-remotehost: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 remotehost
-.PHONY : remotehost
-
-# fast build rule for target.
-remotehost/fast:
-	$(MAKE) -f CMakeFiles/remotehost.dir/build.make CMakeFiles/remotehost.dir/build
-.PHONY : remotehost/fast
-
-#=============================================================================
-# Target rules for targets named bst
-
-# Build rule for target.
-bst: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bst
-.PHONY : bst
-
-# fast build rule for target.
-bst/fast:
-	$(MAKE) -f CMakeFiles/bst.dir/build.make CMakeFiles/bst.dir/build
-.PHONY : bst/fast
-
-#=============================================================================
-# Target rules for targets named string_own
-
-# Build rule for target.
-string_own: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 string_own
-.PHONY : string_own
-
-# fast build rule for target.
-string_own/fast:
-	$(MAKE) -f CMakeFiles/string_own.dir/build.make CMakeFiles/string_own.dir/build
-.PHONY : string_own/fast
-
-#=============================================================================
-# Target rules for targets named string_api
-
-# Build rule for target.
-string_api: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 string_api
-.PHONY : string_api
-
-# fast build rule for target.
-string_api/fast:
-	$(MAKE) -f CMakeFiles/string_api.dir/build.make CMakeFiles/string_api.dir/build
-.PHONY : string_api/fast
-
-#=============================================================================
-# Target rules for targets named zhizhenshuzu
-
-# Build rule for target.
-zhizhenshuzu: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 zhizhenshuzu
-.PHONY : zhizhenshuzu
-
-# fast build rule for target.
-zhizhenshuzu/fast:
-	$(MAKE) -f CMakeFiles/zhizhenshuzu.dir/build.make CMakeFiles/zhizhenshuzu.dir/build
-.PHONY : zhizhenshuzu/fast
-
-#=============================================================================
-# Target rules for targets named elf
-
-# Build rule for target.
-elf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 elf
-.PHONY : elf
-
-# fast build rule for target.
-elf/fast:
-	$(MAKE) -f CMakeFiles/elf.dir/build.make CMakeFiles/elf.dir/build
-.PHONY : elf/fast
-
-#=============================================================================
-# Target rules for targets named bit_trainning
-
-# Build rule for target.
-bit_trainning: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bit_trainning
-.PHONY : bit_trainning
-
-# fast build rule for target.
-bit_trainning/fast:
-	$(MAKE) -f CMakeFiles/bit_trainning.dir/build.make CMakeFiles/bit_trainning.dir/build
-.PHONY : bit_trainning/fast
-
-#=============================================================================
-# Target rules for targets named matrix
-
-# Build rule for target.
-matrix: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 matrix
-.PHONY : matrix
-
-# fast build rule for target.
-matrix/fast:
-	$(MAKE) -f CMakeFiles/matrix.dir/build.make CMakeFiles/matrix.dir/build
-.PHONY : matrix/fast
-
-#=============================================================================
-# Target rules for targets named mystring
-
-# Build rule for target.
-mystring: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mystring
-.PHONY : mystring
-
-# fast build rule for target.
-mystring/fast:
-	$(MAKE) -f CMakeFiles/mystring.dir/build.make CMakeFiles/mystring.dir/build
-.PHONY : mystring/fast
-
-#=============================================================================
-# Target rules for targets named night
-
-# Build rule for target.
-night: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 night
-.PHONY : night
-
-# fast build rule for target.
-night/fast:
-	$(MAKE) -f CMakeFiles/night.dir/build.make CMakeFiles/night.dir/build
-.PHONY : night/fast
-
-#=============================================================================
-# Target rules for targets named consumer_product
-
-# Build rule for target.
-consumer_product: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 consumer_product
-.PHONY : consumer_product
-
-# fast build rule for target.
-consumer_product/fast:
-	$(MAKE) -f CMakeFiles/consumer_product.dir/build.make CMakeFiles/consumer_product.dir/build
-.PHONY : consumer_product/fast
-
-#=============================================================================
-# Target rules for targets named five
-
-# Build rule for target.
-five: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 five
-.PHONY : five
-
-# fast build rule for target.
-five/fast:
-	$(MAKE) -f CMakeFiles/five.dir/build.make CMakeFiles/five.dir/build
-.PHONY : five/fast
-
-#=============================================================================
-# Target rules for targets named function
-
-# Build rule for target.
-function: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 function
-.PHONY : function
-
-# fast build rule for target.
-function/fast:
-	$(MAKE) -f CMakeFiles/function.dir/build.make CMakeFiles/function.dir/build
-.PHONY : function/fast
-
-#=============================================================================
-# Target rules for targets named eight
-
-# Build rule for target.
-eight: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eight
-.PHONY : eight
-
-# fast build rule for target.
-eight/fast:
-	$(MAKE) -f CMakeFiles/eight.dir/build.make CMakeFiles/eight.dir/build
-.PHONY : eight/fast
-
-#=============================================================================
-# Target rules for targets named second
-
-# Build rule for target.
-second: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 second
-.PHONY : second
-
-# fast build rule for target.
-second/fast:
-	$(MAKE) -f CMakeFiles/second.dir/build.make CMakeFiles/second.dir/build
-.PHONY : second/fast
-
-#=============================================================================
-# Target rules for targets named first
-
-# Build rule for target.
-first: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 first
-.PHONY : first
-
-# fast build rule for target.
-first/fast:
-	$(MAKE) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/build
-.PHONY : first/fast
-
-#=============================================================================
-# Target rules for targets named callback
-
-# Build rule for target.
-callback: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 callback
-.PHONY : callback
-
-# fast build rule for target.
-callback/fast:
-	$(MAKE) -f CMakeFiles/callback.dir/build.make CMakeFiles/callback.dir/build
-.PHONY : callback/fast
-
-#=============================================================================
-# Target rules for targets named ten
-
-# Build rule for target.
-ten: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ten
-.PHONY : ten
-
-# fast build rule for target.
-ten/fast:
-	$(MAKE) -f CMakeFiles/ten.dir/build.make CMakeFiles/ten.dir/build
-.PHONY : ten/fast
-
-#=============================================================================
-# Target rules for targets named hanshuzhizhentraining
-
-# Build rule for target.
-hanshuzhizhentraining: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hanshuzhizhentraining
-.PHONY : hanshuzhizhentraining
-
-# fast build rule for target.
-hanshuzhizhentraining/fast:
-	$(MAKE) -f CMakeFiles/hanshuzhizhentraining.dir/build.make CMakeFiles/hanshuzhizhentraining.dir/build
-.PHONY : hanshuzhizhentraining/fast
-
-#=============================================================================
-# Target rules for targets named six
-
-# Build rule for target.
-six: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 six
-.PHONY : six
-
-# fast build rule for target.
-six/fast:
-	$(MAKE) -f CMakeFiles/six.dir/build.make CMakeFiles/six.dir/build
-.PHONY : six/fast
-
-#=============================================================================
-# Target rules for targets named revserse_str
-
-# Build rule for target.
-revserse_str: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 revserse_str
-.PHONY : revserse_str
-
-# fast build rule for target.
-revserse_str/fast:
-	$(MAKE) -f CMakeFiles/revserse_str.dir/build.make CMakeFiles/revserse_str.dir/build
-.PHONY : revserse_str/fast
-
-#=============================================================================
-# Target rules for targets named third
-
-# Build rule for target.
-third: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 third
-.PHONY : third
-
-# fast build rule for target.
-third/fast:
-	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/build
-.PHONY : third/fast
-
-#=============================================================================
-# Target rules for targets named seven
-
-# Build rule for target.
-seven: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 seven
-.PHONY : seven
-
-# fast build rule for target.
-seven/fast:
-	$(MAKE) -f CMakeFiles/seven.dir/build.make CMakeFiles/seven.dir/build
-.PHONY : seven/fast
-
-#=============================================================================
-# Target rules for targets named leakmem
-
-# Build rule for target.
-leakmem: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leakmem
-.PHONY : leakmem
-
-# fast build rule for target.
-leakmem/fast:
-	$(MAKE) -f CMakeFiles/leakmem.dir/build.make CMakeFiles/leakmem.dir/build
-.PHONY : leakmem/fast
-
-#=============================================================================
-# Target rules for targets named c_demo
-
-# Build rule for target.
-c_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 c_demo
-.PHONY : c_demo
-
-# fast build rule for target.
-c_demo/fast:
-	$(MAKE) -f CMakeFiles/c_demo.dir/build.make CMakeFiles/c_demo.dir/build
-.PHONY : c_demo/fast
-
-#=============================================================================
-# Target rules for targets named alo_trainig
-
-# Build rule for target.
-alo_trainig: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 alo_trainig
-.PHONY : alo_trainig
-
-# fast build rule for target.
-alo_trainig/fast:
-	$(MAKE) -f CMakeFiles/alo_trainig.dir/build.make CMakeFiles/alo_trainig.dir/build
-.PHONY : alo_trainig/fast
-
-#=============================================================================
-# Target rules for targets named mutex
-
-# Build rule for target.
-mutex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mutex
-.PHONY : mutex
-
-# fast build rule for target.
-mutex/fast:
-	$(MAKE) -f CMakeFiles/mutex.dir/build.make CMakeFiles/mutex.dir/build
-.PHONY : mutex/fast
-
-#=============================================================================
-# Target rules for targets named pointer
-
-# Build rule for target.
-pointer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pointer
-.PHONY : pointer
-
-# fast build rule for target.
-pointer/fast:
-	$(MAKE) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/build
-.PHONY : pointer/fast
-
-#=============================================================================
-# Target rules for targets named fork
-
-# Build rule for target.
-fork: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 fork
-.PHONY : fork
-
-# fast build rule for target.
-fork/fast:
-	$(MAKE) -f CMakeFiles/fork.dir/build.make CMakeFiles/fork.dir/build
-.PHONY : fork/fast
-
-#=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
-
-#=============================================================================
-# Target rules for targets named mmap
-
-# Build rule for target.
-mmap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mmap
-.PHONY : mmap
-
-# fast build rule for target.
-mmap/fast:
-	$(MAKE) -f CMakeFiles/mmap.dir/build.make CMakeFiles/mmap.dir/build
-.PHONY : mmap/fast
-
-#=============================================================================
-# Target rules for targets named four
-
-# Build rule for target.
-four: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 four
-.PHONY : four
-
-# fast build rule for target.
-four/fast:
-	$(MAKE) -f CMakeFiles/four.dir/build.make CMakeFiles/four.dir/build
-.PHONY : four/fast
-
-#=============================================================================
-# Target rules for targets named struct
-
-# Build rule for target.
-struct: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 struct
-.PHONY : struct
-
-# fast build rule for target.
-struct/fast:
-	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/build
-.PHONY : struct/fast
-
-#=============================================================================
-# Target rules for targets named mem
-
-# Build rule for target.
-mem: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mem
-.PHONY : mem
-
-# fast build rule for target.
-mem/fast:
-	$(MAKE) -f CMakeFiles/mem.dir/build.make CMakeFiles/mem.dir/build
-.PHONY : mem/fast
+select_server/fast:
+	$(MAKE) -f CMakeFiles/select_server.dir/build.make CMakeFiles/select_server.dir/build
+.PHONY : select_server/fast
 
 #=============================================================================
 # Target rules for targets named file
@@ -592,6 +150,84 @@ file/fast:
 .PHONY : file/fast
 
 #=============================================================================
+# Target rules for targets named mem
+
+# Build rule for target.
+mem: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mem
+.PHONY : mem
+
+# fast build rule for target.
+mem/fast:
+	$(MAKE) -f CMakeFiles/mem.dir/build.make CMakeFiles/mem.dir/build
+.PHONY : mem/fast
+
+#=============================================================================
+# Target rules for targets named four
+
+# Build rule for target.
+four: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 four
+.PHONY : four
+
+# fast build rule for target.
+four/fast:
+	$(MAKE) -f CMakeFiles/four.dir/build.make CMakeFiles/four.dir/build
+.PHONY : four/fast
+
+#=============================================================================
+# Target rules for targets named mmap
+
+# Build rule for target.
+mmap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mmap
+.PHONY : mmap
+
+# fast build rule for target.
+mmap/fast:
+	$(MAKE) -f CMakeFiles/mmap.dir/build.make CMakeFiles/mmap.dir/build
+.PHONY : mmap/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named fork
+
+# Build rule for target.
+fork: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fork
+.PHONY : fork
+
+# fast build rule for target.
+fork/fast:
+	$(MAKE) -f CMakeFiles/fork.dir/build.make CMakeFiles/fork.dir/build
+.PHONY : fork/fast
+
+#=============================================================================
+# Target rules for targets named mutex
+
+# Build rule for target.
+mutex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mutex
+.PHONY : mutex
+
+# fast build rule for target.
+mutex/fast:
+	$(MAKE) -f CMakeFiles/mutex.dir/build.make CMakeFiles/mutex.dir/build
+.PHONY : mutex/fast
+
+#=============================================================================
 # Target rules for targets named siqu
 
 # Build rule for target.
@@ -605,17 +241,43 @@ siqu/fast:
 .PHONY : siqu/fast
 
 #=============================================================================
-# Target rules for targets named eleven
+# Target rules for targets named alo_trainig
 
 # Build rule for target.
-eleven: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eleven
-.PHONY : eleven
+alo_trainig: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 alo_trainig
+.PHONY : alo_trainig
 
 # fast build rule for target.
-eleven/fast:
-	$(MAKE) -f CMakeFiles/eleven.dir/build.make CMakeFiles/eleven.dir/build
-.PHONY : eleven/fast
+alo_trainig/fast:
+	$(MAKE) -f CMakeFiles/alo_trainig.dir/build.make CMakeFiles/alo_trainig.dir/build
+.PHONY : alo_trainig/fast
+
+#=============================================================================
+# Target rules for targets named pointer
+
+# Build rule for target.
+pointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pointer
+.PHONY : pointer
+
+# fast build rule for target.
+pointer/fast:
+	$(MAKE) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/build
+.PHONY : pointer/fast
+
+#=============================================================================
+# Target rules for targets named c_demo
+
+# Build rule for target.
+c_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 c_demo
+.PHONY : c_demo
+
+# fast build rule for target.
+c_demo/fast:
+	$(MAKE) -f CMakeFiles/c_demo.dir/build.make CMakeFiles/c_demo.dir/build
+.PHONY : c_demo/fast
 
 #=============================================================================
 # Target rules for targets named pthread
@@ -629,6 +291,409 @@ pthread: cmake_check_build_system
 pthread/fast:
 	$(MAKE) -f CMakeFiles/pthread.dir/build.make CMakeFiles/pthread.dir/build
 .PHONY : pthread/fast
+
+#=============================================================================
+# Target rules for targets named leakmem
+
+# Build rule for target.
+leakmem: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leakmem
+.PHONY : leakmem
+
+# fast build rule for target.
+leakmem/fast:
+	$(MAKE) -f CMakeFiles/leakmem.dir/build.make CMakeFiles/leakmem.dir/build
+.PHONY : leakmem/fast
+
+#=============================================================================
+# Target rules for targets named seven
+
+# Build rule for target.
+seven: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 seven
+.PHONY : seven
+
+# fast build rule for target.
+seven/fast:
+	$(MAKE) -f CMakeFiles/seven.dir/build.make CMakeFiles/seven.dir/build
+.PHONY : seven/fast
+
+#=============================================================================
+# Target rules for targets named third
+
+# Build rule for target.
+third: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 third
+.PHONY : third
+
+# fast build rule for target.
+third/fast:
+	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/build
+.PHONY : third/fast
+
+#=============================================================================
+# Target rules for targets named revserse_str
+
+# Build rule for target.
+revserse_str: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 revserse_str
+.PHONY : revserse_str
+
+# fast build rule for target.
+revserse_str/fast:
+	$(MAKE) -f CMakeFiles/revserse_str.dir/build.make CMakeFiles/revserse_str.dir/build
+.PHONY : revserse_str/fast
+
+#=============================================================================
+# Target rules for targets named struct
+
+# Build rule for target.
+struct: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 struct
+.PHONY : struct
+
+# fast build rule for target.
+struct/fast:
+	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/build
+.PHONY : struct/fast
+
+#=============================================================================
+# Target rules for targets named ten
+
+# Build rule for target.
+ten: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ten
+.PHONY : ten
+
+# fast build rule for target.
+ten/fast:
+	$(MAKE) -f CMakeFiles/ten.dir/build.make CMakeFiles/ten.dir/build
+.PHONY : ten/fast
+
+#=============================================================================
+# Target rules for targets named callback
+
+# Build rule for target.
+callback: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 callback
+.PHONY : callback
+
+# fast build rule for target.
+callback/fast:
+	$(MAKE) -f CMakeFiles/callback.dir/build.make CMakeFiles/callback.dir/build
+.PHONY : callback/fast
+
+#=============================================================================
+# Target rules for targets named six
+
+# Build rule for target.
+six: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 six
+.PHONY : six
+
+# fast build rule for target.
+six/fast:
+	$(MAKE) -f CMakeFiles/six.dir/build.make CMakeFiles/six.dir/build
+.PHONY : six/fast
+
+#=============================================================================
+# Target rules for targets named function
+
+# Build rule for target.
+function: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 function
+.PHONY : function
+
+# fast build rule for target.
+function/fast:
+	$(MAKE) -f CMakeFiles/function.dir/build.make CMakeFiles/function.dir/build
+.PHONY : function/fast
+
+#=============================================================================
+# Target rules for targets named first
+
+# Build rule for target.
+first: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 first
+.PHONY : first
+
+# fast build rule for target.
+first/fast:
+	$(MAKE) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/build
+.PHONY : first/fast
+
+#=============================================================================
+# Target rules for targets named server
+
+# Build rule for target.
+server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 server
+.PHONY : server
+
+# fast build rule for target.
+server/fast:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+.PHONY : server/fast
+
+#=============================================================================
+# Target rules for targets named second
+
+# Build rule for target.
+second: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 second
+.PHONY : second
+
+# fast build rule for target.
+second/fast:
+	$(MAKE) -f CMakeFiles/second.dir/build.make CMakeFiles/second.dir/build
+.PHONY : second/fast
+
+#=============================================================================
+# Target rules for targets named five
+
+# Build rule for target.
+five: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 five
+.PHONY : five
+
+# fast build rule for target.
+five/fast:
+	$(MAKE) -f CMakeFiles/five.dir/build.make CMakeFiles/five.dir/build
+.PHONY : five/fast
+
+#=============================================================================
+# Target rules for targets named consumer_product
+
+# Build rule for target.
+consumer_product: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 consumer_product
+.PHONY : consumer_product
+
+# fast build rule for target.
+consumer_product/fast:
+	$(MAKE) -f CMakeFiles/consumer_product.dir/build.make CMakeFiles/consumer_product.dir/build
+.PHONY : consumer_product/fast
+
+#=============================================================================
+# Target rules for targets named night
+
+# Build rule for target.
+night: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 night
+.PHONY : night
+
+# fast build rule for target.
+night/fast:
+	$(MAKE) -f CMakeFiles/night.dir/build.make CMakeFiles/night.dir/build
+.PHONY : night/fast
+
+#=============================================================================
+# Target rules for targets named mystring
+
+# Build rule for target.
+mystring: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mystring
+.PHONY : mystring
+
+# fast build rule for target.
+mystring/fast:
+	$(MAKE) -f CMakeFiles/mystring.dir/build.make CMakeFiles/mystring.dir/build
+.PHONY : mystring/fast
+
+#=============================================================================
+# Target rules for targets named matrix
+
+# Build rule for target.
+matrix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 matrix
+.PHONY : matrix
+
+# fast build rule for target.
+matrix/fast:
+	$(MAKE) -f CMakeFiles/matrix.dir/build.make CMakeFiles/matrix.dir/build
+.PHONY : matrix/fast
+
+#=============================================================================
+# Target rules for targets named bit_trainning
+
+# Build rule for target.
+bit_trainning: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bit_trainning
+.PHONY : bit_trainning
+
+# fast build rule for target.
+bit_trainning/fast:
+	$(MAKE) -f CMakeFiles/bit_trainning.dir/build.make CMakeFiles/bit_trainning.dir/build
+.PHONY : bit_trainning/fast
+
+#=============================================================================
+# Target rules for targets named elf
+
+# Build rule for target.
+elf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 elf
+.PHONY : elf
+
+# fast build rule for target.
+elf/fast:
+	$(MAKE) -f CMakeFiles/elf.dir/build.make CMakeFiles/elf.dir/build
+.PHONY : elf/fast
+
+#=============================================================================
+# Target rules for targets named zhizhenshuzu
+
+# Build rule for target.
+zhizhenshuzu: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zhizhenshuzu
+.PHONY : zhizhenshuzu
+
+# fast build rule for target.
+zhizhenshuzu/fast:
+	$(MAKE) -f CMakeFiles/zhizhenshuzu.dir/build.make CMakeFiles/zhizhenshuzu.dir/build
+.PHONY : zhizhenshuzu/fast
+
+#=============================================================================
+# Target rules for targets named string_api
+
+# Build rule for target.
+string_api: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string_api
+.PHONY : string_api
+
+# fast build rule for target.
+string_api/fast:
+	$(MAKE) -f CMakeFiles/string_api.dir/build.make CMakeFiles/string_api.dir/build
+.PHONY : string_api/fast
+
+#=============================================================================
+# Target rules for targets named string_own
+
+# Build rule for target.
+string_own: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string_own
+.PHONY : string_own
+
+# fast build rule for target.
+string_own/fast:
+	$(MAKE) -f CMakeFiles/string_own.dir/build.make CMakeFiles/string_own.dir/build
+.PHONY : string_own/fast
+
+#=============================================================================
+# Target rules for targets named bst
+
+# Build rule for target.
+bst: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bst
+.PHONY : bst
+
+# fast build rule for target.
+bst/fast:
+	$(MAKE) -f CMakeFiles/bst.dir/build.make CMakeFiles/bst.dir/build
+.PHONY : bst/fast
+
+#=============================================================================
+# Target rules for targets named selecttest
+
+# Build rule for target.
+selecttest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 selecttest
+.PHONY : selecttest
+
+# fast build rule for target.
+selecttest/fast:
+	$(MAKE) -f CMakeFiles/selecttest.dir/build.make CMakeFiles/selecttest.dir/build
+.PHONY : selecttest/fast
+
+#=============================================================================
+# Target rules for targets named remotehost
+
+# Build rule for target.
+remotehost: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 remotehost
+.PHONY : remotehost
+
+# fast build rule for target.
+remotehost/fast:
+	$(MAKE) -f CMakeFiles/remotehost.dir/build.make CMakeFiles/remotehost.dir/build
+.PHONY : remotehost/fast
+
+#=============================================================================
+# Target rules for targets named hanshuzhizhentraining
+
+# Build rule for target.
+hanshuzhizhentraining: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hanshuzhizhentraining
+.PHONY : hanshuzhizhentraining
+
+# fast build rule for target.
+hanshuzhizhentraining/fast:
+	$(MAKE) -f CMakeFiles/hanshuzhizhentraining.dir/build.make CMakeFiles/hanshuzhizhentraining.dir/build
+.PHONY : hanshuzhizhentraining/fast
+
+#=============================================================================
+# Target rules for targets named eight
+
+# Build rule for target.
+eight: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eight
+.PHONY : eight
+
+# fast build rule for target.
+eight/fast:
+	$(MAKE) -f CMakeFiles/eight.dir/build.make CMakeFiles/eight.dir/build
+.PHONY : eight/fast
+
+#=============================================================================
+# Target rules for targets named filetest
+
+# Build rule for target.
+filetest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filetest
+.PHONY : filetest
+
+# fast build rule for target.
+filetest/fast:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/build
+.PHONY : filetest/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named client
+
+# Build rule for target.
+client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client
+.PHONY : client
+
+# fast build rule for target.
+client/fast:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+.PHONY : client/fast
+
+#=============================================================================
+# Target rules for targets named select_client
+
+# Build rule for target.
+select_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 select_client
+.PHONY : select_client
+
+# fast build rule for target.
+select_client/fast:
+	$(MAKE) -f CMakeFiles/select_client.dir/build.make CMakeFiles/select_client.dir/build
+.PHONY : select_client/fast
 
 alo_trainig/BST.o: alo_trainig/BST.cpp.o
 
@@ -960,8 +1025,8 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.o
 	$(MAKE) -f CMakeFiles/c_demo.dir/build.make CMakeFiles/c_demo.dir/main.c.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -970,8 +1035,8 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.i
 	$(MAKE) -f CMakeFiles/c_demo.dir/build.make CMakeFiles/c_demo.dir/main.c.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -980,8 +1045,8 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
 	$(MAKE) -f CMakeFiles/c_demo.dir/build.make CMakeFiles/c_demo.dir/main.c.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
 maopao.o: maopao.cpp.o
@@ -1200,6 +1265,87 @@ remotehost.cpp.s:
 	$(MAKE) -f CMakeFiles/remotehost.dir/build.make CMakeFiles/remotehost.dir/remotehost.cpp.s
 .PHONY : remotehost.cpp.s
 
+select/Client.o: select/Client.cpp.o
+
+.PHONY : select/Client.o
+
+# target to build an object file
+select/Client.cpp.o:
+	$(MAKE) -f CMakeFiles/select_client.dir/build.make CMakeFiles/select_client.dir/select/Client.cpp.o
+.PHONY : select/Client.cpp.o
+
+select/Client.i: select/Client.cpp.i
+
+.PHONY : select/Client.i
+
+# target to preprocess a source file
+select/Client.cpp.i:
+	$(MAKE) -f CMakeFiles/select_client.dir/build.make CMakeFiles/select_client.dir/select/Client.cpp.i
+.PHONY : select/Client.cpp.i
+
+select/Client.s: select/Client.cpp.s
+
+.PHONY : select/Client.s
+
+# target to generate assembly for a file
+select/Client.cpp.s:
+	$(MAKE) -f CMakeFiles/select_client.dir/build.make CMakeFiles/select_client.dir/select/Client.cpp.s
+.PHONY : select/Client.cpp.s
+
+select/Server.o: select/Server.cpp.o
+
+.PHONY : select/Server.o
+
+# target to build an object file
+select/Server.cpp.o:
+	$(MAKE) -f CMakeFiles/select_server.dir/build.make CMakeFiles/select_server.dir/select/Server.cpp.o
+.PHONY : select/Server.cpp.o
+
+select/Server.i: select/Server.cpp.i
+
+.PHONY : select/Server.i
+
+# target to preprocess a source file
+select/Server.cpp.i:
+	$(MAKE) -f CMakeFiles/select_server.dir/build.make CMakeFiles/select_server.dir/select/Server.cpp.i
+.PHONY : select/Server.cpp.i
+
+select/Server.s: select/Server.cpp.s
+
+.PHONY : select/Server.s
+
+# target to generate assembly for a file
+select/Server.cpp.s:
+	$(MAKE) -f CMakeFiles/select_server.dir/build.make CMakeFiles/select_server.dir/select/Server.cpp.s
+.PHONY : select/Server.cpp.s
+
+select/selecttest.o: select/selecttest.cpp.o
+
+.PHONY : select/selecttest.o
+
+# target to build an object file
+select/selecttest.cpp.o:
+	$(MAKE) -f CMakeFiles/selecttest.dir/build.make CMakeFiles/selecttest.dir/select/selecttest.cpp.o
+.PHONY : select/selecttest.cpp.o
+
+select/selecttest.i: select/selecttest.cpp.i
+
+.PHONY : select/selecttest.i
+
+# target to preprocess a source file
+select/selecttest.cpp.i:
+	$(MAKE) -f CMakeFiles/selecttest.dir/build.make CMakeFiles/selecttest.dir/select/selecttest.cpp.i
+.PHONY : select/selecttest.cpp.i
+
+select/selecttest.s: select/selecttest.cpp.s
+
+.PHONY : select/selecttest.s
+
+# target to generate assembly for a file
+select/selecttest.cpp.s:
+	$(MAKE) -f CMakeFiles/selecttest.dir/build.make CMakeFiles/selecttest.dir/select/selecttest.cpp.s
+.PHONY : select/selecttest.cpp.s
+
 siqumoxing/static.o: siqumoxing/static.c.o
 
 .PHONY : siqumoxing/static.o
@@ -1233,9 +1379,9 @@ string_api.o: string_api.c.o
 
 # target to build an object file
 string_api.c.o:
-	$(MAKE) -f CMakeFiles/string_api.dir/build.make CMakeFiles/string_api.dir/string_api.c.o
-	$(MAKE) -f CMakeFiles/night.dir/build.make CMakeFiles/night.dir/string_api.c.o
 	$(MAKE) -f CMakeFiles/c_demo.dir/build.make CMakeFiles/c_demo.dir/string_api.c.o
+	$(MAKE) -f CMakeFiles/night.dir/build.make CMakeFiles/night.dir/string_api.c.o
+	$(MAKE) -f CMakeFiles/string_api.dir/build.make CMakeFiles/string_api.dir/string_api.c.o
 .PHONY : string_api.c.o
 
 string_api.i: string_api.c.i
@@ -1244,9 +1390,9 @@ string_api.i: string_api.c.i
 
 # target to preprocess a source file
 string_api.c.i:
-	$(MAKE) -f CMakeFiles/string_api.dir/build.make CMakeFiles/string_api.dir/string_api.c.i
-	$(MAKE) -f CMakeFiles/night.dir/build.make CMakeFiles/night.dir/string_api.c.i
 	$(MAKE) -f CMakeFiles/c_demo.dir/build.make CMakeFiles/c_demo.dir/string_api.c.i
+	$(MAKE) -f CMakeFiles/night.dir/build.make CMakeFiles/night.dir/string_api.c.i
+	$(MAKE) -f CMakeFiles/string_api.dir/build.make CMakeFiles/string_api.dir/string_api.c.i
 .PHONY : string_api.c.i
 
 string_api.s: string_api.c.s
@@ -1255,9 +1401,9 @@ string_api.s: string_api.c.s
 
 # target to generate assembly for a file
 string_api.c.s:
-	$(MAKE) -f CMakeFiles/string_api.dir/build.make CMakeFiles/string_api.dir/string_api.c.s
-	$(MAKE) -f CMakeFiles/night.dir/build.make CMakeFiles/night.dir/string_api.c.s
 	$(MAKE) -f CMakeFiles/c_demo.dir/build.make CMakeFiles/c_demo.dir/string_api.c.s
+	$(MAKE) -f CMakeFiles/night.dir/build.make CMakeFiles/night.dir/string_api.c.s
+	$(MAKE) -f CMakeFiles/string_api.dir/build.make CMakeFiles/string_api.dir/string_api.c.s
 .PHONY : string_api.c.s
 
 structlearning.o: structlearning.c.o
@@ -1286,6 +1432,60 @@ structlearning.s: structlearning.c.s
 structlearning.c.s:
 	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/structlearning.c.s
 .PHONY : structlearning.c.s
+
+tcp/Client.o: tcp/Client.cpp.o
+
+.PHONY : tcp/Client.o
+
+# target to build an object file
+tcp/Client.cpp.o:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/tcp/Client.cpp.o
+.PHONY : tcp/Client.cpp.o
+
+tcp/Client.i: tcp/Client.cpp.i
+
+.PHONY : tcp/Client.i
+
+# target to preprocess a source file
+tcp/Client.cpp.i:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/tcp/Client.cpp.i
+.PHONY : tcp/Client.cpp.i
+
+tcp/Client.s: tcp/Client.cpp.s
+
+.PHONY : tcp/Client.s
+
+# target to generate assembly for a file
+tcp/Client.cpp.s:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/tcp/Client.cpp.s
+.PHONY : tcp/Client.cpp.s
+
+tcp/Server.o: tcp/Server.cpp.o
+
+.PHONY : tcp/Server.o
+
+# target to build an object file
+tcp/Server.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/tcp/Server.cpp.o
+.PHONY : tcp/Server.cpp.o
+
+tcp/Server.i: tcp/Server.cpp.i
+
+.PHONY : tcp/Server.i
+
+# target to preprocess a source file
+tcp/Server.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/tcp/Server.cpp.i
+.PHONY : tcp/Server.cpp.i
+
+tcp/Server.s: tcp/Server.cpp.s
+
+.PHONY : tcp/Server.s
+
+# target to generate assembly for a file
+tcp/Server.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/tcp/Server.cpp.s
+.PHONY : tcp/Server.cpp.s
 
 test.o: test.c.o
 
@@ -1455,8 +1655,8 @@ zhizhenshuzu.o: zhizhenshuzu.c.o
 
 # target to build an object file
 zhizhenshuzu.c.o:
-	$(MAKE) -f CMakeFiles/zhizhenshuzu.dir/build.make CMakeFiles/zhizhenshuzu.dir/zhizhenshuzu.c.o
 	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/zhizhenshuzu.c.o
+	$(MAKE) -f CMakeFiles/zhizhenshuzu.dir/build.make CMakeFiles/zhizhenshuzu.dir/zhizhenshuzu.c.o
 .PHONY : zhizhenshuzu.c.o
 
 zhizhenshuzu.i: zhizhenshuzu.c.i
@@ -1465,8 +1665,8 @@ zhizhenshuzu.i: zhizhenshuzu.c.i
 
 # target to preprocess a source file
 zhizhenshuzu.c.i:
-	$(MAKE) -f CMakeFiles/zhizhenshuzu.dir/build.make CMakeFiles/zhizhenshuzu.dir/zhizhenshuzu.c.i
 	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/zhizhenshuzu.c.i
+	$(MAKE) -f CMakeFiles/zhizhenshuzu.dir/build.make CMakeFiles/zhizhenshuzu.dir/zhizhenshuzu.c.i
 .PHONY : zhizhenshuzu.c.i
 
 zhizhenshuzu.s: zhizhenshuzu.c.s
@@ -1475,8 +1675,8 @@ zhizhenshuzu.s: zhizhenshuzu.c.s
 
 # target to generate assembly for a file
 zhizhenshuzu.c.s:
-	$(MAKE) -f CMakeFiles/zhizhenshuzu.dir/build.make CMakeFiles/zhizhenshuzu.dir/zhizhenshuzu.c.s
 	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/zhizhenshuzu.c.s
+	$(MAKE) -f CMakeFiles/zhizhenshuzu.dir/build.make CMakeFiles/zhizhenshuzu.dir/zhizhenshuzu.c.s
 .PHONY : zhizhenshuzu.c.s
 
 zhizhenzengqiang.o: zhizhenzengqiang.c.o
@@ -1701,48 +1901,53 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... main"
-	@echo "... filetest"
-	@echo "... remotehost"
-	@echo "... bst"
-	@echo "... string_own"
-	@echo "... string_api"
-	@echo "... zhizhenshuzu"
-	@echo "... elf"
-	@echo "... bit_trainning"
-	@echo "... matrix"
-	@echo "... mystring"
-	@echo "... night"
-	@echo "... consumer_product"
-	@echo "... five"
-	@echo "... function"
-	@echo "... eight"
-	@echo "... second"
-	@echo "... first"
-	@echo "... callback"
-	@echo "... ten"
-	@echo "... edit_cache"
-	@echo "... hanshuzhizhentraining"
-	@echo "... six"
-	@echo "... revserse_str"
-	@echo "... third"
-	@echo "... seven"
-	@echo "... leakmem"
-	@echo "... c_demo"
-	@echo "... alo_trainig"
-	@echo "... mutex"
-	@echo "... pointer"
-	@echo "... fork"
-	@echo "... test"
-	@echo "... mmap"
-	@echo "... four"
-	@echo "... struct"
-	@echo "... mem"
-	@echo "... file"
-	@echo "... siqu"
 	@echo "... eleven"
+	@echo "... select_server"
+	@echo "... file"
+	@echo "... mem"
+	@echo "... rebuild_cache"
+	@echo "... four"
+	@echo "... mmap"
+	@echo "... test"
+	@echo "... fork"
+	@echo "... mutex"
+	@echo "... siqu"
+	@echo "... alo_trainig"
+	@echo "... pointer"
+	@echo "... c_demo"
 	@echo "... pthread"
+	@echo "... leakmem"
+	@echo "... seven"
+	@echo "... third"
+	@echo "... revserse_str"
+	@echo "... struct"
+	@echo "... edit_cache"
+	@echo "... ten"
+	@echo "... callback"
+	@echo "... six"
+	@echo "... function"
+	@echo "... first"
+	@echo "... server"
+	@echo "... second"
+	@echo "... five"
+	@echo "... consumer_product"
+	@echo "... night"
+	@echo "... mystring"
+	@echo "... matrix"
+	@echo "... bit_trainning"
+	@echo "... elf"
+	@echo "... zhizhenshuzu"
+	@echo "... string_api"
+	@echo "... string_own"
+	@echo "... bst"
+	@echo "... selecttest"
+	@echo "... remotehost"
+	@echo "... hanshuzhizhentraining"
+	@echo "... eight"
+	@echo "... filetest"
+	@echo "... main"
+	@echo "... client"
+	@echo "... select_client"
 	@echo "... alo_trainig/BST.o"
 	@echo "... alo_trainig/BST.i"
 	@echo "... alo_trainig/BST.s"
@@ -1806,6 +2011,15 @@ help:
 	@echo "... remotehost.o"
 	@echo "... remotehost.i"
 	@echo "... remotehost.s"
+	@echo "... select/Client.o"
+	@echo "... select/Client.i"
+	@echo "... select/Client.s"
+	@echo "... select/Server.o"
+	@echo "... select/Server.i"
+	@echo "... select/Server.s"
+	@echo "... select/selecttest.o"
+	@echo "... select/selecttest.i"
+	@echo "... select/selecttest.s"
 	@echo "... siqumoxing/static.o"
 	@echo "... siqumoxing/static.i"
 	@echo "... siqumoxing/static.s"
@@ -1815,6 +2029,12 @@ help:
 	@echo "... structlearning.o"
 	@echo "... structlearning.i"
 	@echo "... structlearning.s"
+	@echo "... tcp/Client.o"
+	@echo "... tcp/Client.i"
+	@echo "... tcp/Client.s"
+	@echo "... tcp/Server.o"
+	@echo "... tcp/Server.i"
+	@echo "... tcp/Server.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

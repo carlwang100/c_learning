@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/select_client.dir/select/Client.cpp.o  -o select_client 

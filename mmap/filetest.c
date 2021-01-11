@@ -48,7 +48,7 @@ int main(){
 
     lseek(fd, 0, SEEK_SET);
 
-    //把内存里面的东西再写会到文件
+    //把内存里面的东西再写回到文件
     ret = write(fd, buf, sb.st_size);
 
     //关闭fd 以免造成fd泄露
