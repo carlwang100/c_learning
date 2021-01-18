@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/siqutest.dir/siqumoxing/siqu.c.o  -o siqutest 

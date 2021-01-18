@@ -36,7 +36,7 @@ int main(){
     if (FD_ISSET(0, &rfds)){ //有可读fd到了就开始执行
         printf("data is available now \n");
     } else{
-        printf("no data within five seconds \n");
+        printf("no data within five seconds \n"); //超时时间到了，但是读时间并没有发生
     }
     exit(0);
 

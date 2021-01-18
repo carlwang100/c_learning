@@ -14,9 +14,17 @@ typedef void (*PtrFunA)();
 typedef void (*PtrFunB)(int);
 
 //1. callback  自己定义一个普通的函数，这个是被其他函数来调用 其他函数要拿到他的地址
+
+/**
+ * 对应的函数指针原型为
+ * int (*funcPtr)(int, int);
+ * 最前面的int为函数值  中间的括号为函数指针变量名  最后的括号为函数的参数
+ * */
 int add(int a, int b){
     return a+b;
 }
+
+
 
 //1。自己定义一个普通的函数，
 void FunA() {

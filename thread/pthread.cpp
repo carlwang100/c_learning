@@ -9,7 +9,7 @@
 
 
 /**
- * 新创建的线程运行的函数
+ * 新创建的线程运行的函数  线程例程
  * */
 void* fun(void* arg){
     char* str = (char*)arg;
@@ -23,7 +23,7 @@ void* fun(void* arg){
 int main(){
     printf("main thread\n");
     pthread_t tid;
-    //第三个参数是函数指针，第4个参数是传递给新创建线程的参数
+    //第三个参数是指针函数，第4个参数是传递给新创建线程的参数
     if (pthread_create(&tid, NULL, fun, (void *) "thread one")){
         printf("error creating thread");
         abort();
@@ -35,6 +35,6 @@ int main(){
         printf("error joining thread.");
         abort();
     }
-    printf("end");
+    printf("end\n");
     return 0;
 }

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/code/select/Server.cpp
+sys/types.h
+-
+sys/socket.h
+-
+stdio.h
+-
+netinet/in.h
+-
+sys/time.h
+-
+sys/ioctl.h
+-
+unistd.h
+-
+cstdlib
+-
+

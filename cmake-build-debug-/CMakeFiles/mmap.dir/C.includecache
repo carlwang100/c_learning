@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/code/mmap/mmaptest.c
+stdio.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+unistd.h
+-
+ctype.h
+-
+

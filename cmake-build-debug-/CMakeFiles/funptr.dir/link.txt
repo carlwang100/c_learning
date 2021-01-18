@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/funptr.dir/hanshuzhizhen/FunPtr.cpp.o  -o funptr 

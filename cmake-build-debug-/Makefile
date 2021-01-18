@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/code/cmake-build-debug-
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -161,6 +161,19 @@ mem: cmake_check_build_system
 mem/fast:
 	$(MAKE) -f CMakeFiles/mem.dir/build.make CMakeFiles/mem.dir/build
 .PHONY : mem/fast
+
+#=============================================================================
+# Target rules for targets named struct
+
+# Build rule for target.
+struct: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 struct
+.PHONY : struct
+
+# fast build rule for target.
+struct/fast:
+	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/build
+.PHONY : struct/fast
 
 #=============================================================================
 # Target rules for targets named four
@@ -345,19 +358,6 @@ revserse_str/fast:
 .PHONY : revserse_str/fast
 
 #=============================================================================
-# Target rules for targets named struct
-
-# Build rule for target.
-struct: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 struct
-.PHONY : struct
-
-# fast build rule for target.
-struct/fast:
-	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/build
-.PHONY : struct/fast
-
-#=============================================================================
 # Target rules for targets named ten
 
 # Build rule for target.
@@ -369,6 +369,19 @@ ten: cmake_check_build_system
 ten/fast:
 	$(MAKE) -f CMakeFiles/ten.dir/build.make CMakeFiles/ten.dir/build
 .PHONY : ten/fast
+
+#=============================================================================
+# Target rules for targets named funptr
+
+# Build rule for target.
+funptr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 funptr
+.PHONY : funptr
+
+# fast build rule for target.
+funptr/fast:
+	$(MAKE) -f CMakeFiles/funptr.dir/build.make CMakeFiles/funptr.dir/build
+.PHONY : funptr/fast
 
 #=============================================================================
 # Target rules for targets named callback
@@ -486,6 +499,19 @@ night: cmake_check_build_system
 night/fast:
 	$(MAKE) -f CMakeFiles/night.dir/build.make CMakeFiles/night.dir/build
 .PHONY : night/fast
+
+#=============================================================================
+# Target rules for targets named siqutest
+
+# Build rule for target.
+siqutest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 siqutest
+.PHONY : siqutest
+
+# fast build rule for target.
+siqutest/fast:
+	$(MAKE) -f CMakeFiles/siqutest.dir/build.make CMakeFiles/siqutest.dir/build
+.PHONY : siqutest/fast
 
 #=============================================================================
 # Target rules for targets named mystring
@@ -992,6 +1018,33 @@ fork/fork.c.s:
 	$(MAKE) -f CMakeFiles/fork.dir/build.make CMakeFiles/fork.dir/fork/fork.c.s
 .PHONY : fork/fork.c.s
 
+hanshuzhizhen/FunPtr.o: hanshuzhizhen/FunPtr.cpp.o
+
+.PHONY : hanshuzhizhen/FunPtr.o
+
+# target to build an object file
+hanshuzhizhen/FunPtr.cpp.o:
+	$(MAKE) -f CMakeFiles/funptr.dir/build.make CMakeFiles/funptr.dir/hanshuzhizhen/FunPtr.cpp.o
+.PHONY : hanshuzhizhen/FunPtr.cpp.o
+
+hanshuzhizhen/FunPtr.i: hanshuzhizhen/FunPtr.cpp.i
+
+.PHONY : hanshuzhizhen/FunPtr.i
+
+# target to preprocess a source file
+hanshuzhizhen/FunPtr.cpp.i:
+	$(MAKE) -f CMakeFiles/funptr.dir/build.make CMakeFiles/funptr.dir/hanshuzhizhen/FunPtr.cpp.i
+.PHONY : hanshuzhizhen/FunPtr.cpp.i
+
+hanshuzhizhen/FunPtr.s: hanshuzhizhen/FunPtr.cpp.s
+
+.PHONY : hanshuzhizhen/FunPtr.s
+
+# target to generate assembly for a file
+hanshuzhizhen/FunPtr.cpp.s:
+	$(MAKE) -f CMakeFiles/funptr.dir/build.make CMakeFiles/funptr.dir/hanshuzhizhen/FunPtr.cpp.s
+.PHONY : hanshuzhizhen/FunPtr.cpp.s
+
 hanshuzhizhen/callback.o: hanshuzhizhen/callback.c.o
 
 .PHONY : hanshuzhizhen/callback.o
@@ -1345,6 +1398,33 @@ select/selecttest.s: select/selecttest.cpp.s
 select/selecttest.cpp.s:
 	$(MAKE) -f CMakeFiles/selecttest.dir/build.make CMakeFiles/selecttest.dir/select/selecttest.cpp.s
 .PHONY : select/selecttest.cpp.s
+
+siqumoxing/siqu.o: siqumoxing/siqu.c.o
+
+.PHONY : siqumoxing/siqu.o
+
+# target to build an object file
+siqumoxing/siqu.c.o:
+	$(MAKE) -f CMakeFiles/siqutest.dir/build.make CMakeFiles/siqutest.dir/siqumoxing/siqu.c.o
+.PHONY : siqumoxing/siqu.c.o
+
+siqumoxing/siqu.i: siqumoxing/siqu.c.i
+
+.PHONY : siqumoxing/siqu.i
+
+# target to preprocess a source file
+siqumoxing/siqu.c.i:
+	$(MAKE) -f CMakeFiles/siqutest.dir/build.make CMakeFiles/siqutest.dir/siqumoxing/siqu.c.i
+.PHONY : siqumoxing/siqu.c.i
+
+siqumoxing/siqu.s: siqumoxing/siqu.c.s
+
+.PHONY : siqumoxing/siqu.s
+
+# target to generate assembly for a file
+siqumoxing/siqu.c.s:
+	$(MAKE) -f CMakeFiles/siqutest.dir/build.make CMakeFiles/siqutest.dir/siqumoxing/siqu.c.s
+.PHONY : siqumoxing/siqu.c.s
 
 siqumoxing/static.o: siqumoxing/static.c.o
 
@@ -1905,6 +1985,8 @@ help:
 	@echo "... select_server"
 	@echo "... file"
 	@echo "... mem"
+	@echo "... edit_cache"
+	@echo "... struct"
 	@echo "... rebuild_cache"
 	@echo "... four"
 	@echo "... mmap"
@@ -1920,9 +2002,8 @@ help:
 	@echo "... seven"
 	@echo "... third"
 	@echo "... revserse_str"
-	@echo "... struct"
-	@echo "... edit_cache"
 	@echo "... ten"
+	@echo "... funptr"
 	@echo "... callback"
 	@echo "... six"
 	@echo "... function"
@@ -1932,6 +2013,7 @@ help:
 	@echo "... five"
 	@echo "... consumer_product"
 	@echo "... night"
+	@echo "... siqutest"
 	@echo "... mystring"
 	@echo "... matrix"
 	@echo "... bit_trainning"
@@ -1981,6 +2063,9 @@ help:
 	@echo "... fork/fork.o"
 	@echo "... fork/fork.i"
 	@echo "... fork/fork.s"
+	@echo "... hanshuzhizhen/FunPtr.o"
+	@echo "... hanshuzhizhen/FunPtr.i"
+	@echo "... hanshuzhizhen/FunPtr.s"
 	@echo "... hanshuzhizhen/callback.o"
 	@echo "... hanshuzhizhen/callback.i"
 	@echo "... hanshuzhizhen/callback.s"
@@ -2020,6 +2105,9 @@ help:
 	@echo "... select/selecttest.o"
 	@echo "... select/selecttest.i"
 	@echo "... select/selecttest.s"
+	@echo "... siqumoxing/siqu.o"
+	@echo "... siqumoxing/siqu.i"
+	@echo "... siqumoxing/siqu.s"
 	@echo "... siqumoxing/static.o"
 	@echo "... siqumoxing/static.i"
 	@echo "... siqumoxing/static.s"

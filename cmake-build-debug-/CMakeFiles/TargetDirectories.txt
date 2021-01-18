@@ -2,6 +2,8 @@
 /home/code/cmake-build-debug-/CMakeFiles/select_server.dir
 /home/code/cmake-build-debug-/CMakeFiles/file.dir
 /home/code/cmake-build-debug-/CMakeFiles/mem.dir
+/home/code/cmake-build-debug-/CMakeFiles/edit_cache.dir
+/home/code/cmake-build-debug-/CMakeFiles/struct.dir
 /home/code/cmake-build-debug-/CMakeFiles/rebuild_cache.dir
 /home/code/cmake-build-debug-/CMakeFiles/four.dir
 /home/code/cmake-build-debug-/CMakeFiles/mmap.dir
@@ -17,9 +19,8 @@
 /home/code/cmake-build-debug-/CMakeFiles/seven.dir
 /home/code/cmake-build-debug-/CMakeFiles/third.dir
 /home/code/cmake-build-debug-/CMakeFiles/revserse_str.dir
-/home/code/cmake-build-debug-/CMakeFiles/struct.dir
-/home/code/cmake-build-debug-/CMakeFiles/edit_cache.dir
 /home/code/cmake-build-debug-/CMakeFiles/ten.dir
+/home/code/cmake-build-debug-/CMakeFiles/funptr.dir
 /home/code/cmake-build-debug-/CMakeFiles/callback.dir
 /home/code/cmake-build-debug-/CMakeFiles/six.dir
 /home/code/cmake-build-debug-/CMakeFiles/function.dir
@@ -29,6 +30,7 @@
 /home/code/cmake-build-debug-/CMakeFiles/five.dir
 /home/code/cmake-build-debug-/CMakeFiles/consumer_product.dir
 /home/code/cmake-build-debug-/CMakeFiles/night.dir
+/home/code/cmake-build-debug-/CMakeFiles/siqutest.dir
 /home/code/cmake-build-debug-/CMakeFiles/mystring.dir
 /home/code/cmake-build-debug-/CMakeFiles/matrix.dir
 /home/code/cmake-build-debug-/CMakeFiles/bit_trainning.dir

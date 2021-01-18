@@ -108,7 +108,7 @@ clean: CMakeFiles/eleven.dir/clean
 CMakeFiles/select_server.dir/all:
 	$(MAKE) -f CMakeFiles/select_server.dir/build.make CMakeFiles/select_server.dir/depend
 	$(MAKE) -f CMakeFiles/select_server.dir/build.make CMakeFiles/select_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=68,69 "Built target select_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=70,71 "Built target select_server"
 .PHONY : CMakeFiles/select_server.dir/all
 
 # Include target in all.
@@ -182,7 +182,7 @@ clean: CMakeFiles/file.dir/clean
 CMakeFiles/mem.dir/all:
 	$(MAKE) -f CMakeFiles/mem.dir/build.make CMakeFiles/mem.dir/depend
 	$(MAKE) -f CMakeFiles/mem.dir/build.make CMakeFiles/mem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=46,47 "Built target mem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=48,49 "Built target mem"
 .PHONY : CMakeFiles/mem.dir/all
 
 # Include target in all.
@@ -209,6 +209,43 @@ CMakeFiles/mem.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/mem.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/struct.dir
+
+# All Build rule for target.
+CMakeFiles/struct.dir/all:
+	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/depend
+	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=88,89 "Built target struct"
+.PHONY : CMakeFiles/struct.dir/all
+
+# Include target in all.
+all: CMakeFiles/struct.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/struct.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/code/cmake-build-debug-/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/struct.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/code/cmake-build-debug-/CMakeFiles 0
+.PHONY : CMakeFiles/struct.dir/rule
+
+# Convenience name for target.
+struct: CMakeFiles/struct.dir/rule
+
+.PHONY : struct
+
+# clean rule for target.
+CMakeFiles/struct.dir/clean:
+	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/clean
+.PHONY : CMakeFiles/struct.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/struct.dir/clean
 
 .PHONY : clean
 
@@ -256,7 +293,7 @@ clean: CMakeFiles/four.dir/clean
 CMakeFiles/mmap.dir/all:
 	$(MAKE) -f CMakeFiles/mmap.dir/build.make CMakeFiles/mmap.dir/depend
 	$(MAKE) -f CMakeFiles/mmap.dir/build.make CMakeFiles/mmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=48,49 "Built target mmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=50,51 "Built target mmap"
 .PHONY : CMakeFiles/mmap.dir/all
 
 # Include target in all.
@@ -293,7 +330,7 @@ clean: CMakeFiles/mmap.dir/clean
 CMakeFiles/test.dir/all:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=88,89 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=92,93 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Include target in all.
@@ -367,7 +404,7 @@ clean: CMakeFiles/fork.dir/clean
 CMakeFiles/mutex.dir/all:
 	$(MAKE) -f CMakeFiles/mutex.dir/build.make CMakeFiles/mutex.dir/depend
 	$(MAKE) -f CMakeFiles/mutex.dir/build.make CMakeFiles/mutex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=50,51 "Built target mutex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=52,53 "Built target mutex"
 .PHONY : CMakeFiles/mutex.dir/all
 
 # Include target in all.
@@ -404,7 +441,7 @@ clean: CMakeFiles/mutex.dir/clean
 CMakeFiles/siqu.dir/all:
 	$(MAKE) -f CMakeFiles/siqu.dir/build.make CMakeFiles/siqu.dir/depend
 	$(MAKE) -f CMakeFiles/siqu.dir/build.make CMakeFiles/siqu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=76,77 "Built target siqu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=78,79 "Built target siqu"
 .PHONY : CMakeFiles/siqu.dir/all
 
 # Include target in all.
@@ -478,7 +515,7 @@ clean: CMakeFiles/alo_trainig.dir/clean
 CMakeFiles/pointer.dir/all:
 	$(MAKE) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/depend
 	$(MAKE) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=56,57 "Built target pointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=58,59 "Built target pointer"
 .PHONY : CMakeFiles/pointer.dir/all
 
 # Include target in all.
@@ -552,7 +589,7 @@ clean: CMakeFiles/c_demo.dir/clean
 CMakeFiles/pthread.dir/all:
 	$(MAKE) -f CMakeFiles/pthread.dir/build.make CMakeFiles/pthread.dir/depend
 	$(MAKE) -f CMakeFiles/pthread.dir/build.make CMakeFiles/pthread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=58,59 "Built target pthread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=60,61 "Built target pthread"
 .PHONY : CMakeFiles/pthread.dir/all
 
 # Include target in all.
@@ -589,7 +626,7 @@ clean: CMakeFiles/pthread.dir/clean
 CMakeFiles/leakmem.dir/all:
 	$(MAKE) -f CMakeFiles/leakmem.dir/build.make CMakeFiles/leakmem.dir/depend
 	$(MAKE) -f CMakeFiles/leakmem.dir/build.make CMakeFiles/leakmem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=39,40,41 "Built target leakmem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=41,42,43 "Built target leakmem"
 .PHONY : CMakeFiles/leakmem.dir/all
 
 # Include target in all.
@@ -626,7 +663,7 @@ clean: CMakeFiles/leakmem.dir/clean
 CMakeFiles/seven.dir/all:
 	$(MAKE) -f CMakeFiles/seven.dir/build.make CMakeFiles/seven.dir/depend
 	$(MAKE) -f CMakeFiles/seven.dir/build.make CMakeFiles/seven.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=74,75 "Built target seven"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=76,77 "Built target seven"
 .PHONY : CMakeFiles/seven.dir/all
 
 # Include target in all.
@@ -663,7 +700,7 @@ clean: CMakeFiles/seven.dir/clean
 CMakeFiles/third.dir/all:
 	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/depend
 	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=90,91 "Built target third"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=94,95 "Built target third"
 .PHONY : CMakeFiles/third.dir/all
 
 # Include target in all.
@@ -700,7 +737,7 @@ clean: CMakeFiles/third.dir/clean
 CMakeFiles/revserse_str.dir/all:
 	$(MAKE) -f CMakeFiles/revserse_str.dir/build.make CMakeFiles/revserse_str.dir/depend
 	$(MAKE) -f CMakeFiles/revserse_str.dir/build.make CMakeFiles/revserse_str.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=62,63 "Built target revserse_str"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=64,65 "Built target revserse_str"
 .PHONY : CMakeFiles/revserse_str.dir/all
 
 # Include target in all.
@@ -731,50 +768,13 @@ clean: CMakeFiles/revserse_str.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/struct.dir
-
-# All Build rule for target.
-CMakeFiles/struct.dir/all:
-	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/depend
-	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=84,85 "Built target struct"
-.PHONY : CMakeFiles/struct.dir/all
-
-# Include target in all.
-all: CMakeFiles/struct.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/struct.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/code/cmake-build-debug-/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/struct.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/code/cmake-build-debug-/CMakeFiles 0
-.PHONY : CMakeFiles/struct.dir/rule
-
-# Convenience name for target.
-struct: CMakeFiles/struct.dir/rule
-
-.PHONY : struct
-
-# clean rule for target.
-CMakeFiles/struct.dir/clean:
-	$(MAKE) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/clean
-.PHONY : CMakeFiles/struct.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/struct.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/ten.dir
 
 # All Build rule for target.
 CMakeFiles/ten.dir/all:
 	$(MAKE) -f CMakeFiles/ten.dir/build.make CMakeFiles/ten.dir/depend
 	$(MAKE) -f CMakeFiles/ten.dir/build.make CMakeFiles/ten.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=86,87 "Built target ten"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=90,91 "Built target ten"
 .PHONY : CMakeFiles/ten.dir/all
 
 # Include target in all.
@@ -801,6 +801,43 @@ CMakeFiles/ten.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/ten.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/funptr.dir
+
+# All Build rule for target.
+CMakeFiles/funptr.dir/all:
+	$(MAKE) -f CMakeFiles/funptr.dir/build.make CMakeFiles/funptr.dir/depend
+	$(MAKE) -f CMakeFiles/funptr.dir/build.make CMakeFiles/funptr.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=37,38 "Built target funptr"
+.PHONY : CMakeFiles/funptr.dir/all
+
+# Include target in all.
+all: CMakeFiles/funptr.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/funptr.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/code/cmake-build-debug-/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/funptr.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/code/cmake-build-debug-/CMakeFiles 0
+.PHONY : CMakeFiles/funptr.dir/rule
+
+# Convenience name for target.
+funptr: CMakeFiles/funptr.dir/rule
+
+.PHONY : funptr
+
+# clean rule for target.
+CMakeFiles/funptr.dir/clean:
+	$(MAKE) -f CMakeFiles/funptr.dir/build.make CMakeFiles/funptr.dir/clean
+.PHONY : CMakeFiles/funptr.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/funptr.dir/clean
 
 .PHONY : clean
 
@@ -848,7 +885,7 @@ clean: CMakeFiles/callback.dir/clean
 CMakeFiles/six.dir/all:
 	$(MAKE) -f CMakeFiles/six.dir/build.make CMakeFiles/six.dir/depend
 	$(MAKE) -f CMakeFiles/six.dir/build.make CMakeFiles/six.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=78,79 "Built target six"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=82,83 "Built target six"
 .PHONY : CMakeFiles/six.dir/all
 
 # Include target in all.
@@ -959,7 +996,7 @@ clean: CMakeFiles/first.dir/clean
 CMakeFiles/server.dir/all:
 	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/depend
 	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=72,73 "Built target server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=74,75 "Built target server"
 .PHONY : CMakeFiles/server.dir/all
 
 # Include target in all.
@@ -996,7 +1033,7 @@ clean: CMakeFiles/server.dir/clean
 CMakeFiles/second.dir/all:
 	$(MAKE) -f CMakeFiles/second.dir/build.make CMakeFiles/second.dir/depend
 	$(MAKE) -f CMakeFiles/second.dir/build.make CMakeFiles/second.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=64,65 "Built target second"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=66,67 "Built target second"
 .PHONY : CMakeFiles/second.dir/all
 
 # Include target in all.
@@ -1107,7 +1144,7 @@ clean: CMakeFiles/consumer_product.dir/clean
 CMakeFiles/night.dir/all:
 	$(MAKE) -f CMakeFiles/night.dir/build.make CMakeFiles/night.dir/depend
 	$(MAKE) -f CMakeFiles/night.dir/build.make CMakeFiles/night.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=54,55 "Built target night"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=56,57 "Built target night"
 .PHONY : CMakeFiles/night.dir/all
 
 # Include target in all.
@@ -1138,13 +1175,50 @@ clean: CMakeFiles/night.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/siqutest.dir
+
+# All Build rule for target.
+CMakeFiles/siqutest.dir/all:
+	$(MAKE) -f CMakeFiles/siqutest.dir/build.make CMakeFiles/siqutest.dir/depend
+	$(MAKE) -f CMakeFiles/siqutest.dir/build.make CMakeFiles/siqutest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=80,81 "Built target siqutest"
+.PHONY : CMakeFiles/siqutest.dir/all
+
+# Include target in all.
+all: CMakeFiles/siqutest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/siqutest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/code/cmake-build-debug-/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/siqutest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/code/cmake-build-debug-/CMakeFiles 0
+.PHONY : CMakeFiles/siqutest.dir/rule
+
+# Convenience name for target.
+siqutest: CMakeFiles/siqutest.dir/rule
+
+.PHONY : siqutest
+
+# clean rule for target.
+CMakeFiles/siqutest.dir/clean:
+	$(MAKE) -f CMakeFiles/siqutest.dir/build.make CMakeFiles/siqutest.dir/clean
+.PHONY : CMakeFiles/siqutest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/siqutest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/mystring.dir
 
 # All Build rule for target.
 CMakeFiles/mystring.dir/all:
 	$(MAKE) -f CMakeFiles/mystring.dir/build.make CMakeFiles/mystring.dir/depend
 	$(MAKE) -f CMakeFiles/mystring.dir/build.make CMakeFiles/mystring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=52,53 "Built target mystring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=54,55 "Built target mystring"
 .PHONY : CMakeFiles/mystring.dir/all
 
 # Include target in all.
@@ -1181,7 +1255,7 @@ clean: CMakeFiles/mystring.dir/clean
 CMakeFiles/matrix.dir/all:
 	$(MAKE) -f CMakeFiles/matrix.dir/build.make CMakeFiles/matrix.dir/depend
 	$(MAKE) -f CMakeFiles/matrix.dir/build.make CMakeFiles/matrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=44,45 "Built target matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=46,47 "Built target matrix"
 .PHONY : CMakeFiles/matrix.dir/all
 
 # Include target in all.
@@ -1292,7 +1366,7 @@ clean: CMakeFiles/elf.dir/clean
 CMakeFiles/zhizhenshuzu.dir/all:
 	$(MAKE) -f CMakeFiles/zhizhenshuzu.dir/build.make CMakeFiles/zhizhenshuzu.dir/depend
 	$(MAKE) -f CMakeFiles/zhizhenshuzu.dir/build.make CMakeFiles/zhizhenshuzu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=92,93 "Built target zhizhenshuzu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=96,97 "Built target zhizhenshuzu"
 .PHONY : CMakeFiles/zhizhenshuzu.dir/all
 
 # Include target in all.
@@ -1329,7 +1403,7 @@ clean: CMakeFiles/zhizhenshuzu.dir/clean
 CMakeFiles/string_api.dir/all:
 	$(MAKE) -f CMakeFiles/string_api.dir/build.make CMakeFiles/string_api.dir/depend
 	$(MAKE) -f CMakeFiles/string_api.dir/build.make CMakeFiles/string_api.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=80,81 "Built target string_api"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=84,85 "Built target string_api"
 .PHONY : CMakeFiles/string_api.dir/all
 
 # Include target in all.
@@ -1366,7 +1440,7 @@ clean: CMakeFiles/string_api.dir/clean
 CMakeFiles/string_own.dir/all:
 	$(MAKE) -f CMakeFiles/string_own.dir/build.make CMakeFiles/string_own.dir/depend
 	$(MAKE) -f CMakeFiles/string_own.dir/build.make CMakeFiles/string_own.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=82,83 "Built target string_own"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=86,87 "Built target string_own"
 .PHONY : CMakeFiles/string_own.dir/all
 
 # Include target in all.
@@ -1440,7 +1514,7 @@ clean: CMakeFiles/bst.dir/clean
 CMakeFiles/selecttest.dir/all:
 	$(MAKE) -f CMakeFiles/selecttest.dir/build.make CMakeFiles/selecttest.dir/depend
 	$(MAKE) -f CMakeFiles/selecttest.dir/build.make CMakeFiles/selecttest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=70,71 "Built target selecttest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=72,73 "Built target selecttest"
 .PHONY : CMakeFiles/selecttest.dir/all
 
 # Include target in all.
@@ -1477,7 +1551,7 @@ clean: CMakeFiles/selecttest.dir/clean
 CMakeFiles/remotehost.dir/all:
 	$(MAKE) -f CMakeFiles/remotehost.dir/build.make CMakeFiles/remotehost.dir/depend
 	$(MAKE) -f CMakeFiles/remotehost.dir/build.make CMakeFiles/remotehost.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=60,61 "Built target remotehost"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=62,63 "Built target remotehost"
 .PHONY : CMakeFiles/remotehost.dir/all
 
 # Include target in all.
@@ -1514,7 +1588,7 @@ clean: CMakeFiles/remotehost.dir/clean
 CMakeFiles/hanshuzhizhentraining.dir/all:
 	$(MAKE) -f CMakeFiles/hanshuzhizhentraining.dir/build.make CMakeFiles/hanshuzhizhentraining.dir/depend
 	$(MAKE) -f CMakeFiles/hanshuzhizhentraining.dir/build.make CMakeFiles/hanshuzhizhentraining.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=37,38 "Built target hanshuzhizhentraining"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=39,40 "Built target hanshuzhizhentraining"
 .PHONY : CMakeFiles/hanshuzhizhentraining.dir/all
 
 # Include target in all.
@@ -1625,7 +1699,7 @@ clean: CMakeFiles/filetest.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=42,43 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=44,45 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Include target in all.
@@ -1699,7 +1773,7 @@ clean: CMakeFiles/client.dir/clean
 CMakeFiles/select_client.dir/all:
 	$(MAKE) -f CMakeFiles/select_client.dir/build.make CMakeFiles/select_client.dir/depend
 	$(MAKE) -f CMakeFiles/select_client.dir/build.make CMakeFiles/select_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=66,67 "Built target select_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/code/cmake-build-debug-/CMakeFiles --progress-num=68,69 "Built target select_client"
 .PHONY : CMakeFiles/select_client.dir/all
 
 # Include target in all.
